@@ -1,0 +1,25 @@
+{
+	x: -1.5d,
+	y: 5.5d,
+	dependencies: [
+		"b9e63a72",
+		"b7c94e0f"
+	],
+	tasks: [{
+		uid: "f8ae0a57",
+		type: "item",
+		items: [{
+			item: "prodigytech:explosion_furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "01cef9de",
+		type: "item",
+		item: {
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "prodigytech:guide"
+			}
+		}
+	}]
+}

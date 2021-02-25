@@ -1,0 +1,21 @@
+{
+	x: 11.5d,
+	y: 4.0d,
+	dependencies: [
+		"a7a3fd38"
+	],
+	tasks: [{
+		uid: "74f4f32f",
+		type: "item",
+		items: [{
+			item: "forgecraft:forge_adobe"
+		}]
+	},
+	{
+		uid: "5fa46b74",
+		type: "item",
+		items: [{
+			item: "forgecraft:stoneanvil"
+		}]
+	}]
+}

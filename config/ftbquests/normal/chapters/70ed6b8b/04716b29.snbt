@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: -0.5d,
+	shape: "octagon",
+	tasks: [{
+		uid: "83589e37",
+		type: "item",
+		items: [{
+			item: "thaumcraft:thaumometer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

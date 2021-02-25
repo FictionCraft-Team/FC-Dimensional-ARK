@@ -1,0 +1,25 @@
+{
+	x: -0.5d,
+	y: 1.5d,
+	text: [
+		"{des.stick}",
+		"",
+		"{des.stick2}"
+	],
+	dependencies: [
+		"7af7f84d"
+	],
+	tasks: [{
+		uid: "e567b650",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 20"
+		}]
+	}],
+	rewards: [{
+		uid: "32f36f80",
+		type: "item",
+		item: "thebetweenlands:snail_flesh_cooked",
+		count: 4
+	}]
+}

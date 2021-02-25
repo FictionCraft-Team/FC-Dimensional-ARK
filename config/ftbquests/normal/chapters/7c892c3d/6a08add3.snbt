@@ -1,0 +1,21 @@
+{
+	x: 6.0d,
+	y: 3.0d,
+	dependencies: [
+		"92b8d05c"
+	],
+	tasks: [{
+		uid: "26af7269",
+		type: "item",
+		items: [{
+			item: "primal:charcoal_mote"
+		}]
+	},
+	{
+		uid: "dc8e0cea",
+		type: "item",
+		items: [{
+			item: "minecraft:coal 1 1"
+		}]
+	}]
+}

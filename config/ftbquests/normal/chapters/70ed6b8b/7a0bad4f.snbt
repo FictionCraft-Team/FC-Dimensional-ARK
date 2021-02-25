@@ -1,0 +1,14 @@
+{
+	x: 3.0d,
+	y: 3.5d,
+	dependencies: [
+		"f6f81b14"
+	],
+	tasks: [{
+		uid: "c5af7811",
+		type: "item",
+		items: [{
+			item: "prodigytech:circuit_crude"
+		}]
+	}]
+}

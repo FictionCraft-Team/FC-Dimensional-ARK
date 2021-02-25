@@ -1,0 +1,17 @@
+{
+	x: 1.0d,
+	y: 3.0d,
+	dependencies: [
+		"1951c100"
+	],
+	tasks: [{
+		uid: "b9790706",
+		type: "item",
+		items: [{
+			id: "primal:drying_rack",
+			tag: {
+				type: "oak"
+			}
+		}]
+	}]
+}

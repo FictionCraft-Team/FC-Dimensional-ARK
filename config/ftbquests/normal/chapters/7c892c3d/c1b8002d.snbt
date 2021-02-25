@@ -1,0 +1,29 @@
+{
+	x: 2.5d,
+	y: 0.0d,
+	dependencies: [
+		"7e27cd72"
+	],
+	tasks: [{
+		uid: "05b482e5",
+		type: "item",
+		items: [{
+			item: "contenttweaker:valonite_cluster"
+		},
+		{
+			item: "contenttweaker:scabyst_cluster"
+		},
+		{
+			item: "contenttweaker:syrmorite_cluster"
+		},
+		{
+			item: "contenttweaker:octine_cluster"
+		}]
+	}],
+	rewards: [{
+		uid: "23b1f785",
+		type: "item",
+		item: "thebetweenlands:sap_ball",
+		count: 16
+	}]
+}

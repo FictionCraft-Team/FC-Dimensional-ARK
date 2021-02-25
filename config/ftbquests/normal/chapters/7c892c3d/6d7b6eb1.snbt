@@ -1,0 +1,19 @@
+{
+	title: "{title.line3}",
+	icon: "thaumcraft:crucible",
+	x: 9.0d,
+	y: 1.5d,
+	description: "{subtitle.line3}",
+	text: [
+		"{des.line3}",
+		"",
+		"{des.linesnote}"
+	],
+	dependencies: [
+		"5ed0a39d"
+	],
+	tasks: [{
+		uid: "8c4195ac",
+		type: "checkmark"
+	}]
+}

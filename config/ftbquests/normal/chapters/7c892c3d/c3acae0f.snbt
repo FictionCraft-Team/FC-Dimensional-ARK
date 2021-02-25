@@ -1,0 +1,41 @@
+{
+	x: 4.5d,
+	y: 5.0d,
+	dependencies: [
+		"a2464900"
+	],
+	tasks: [{
+		uid: "1b8316be",
+		type: "item",
+		items: [{
+			item: "forgecraft:bloomery_adobe"
+		}]
+	},
+	{
+		uid: "2b834b3f",
+		type: "item",
+		items: [{
+			item: "forgecraft:pistonbellowsoak"
+		}]
+	},
+	{
+		uid: "78f61348",
+		type: "item",
+		items: [{
+			item: "forgecraft:softcrucible"
+		}]
+	}],
+	rewards: [{
+		uid: "50ab67ed",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				Parent: {
+					Size: 1,
+					Items: []
+				}
+			},
+			id: "forgecraft:slottedtongs"
+		}
+	}]
+}

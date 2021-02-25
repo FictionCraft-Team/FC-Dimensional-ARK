@@ -1,0 +1,20 @@
+{
+	x: 1.0d,
+	y: 5.0d,
+	dependencies: [
+		"6263bcc1",
+		"23fdbc0e"
+	],
+	tasks: [{
+		uid: "c73e1cda",
+		type: "item",
+		items: [{
+			item: "primal:adobe_brick_dry"
+		}]
+	}],
+	rewards: [{
+		uid: "220e8861",
+		type: "item",
+		item: "primal:fire_bow"
+	}]
+}

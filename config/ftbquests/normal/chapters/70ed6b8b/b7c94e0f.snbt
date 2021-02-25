@@ -1,0 +1,14 @@
+{
+	x: -1.5d,
+	y: 4.0d,
+	dependencies: [
+		"9c090eae"
+	],
+	tasks: [{
+		uid: "28b0b064",
+		type: "item",
+		items: [{
+			item: "thaumcraft:mechanism_simple"
+		}]
+	}]
+}

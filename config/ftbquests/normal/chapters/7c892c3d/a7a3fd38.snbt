@@ -1,0 +1,42 @@
+{
+	x: 9.5d,
+	y: 4.0d,
+	shape: "pentagon",
+	dependencies: [
+		"2865368f"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "9e04744e",
+		type: "item",
+		items: [{
+			item: "forgecraft:copperaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "899ccd96",
+		type: "item",
+		items: [{
+			item: "forgecraft:copperpickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "dc48359f",
+		type: "item",
+		items: [{
+			item: "forgecraft:coppergladius"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "41d4bb4b",
+		type: "command",
+		auto: "invisible",
+		command: "/gamestage add @p mobfirst"
+	}]
+}

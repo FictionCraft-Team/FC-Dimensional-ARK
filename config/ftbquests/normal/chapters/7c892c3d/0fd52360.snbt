@@ -1,0 +1,22 @@
+{
+	x: 4.5d,
+	y: 0.0d,
+	dependencies: [
+		"c1b8002d"
+	],
+	tasks: [{
+		uid: "315f5092",
+		type: "item",
+		items: [{
+			item: "primal_tech:rock"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9baaede1",
+		type: "item",
+		item: "thebetweenlands:sap_jello",
+		count: 4
+	}]
+}

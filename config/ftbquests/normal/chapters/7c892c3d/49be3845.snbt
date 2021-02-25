@@ -1,0 +1,16 @@
+{
+	x: 10.5d,
+	y: 5.5d,
+	dependencies: [
+		"8e7dd380"
+	],
+	tasks: [{
+		uid: "6be5fc7f",
+		type: "item",
+		items: [{
+			item: "forgecraft:steelpickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

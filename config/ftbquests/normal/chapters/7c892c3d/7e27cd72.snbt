@@ -1,0 +1,19 @@
+{
+	x: 1.0d,
+	y: 0.0d,
+	dependencies: [
+		"f39bd4c5"
+	],
+	tasks: [{
+		uid: "3b27ceea",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:weedwood_planks"
+		}]
+	}],
+	rewards: [{
+		uid: "7d631115",
+		type: "xp",
+		xp: 2
+	}]
+}

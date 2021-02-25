@@ -1,0 +1,22 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "contenttweaker:sub_block_holder_0"
+          ]
+        }
+      },
+      "drops": [
+        {
+          "item": {
+            "items" : [
+              "contenttweaker:octine_cluster"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

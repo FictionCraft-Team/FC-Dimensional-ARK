@@ -1,0 +1,15 @@
+{
+	x: 1.5d,
+	y: 2.5d,
+	shape: "diamond",
+	dependencies: [
+		"1dcb8856"
+	],
+	tasks: [{
+		uid: "78c19bec",
+		type: "item",
+		items: [{
+			item: "thaumcraft:sapling_greatwood"
+		}]
+	}]
+}

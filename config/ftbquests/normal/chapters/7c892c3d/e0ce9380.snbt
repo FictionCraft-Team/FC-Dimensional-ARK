@@ -1,0 +1,18 @@
+{
+	icon: "thaumcraft:research_table",
+	x: 2.5d,
+	y: -1.5d,
+	shape: "hexagon",
+	dependencies: [
+		"da3a99ac"
+	],
+	size: 1.25d,
+	tasks: [{
+		uid: "a1c70305",
+		type: "observation",
+		icon: "thaumcraft:research_table",
+		match_type: "block_id",
+		match: "thaumcraft:research_table",
+		timer: 0L
+	}]
+}

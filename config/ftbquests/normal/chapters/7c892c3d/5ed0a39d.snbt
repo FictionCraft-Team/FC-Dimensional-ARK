@@ -1,0 +1,16 @@
+{
+	icon: "thaumcraft:arcane_workbench",
+	x: 7.5d,
+	y: 0.0d,
+	dependencies: [
+		"043357c2"
+	],
+	tasks: [{
+		uid: "373fb0c4",
+		type: "observation",
+		icon: "thaumcraft:arcane_workbench",
+		match_type: "block_id",
+		match: "thaumcraft:arcane_workbench",
+		timer: 0L
+	}]
+}

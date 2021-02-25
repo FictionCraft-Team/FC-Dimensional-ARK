@@ -1,0 +1,44 @@
+{
+	x: 6.0d,
+	y: 1.5d,
+	dependencies: [
+		"715dfe91"
+	],
+	tasks: [{
+		uid: "43d93373",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "smelter",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any smelter"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0b4749a8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "lidSmeltery",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any lidSmeltery"
+				}
+			}
+		}]
+	}]
+}

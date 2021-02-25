@@ -1,0 +1,82 @@
+{
+  "forge_marker":1,
+  "variants": {
+    "normal": { "model": "primal:drying_rack" },
+    "type": {
+      "oak": {
+        "textures": {
+          "particle": "thebetweenlands:blocks/weedwood_planks",
+          "texture": "thebetweenlands:blocks/weedwood_planks"
+        }
+      },
+      "spruce": {
+        "textures": {
+          "particle": "blocks/planks_spruce",
+          "texture": "blocks/planks_spruce"
+        }
+      },
+      "birch": {
+        "textures": {
+          "particle": "blocks/planks_birch",
+          "texture": "blocks/planks_birch"
+        }
+      },
+      "jungle": {
+        "textures": {
+          "particle": "blocks/planks_jungle",
+          "texture": "blocks/planks_jungle"
+        }
+      },
+      "acacia": {
+        "textures": {
+          "particle": "blocks/planks_acacia",
+          "texture": "blocks/planks_acacia"
+        }
+      },
+      "dark_oak": {
+        "textures": {
+          "particle": "blocks/planks_big_oak",
+          "texture": "blocks/planks_big_oak"
+        }
+      },
+      "ironwood": {
+        "textures": {
+          "particle": "primal:blocks/planks_ironwood",
+          "texture": "primal:blocks/planks_ironwood"
+        }
+      },
+      "yew": {
+        "textures": {
+          "particle": "primal:blocks/planks_yew",
+          "texture": "primal:blocks/planks_yew"
+        }
+      },
+      "lacquer": {
+        "textures": {
+          "particle": "primal:blocks/lacquer/planks_lacquer_normal",
+          "texture": "primal:blocks/lacquer/planks_lacquer_normal"
+        }
+      },
+      "corypha": {
+        "textures": {
+          "particle": "primal:blocks/planks_corypha",
+          "texture": "primal:blocks/planks_corypha"
+        }
+      }
+    },
+    "facing": {
+      "north": {
+        "model": "primal:drying_rack"
+      },
+      "east": {
+        "model": "primal:drying_rack", "y": 90
+      },
+      "south": {
+        "model": "primal:drying_rack", "y": 180
+      },
+      "west": {
+        "model": "primal:drying_rack", "y": 270
+      }
+    }
+  }
+}

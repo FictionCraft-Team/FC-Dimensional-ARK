@@ -1,0 +1,35 @@
+{
+	title: "{title.start}",
+	x: -0.5d,
+	y: 0.0d,
+	shape: "octagon",
+	text: [
+		"{des.start}",
+		"",
+		"{des.start2}",
+		"",
+		"{des.start3}",
+		"",
+		"{des.start4}"
+	],
+	tasks: [{
+		uid: "87815d22",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "26fa185a",
+		type: "item",
+		item: {
+			id: "chisel:chisel_hitech",
+			tag: {
+				chiseldata: {}
+			}
+		}
+	},
+	{
+		uid: "04b71ccc",
+		type: "item",
+		item: "thebetweenlands:sulfur_torch",
+		count: 16
+	}]
+}

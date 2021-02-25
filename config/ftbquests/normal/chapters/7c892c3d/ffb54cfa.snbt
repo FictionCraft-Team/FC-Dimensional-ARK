@@ -1,0 +1,21 @@
+{
+	x: 6.0d,
+	y: -1.5d,
+	shape: "hexagon",
+	dependencies: [
+		"8646014c"
+	],
+	size: 1.25d,
+	tasks: [{
+		uid: "29949d5c",
+		type: "item",
+		items: [{
+			item: "thaumcraft:salis_mundus"
+		}]
+	}],
+	rewards: [{
+		uid: "9482903c",
+		type: "item",
+		item: "minecraft:bookshelf"
+	}]
+}

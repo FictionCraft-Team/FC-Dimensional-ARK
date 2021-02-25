@@ -1,0 +1,6 @@
+#Blocks
+tile.primal_tech.work_stump_upgraded.name=Weedwood Workstump
+tile.primal.brick_mold_oak.name=Weedwood Brick Mold
+tile.primal.drying_rack.name=Weedwood Drying Rack
+#Tool Tips
+tooltip.work_stump_mk2=Holds full stacks per slot

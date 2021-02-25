@@ -1,0 +1,19 @@
+{
+	title: "{title.line1}",
+	icon: "bewitchment:gold_lilith_statue",
+	x: 9.0d,
+	y: -1.5d,
+	description: "{subtitle.line1}",
+	text: [
+		"{des.line1}",
+		"",
+		"{des.linesnote}"
+	],
+	dependencies: [
+		"5ed0a39d"
+	],
+	tasks: [{
+		uid: "9b53767d",
+		type: "checkmark"
+	}]
+}

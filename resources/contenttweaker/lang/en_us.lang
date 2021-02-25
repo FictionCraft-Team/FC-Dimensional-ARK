@@ -1,0 +1,24 @@
+#material
+base.material.octine=Octine
+base.material.syrmorite=Syrmorite
+base.material.valonite=Valonite
+base.material.scabyst=Scabyst
+base.material.lead=Lead
+base.material.aluminum=Aluminum
+base.material.nickel=Nickel
+base.material.platinum=Platinum
+base.material.gold=Gold
+base.material.copper=Copper
+base.material.tin=Tin
+base.material.silver=Silver
+base.material.zinc=Zinc
+
+#parts
+contenttweaker.part.ingot_crude=Crude %s Ingot
+contenttweaker.part.ingot_hot=Hot %s Ingot
+
+#item
+item.contenttweaker.wet_fiber.name=Wet Fiber
+item.contenttweaker.weedwood_bark.name=Weedwood Bark
+item.contenttweaker.inert_ingot.name=Inert Ingot
+item.contenttweaker.scarab_wings.name=Scarab Wings

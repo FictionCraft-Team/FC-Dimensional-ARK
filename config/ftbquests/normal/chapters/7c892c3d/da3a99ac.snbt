@@ -1,0 +1,23 @@
+{
+	x: 4.5d,
+	y: -1.5d,
+	dependencies: [
+		"ffb54cfa"
+	],
+	tasks: [{
+		uid: "7b86177d",
+		type: "item",
+		items: [{
+			item: "thaumcraft:table_wood"
+		}]
+	},
+	{
+		uid: "18ce9196",
+		type: "item",
+		items: [{
+			item: "thaumcraft:scribing_tools"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

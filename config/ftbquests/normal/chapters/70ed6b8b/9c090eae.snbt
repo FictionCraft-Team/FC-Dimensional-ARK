@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: 4.0d,
+	dependencies: [
+		"58e8ef65"
+	],
+	tasks: [{
+		uid: "349bdd48",
+		type: "item",
+		items: [{
+			item: "thaumadditions:brass_plated_silverwood"
+		}]
+	},
+	{
+		uid: "6104fb10",
+		type: "item",
+		items: [{
+			item: "thaumadditions:iron_framed_greatwood"
+		}]
+	}]
+}

@@ -1,0 +1,34 @@
+#Chapter 1
+cat.1=Put Those Goggles On
+
+title.start=Wow, this looks like real
+des.start=My name is Steve, after coming out the time rift and stucking on the ice planet I came back to your Overworld. But no one here believes my story. I am poor, no family, no friends (Alex: ????) ... One day I heard a new about a large technology company holding an event and need testers for it. If I can survived after the event, they will reward me a large amount of money. I didnt even think much, and joined. Because I know, my story about surviving on a icy planet is real. If I am able to survive like that, why can't I survive here?
+des.start2=1 Month later, 10 mins before the event started  
+des.start3=I am told to sit on the chair, wear the weird looking mask they gave me on my eyes... 10 Mins have pasted. The event started. Suddenly, I dont feel anything anymore. Its pitch black in front of you. You cant hear anything... A couple seconds later, you start to feel things, and to hear, to see things. Its muddy, its wet, its dark green, its creepy. This is not Overworld... And a voice appeared: Welcome... To the betweenlands.
+des.start4=Note: There is a spawn protection function to prevent testers die immediately when first joined. No hostile mobs will be spawning (except bosses) before you forge your first weapon to protect yourself.
+
+des.stick=I should follow the instructions I am given, they will help me survive (or will they?)
+des.stick2=[Break some bushes to obtain weedwood sticks]
+
+title.line1=§6§lOperation Arcane Iteration
+subtitle.line1=§5Code 1.1
+des.line1=This line will be focused on Evil Magics and Exploration.
+
+title.line2=§6§lOperation Herbology
+subtitle.line2=§5Code 2.1
+des.line2=This line will be focused on Nature and Exploration.
+
+title.line3=§6§lOperation Create
+subtitle.line3=§5Code 3.1
+des.line3=This line will be focused on Technology and Exploration.
+
+des.linesnote=[§6Information of these 3 lines can be found in the thaumonomicon. The order of these 3 lines does not matter that much. Choose whatever you want to do first§f]
+
+#1.1
+cat.1.1=1.1 Operation Arcane Iteration
+
+#2.1
+cat.2.1=2.1 Operation Herbology
+
+#3.1
+cat.3.1=3.1 Operation Create

@@ -1,0 +1,22 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "thebetweenlands:octine_ore"
+          ]
+        }
+      },
+      "drops": [
+        {
+          "item": {
+            "items" : [
+              "contenttweaker:octine_cluster"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+	x: 1.5d,
+	y: 4.0d,
+	dependencies: [
+		"9c090eae"
+	],
+	tasks: [{
+		uid: "7fb135e9",
+		type: "item",
+		items: [{
+			item: "atum:scarab"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

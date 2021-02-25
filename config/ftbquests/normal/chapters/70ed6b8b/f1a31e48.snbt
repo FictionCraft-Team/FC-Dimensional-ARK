@@ -1,0 +1,21 @@
+{
+	x: 1.5d,
+	y: 7.0d,
+	dependencies: [
+		"d5acc788"
+	],
+	tasks: [{
+		uid: "cc1ed2dd",
+		type: "item",
+		items: [{
+			item: "prodigytech:energion_aeroheater"
+		}]
+	},
+	{
+		uid: "a1892c27",
+		type: "item",
+		items: [{
+			item: "prodigytech:energion_dust"
+		}]
+	}]
+}

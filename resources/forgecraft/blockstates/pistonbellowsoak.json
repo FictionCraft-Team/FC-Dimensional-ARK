@@ -1,0 +1,21 @@
+{
+  "forge_marker":1,
+  "defaults": {
+    "textures": {
+      "particle": "thebetweenlands:blocks/weedwood_planks",
+      "texture_test": "blocks/checker_test",
+      "texture": "thebetweenlands:blocks/weedwood_planks"
+    },
+    "parent": "forgecraft:block/pistonbellows"
+  },
+  "variants": {
+    "active=false,facing=north": { "model": "forgecraft:pistonbellows" },
+    "active=true,facing=north": { "model": "forgecraft:pistonbellows" },
+    "active=false,facing=east":  { "model": "forgecraft:pistonbellows", "y": 90 },
+    "active=true,facing=east":  { "model": "forgecraft:pistonbellows", "y": 90 },
+    "active=false,facing=south": { "model": "forgecraft:pistonbellows", "y": 180 },
+    "active=true,facing=south": { "model": "forgecraft:pistonbellows", "y": 180 },
+    "active=false,facing=west":  { "model": "forgecraft:pistonbellows", "y": 270 },
+    "active=true,facing=west":  { "model": "forgecraft:pistonbellows", "y": 270 }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "thebetweenlands:syrmorite_ore"
+          ]
+        }
+      },
+      "drops": [
+        {
+          "item": {
+            "items" : [
+              "contenttweaker:syrmorite_cluster"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

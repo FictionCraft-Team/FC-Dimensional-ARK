@@ -1,0 +1,25 @@
+{
+	x: 7.5d,
+	y: 3.0d,
+	dependencies: [
+		"1597b930"
+	],
+	tasks: [{
+		uid: "eb0fe002",
+		type: "item",
+		items: [{
+			item: "forgecraft:castingform"
+		}]
+	}],
+	rewards: [{
+		uid: "0feb348c",
+		type: "item",
+		item: "forgecraft:toolbench"
+	},
+	{
+		uid: "19069104",
+		type: "item",
+		item: "forgecraft:castingmud",
+		count: 16
+	}]
+}

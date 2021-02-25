@@ -1,0 +1,22 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "contenttweaker:sub_block_holder_0:2"
+          ]
+        }
+      },
+      "drops": [
+        {
+          "item": {
+            "items" : [
+              "thebetweenlands:items_misc:19"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

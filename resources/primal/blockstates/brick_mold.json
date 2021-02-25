@@ -1,0 +1,83 @@
+{
+    "forge_marker":1,
+    "defaults": {
+        "textures": {
+            "particle": "#side"
+        },
+        "model": "primal:brick_mold"
+    },
+    "variants": {
+        "type": {
+            "oak": {
+                "textures": {
+                    "particle": "#side",
+                    "side": "thebetweenlands:blocks/weedwood",
+                    "top": "thebetweenlands:blocks/log_weedwood_top"
+                }
+            },
+            "spruce": {
+                "textures": {
+                    "particle": "#side",
+                    "side": "primal:blocks/log_stripped_spruce_side",
+                    "top": "blocks/log_spruce_top"
+                }
+            },
+            "birch": {
+                "textures": {
+                    "particle": "#side",
+                    "side": "primal:blocks/log_stripped_birch_side",
+                    "top": "blocks/log_birch_top"
+                }
+            },
+            "jungle": {
+                "textures": {
+                    "particle": "#side",
+                    "side": "primal:blocks/log_stripped_jungle_side",
+                    "top": "blocks/log_jungle_top"
+                }
+            },
+            "acacia": {
+                "textures": {
+                    "particle": "#side",
+                    "side": "primal:blocks/log_stripped_acacia_side",
+                    "top": "blocks/log_acacia_top"
+                }
+            },
+            "dark_oak": {
+                "textures": {
+                    "particle": "#side",
+                    "side": "primal:blocks/log_stripped_dark_oak_side",
+                    "top": "blocks/log_big_oak_top"
+                }
+            },
+            "ironwood": {
+                "textures": {
+                    "particle": "#side",
+                    "side": "primal:blocks/log_stripped_ironwood_side",
+                    "top": "primal:blocks/log_ironwood_top"
+                }
+            },
+            "yew": {
+                "textures": {
+                    "particle": "#side",
+                    "side": "primal:blocks/log_stripped_yew_side",
+                    "top": "primal:blocks/log_yew_top"
+                }
+            },
+            "lacquer": {
+                "textures": {
+                    "particle": "#side",
+                    "side": "primal:blocks/lacquer/planks_lacquer_normal",
+                    "top": "primal:blocks/lacquer/planks_lacquer_normal"
+                }
+            },
+            "corypha": {
+                "textures": {
+                    "particle": "#side",
+                    "side": "primal:blocks/planks_corypha",
+                    "top": "primal:blocks/planks_corypha"
+                }
+            }
+        }
+    }
+}

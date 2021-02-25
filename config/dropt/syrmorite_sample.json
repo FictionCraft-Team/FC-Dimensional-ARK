@@ -1,0 +1,22 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "contenttweaker:sub_block_holder_0:1"
+          ]
+        }
+      },
+      "drops": [
+        {
+          "item": {
+            "items" : [
+              "contenttweaker:syrmorite_cluster"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

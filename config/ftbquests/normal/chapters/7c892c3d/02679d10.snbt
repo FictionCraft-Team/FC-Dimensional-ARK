@@ -1,0 +1,15 @@
+{
+	x: 3.0d,
+	y: 3.0d,
+	dependencies: [
+		"1951c100",
+		"6263bcc1"
+	],
+	tasks: [{
+		uid: "1e162d37",
+		type: "item",
+		items: [{
+			item: "primal:adobe_clump"
+		}]
+	}]
+}

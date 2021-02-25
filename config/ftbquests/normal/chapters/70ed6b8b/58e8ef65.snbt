@@ -1,0 +1,16 @@
+{
+	x: 0.0d,
+	y: 2.5d,
+	dependencies: [
+		"f883b027",
+		"1dcb8856",
+		"5fbf70ac"
+	],
+	tasks: [{
+		uid: "d9f1f907",
+		type: "item",
+		items: [{
+			item: "primal:brass_ingot"
+		}]
+	}]
+}

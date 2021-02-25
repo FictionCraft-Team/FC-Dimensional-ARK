@@ -1,0 +1,24 @@
+{
+	x: 6.0d,
+	y: 5.0d,
+	shape: "hexagon",
+	dependencies: [
+		"6a08add3",
+		"c3acae0f"
+	],
+	size: 1.25d,
+	tasks: [{
+		uid: "a3e6ffa5",
+		type: "item",
+		items: [{
+			item: "contenttweaker:octine_ingot_crude"
+		}]
+	},
+	{
+		uid: "d6e075a8",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:octine_ingot"
+		}]
+	}]
+}

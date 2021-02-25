@@ -1,0 +1,21 @@
+{
+	x: 5.0d,
+	y: 2.0d,
+	dependencies: [
+		"f69c674e",
+		"522da1bb"
+	],
+	tasks: [{
+		uid: "17cd8216",
+		type: "item",
+		items: [{
+			item: "rustichromia:assembler1"
+		}]
+	}],
+	rewards: [{
+		uid: "5adcc01f",
+		type: "item",
+		item: "rustichromia:axle_wood",
+		count: 16
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 7.5d,
+	y: 5.0d,
+	dependencies: [
+		"a871c7f0"
+	],
+	tasks: [{
+		uid: "ca7f22e6",
+		type: "item",
+		items: [{
+			item: "primal:copper_ingot"
+		}]
+	},
+	{
+		uid: "2d074ce0",
+		type: "item",
+		items: [{
+			item: "contenttweaker:copper_ingot_crude"
+		}]
+	}]
+}

@@ -1,0 +1,8 @@
+{
+    "forge_marker":1,
+    "textures": {
+        "side": "thebetweenlands:blocks/weedwood",
+        "top": "thebetweenlands:blocks/log_weedwood_top"
+    },
+    "parent": "primal:block/brick_mold"
+}

@@ -1,0 +1,15 @@
+{
+	x: 1.5d,
+	y: 0.5d,
+	shape: "diamond",
+	dependencies: [
+		"1dcb8856"
+	],
+	tasks: [{
+		uid: "5292a012",
+		type: "item",
+		items: [{
+			item: "primal:copper_ingot"
+		}]
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 3.0d,
+	y: 1.5d,
+	dependencies: [
+		"0fd52360",
+		"0981b83a"
+	],
+	tasks: [{
+		uid: "098f9210",
+		type: "item",
+		items: [{
+			item: "primal:mud_clump"
+		}]
+	}],
+	rewards: [{
+		uid: "2666a04a",
+		type: "item",
+		item: "primal:thatching_wet",
+		count: 16
+	}]
+}

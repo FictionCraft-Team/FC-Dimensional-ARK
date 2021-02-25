@@ -1,0 +1,7 @@
+{
+  "forge_marker":1,
+  "textures": {
+    "texture": "thebetweenlands:blocks/weedwood_planks"
+  },
+  "parent": "primal:block/drying_rack"
+}

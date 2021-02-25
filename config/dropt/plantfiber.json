@@ -1,0 +1,128 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "thebetweenlands:copper_iris"
+          ]
+        }
+      },
+      "replaceStrategy": "ADD",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 85
+            }
+          },
+          "item": {
+            "items" : [
+              "primal:plant_fiber"
+            ]
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 15
+            }
+          }
+        }
+      ]
+    },
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "thebetweenlands:swamp_tallgrass"
+          ]
+        }
+      },
+      "replaceStrategy": "ADD",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 85
+            }
+          },
+          "item": {
+            "items" : [
+              "primal:plant_fiber"
+            ]
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 15
+            }
+          }
+        }
+      ]
+    },
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "thebetweenlands:cattail"
+          ]
+        }
+      },
+      "replaceStrategy": "ADD",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 85
+            }
+          },
+          "item": {
+            "items" : [
+              "primal:plant_fiber"
+            ]
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 15
+            }
+          }
+        }
+      ]
+    },
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "thebetweenlands:blue_iris"
+          ]
+        }
+      },
+      "replaceStrategy": "ADD",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 85
+            }
+          },
+          "item": {
+            "items" : [
+              "primal:plant_fiber"
+            ]
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 15
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

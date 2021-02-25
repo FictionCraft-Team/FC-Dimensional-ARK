@@ -1,0 +1,15 @@
+{
+	x: -1.5d,
+	y: 0.5d,
+	shape: "diamond",
+	dependencies: [
+		"1dcb8856"
+	],
+	tasks: [{
+		uid: "d41e2239",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}]
+	}]
+}
