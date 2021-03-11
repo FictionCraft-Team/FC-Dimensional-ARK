@@ -25,3 +25,6 @@ Smelter.addRecipe("platinum", 8, [<contenttweaker:platinum_ingot_crude>], [<prim
 Smelter.addRecipe("syrmorite", 8, [<contenttweaker:syrmorite_ingot_crude>], [<thebetweenlands:items_misc:11>]);
 Smelter.addRecipe("nickel", 8, [<contenttweaker:nickel_ingot_crude>], [<primal:nickel_ingot>]);
 Smelter.addRecipe("tin", 8, [<contenttweaker:tin_ingot_crude>], [<primal:tin_ingot>]);
+
+//Enhanced Ferramic
+Smelter.addRecipe("enhanced_ferramic", 3, [<contenttweaker:ferramic_composition>], [<contenttweaker:enhanced_ferramic>]);

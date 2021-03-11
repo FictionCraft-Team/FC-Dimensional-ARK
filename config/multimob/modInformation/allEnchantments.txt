@@ -31,6 +31,7 @@ minecraft:vanishing_curse
 bewitchment:magic_protection
 bibliocraft:bibliocraft.deathcompassench
 bibliocraft:bibliocraft.readingench
+capsule:recall
 endreborn:ender_core
 endreborn:ender_killer
 endreborn:shulker_core

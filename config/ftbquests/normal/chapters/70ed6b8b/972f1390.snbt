@@ -1,0 +1,14 @@
+{
+	x: 1.5d,
+	y: 7.0d,
+	dependencies: [
+		"d5acc788"
+	],
+	tasks: [{
+		uid: "9b59be59",
+		type: "item",
+		items: [{
+			item: "contenttweaker:aero_casing"
+		}]
+	}]
+}

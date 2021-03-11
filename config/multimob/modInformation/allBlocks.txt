@@ -1965,6 +1965,7 @@ buildinggadgets:templatemanager
 buildinggadgets:constructionblock_dense
 buildinggadgets:constructionblock
 buildinggadgets:constructionblockpowder
+capsule:capsulemarker
 chisel:blockaluminum
 chisel:andesite
 chisel:andesite1
@@ -2540,6 +2541,16 @@ erebus:slab_planks_varnished
 erebus:fence_varnished
 erebus:fence_gate_varnished
 flopper:flopper
+primal:bitumen
+primal:ovis_atre_milk
+primal:smoke
+primal:tannin
+primal:waste
+primal:magma_basaltic
+primal:urushi
+primal:bitumen_boiling
+primal:brine_netjry
+primal:paraffin
 primal:firepit
 primal:brickform
 primal:quern
@@ -2754,16 +2765,6 @@ primal:stairs_night_stone
 primal:stairs_corypha
 primal:stairs_ironwood
 primal:stairs_lacquer
-primal:bitumen_boiling
-primal:waste
-primal:ovis_atre_milk
-primal:brine_netjry
-primal:smoke
-primal:bitumen
-primal:tannin
-primal:urushi
-primal:magma_basaltic
-primal:paraffin
 ftbquests:screen
 ftbquests:screen_part
 ftbquests:progress_detector
@@ -2915,7 +2916,6 @@ prodigytech:charred_stonebricks
 prodigytech:ash_bricks
 prodigytech:particle_board
 prodigytech:particle_board_planks
-projecttable:project_table
 stygian:endlog
 stygian:endplanks
 stygian:endleaves
@@ -3142,6 +3142,7 @@ tropicraft:portal_teleporter
 tropicraft:portal_wall
 tropicraft:donation
 uppers:upper
+researchtable:table
 midnight:midnight_grass
 midnight:midnight_dirt
 midnight:midnight_coarse_dirt
@@ -3511,6 +3512,7 @@ abyssalcraft:calcifiedstone
 abyssalcraft:door_dlt
 abyssalcraft:door_drt
 abyssalcraft:multiblock
+contenttweaker:aero_casing
 contenttweaker:sub_block_holder_0
 mcjtylib_ng:multipart
 thebetweenlands:swamp_water

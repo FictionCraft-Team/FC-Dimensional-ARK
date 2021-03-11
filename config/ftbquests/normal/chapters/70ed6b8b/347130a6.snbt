@@ -1,0 +1,29 @@
+{
+	x: 6.5d,
+	y: 7.0d,
+	dependencies: [
+		"cfc86ccc"
+	],
+	tasks: [{
+		uid: "02a21f7e",
+		type: "item",
+		items: [{
+			id: "capsule:capsule",
+			tag: {
+				color: 4869306,
+				size: 3,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/mk1_heat_absorber",
+				author: "winterSteve25",
+				display: {
+					color: 8072841
+				},
+				label: "Heat Absorber",
+				canRotate: 0b
+			},
+			Damage: 5s
+		}],
+		ignore_nbt: 1b
+	}]
+}

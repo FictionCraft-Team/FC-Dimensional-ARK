@@ -42,3 +42,6 @@ recipes.addShaped(
 	[<bloodarsenal:base_item>, <bloodarsenal:base_item>],
 	[<bloodarsenal:base_item>, <bloodarsenal:base_item>]
 ]);
+
+//quartz inert crystal recipe
+recipes.removeByRecipeName("hammercore:thaumadditions_recipestar.0");

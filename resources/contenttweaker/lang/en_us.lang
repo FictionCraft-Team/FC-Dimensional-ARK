@@ -22,3 +22,13 @@ item.contenttweaker.wet_fiber.name=Wet Fiber
 item.contenttweaker.weedwood_bark.name=Weedwood Bark
 item.contenttweaker.inert_ingot.name=Inert Ingot
 item.contenttweaker.scarab_wings.name=Scarab Wings
+item.contenttweaker.strangesand_dust.name=Strange Sand Dust
+item.contenttweaker.strangesand_composition.name=Strange Sand Composition
+item.contenttweaker.myths_fragment.name=Myths Fragments
+item.contenttweaker.myths_ingot.name=Ingot of the Myths
+item.contenttweaker.ferramic_composition.name=Ferramic Composition
+item.contenttweaker.enhanced_ferramic.name=Enhanced Ferramic Ingot
+item.contenttweaker.oasis_mass.name=Oasis Mass
+
+#blocks
+tile.contenttweaker.aero_casing.name=Aero Casing

@@ -28,6 +28,7 @@ for item in oreClusters {
 //wood bark
 <ore:barkWood>.add(<contenttweaker:weedwood_bark>);
 
+//item ingot
 var itemingot as IItemStack[] = [
 	<minecraft:iron_ingot>,
 	<minecraft:gold_ingot>,
@@ -106,3 +107,6 @@ var itemingot as IItemStack[] = [
 for item in itemingot {
 	<ore:itemIngot>.add(item);
 }
+
+<ore:oasisPlant>.add(<atum:oasis_grass>);
+<ore:oasisPlant>.add(<atum:palm_leaves>);

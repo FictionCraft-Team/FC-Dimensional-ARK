@@ -15,3 +15,9 @@ Crucible.registerRecipe("copper_dup", "", <primal:copper_ingot>*2, <primal:coppe
 
 //brass ingot
 Crucible.registerRecipe("brass", "", <primal:brass_ingot>, <contenttweaker:inert_ingot>, [<aspect:metallum>*20, <aspect:ignis>*10, <aspect:aer>*10]);
+
+//silverwood sapling
+Crucible.registerRecipe("silverwood_sap", "", <thaumcraft:sapling_silverwood>, <thebetweenlands:sapling_weedwood>, [<aspect:herba>*15, <aspect:auram>*15]);
+
+//greatwood sapling
+Crucible.registerRecipe("greatwood_sap", "", <thaumcraft:sapling_greatwood>, <thebetweenlands:sapling_sap>, [<aspect:herba>*15, <aspect:victus>*15]);

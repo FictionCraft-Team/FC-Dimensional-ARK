@@ -6,3 +6,10 @@ recipes.addShapeless(<thebetweenlands:items_misc:50> *4, [<thebetweenlands:betwe
 
 //weedwood pick
 recipes.remove(<thebetweenlands:weedwood_pickaxe>);
+
+//weedwood plank
+recipes.addShaped(
+	<thebetweenlands:weedwood_planks>, [
+	[<thebetweenlands:items_misc:20>, <thebetweenlands:items_misc:20>],
+	[<thebetweenlands:items_misc:20>, <thebetweenlands:items_misc:20>]
+]);
