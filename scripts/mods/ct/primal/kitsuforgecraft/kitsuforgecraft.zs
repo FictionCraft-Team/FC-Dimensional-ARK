@@ -16,3 +16,6 @@ recipes.remove(<forgecraft:stoneanvil>);
 
 //brick forge
 recipes.remove(<forgecraft:forge_brick>);
+
+//bellow
+recipes.replaceAllOccurences(<minecraft:planks>, <thebetweenlands:weedwood_planks>, <forgecraft:pistonbellowsoak>);

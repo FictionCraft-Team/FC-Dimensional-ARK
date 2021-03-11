@@ -7,10 +7,10 @@ Smelter.removeAll();
 Smelter.addRecipe("mote", 6, [<ore:barkWood>], [<primal:charcoal_mote>]);
 
 //glass shards
-Smelter.addRecipe("glass_shard", 4, [<primal:adobe_clump>], [<bloodarsenal:base_item>]);
+Smelter.addRecipe("glass_shard", 6, [<primal:adobe_clump>], [<bloodarsenal:base_item>]);
 
 //inert crystal
-Smelter.addRecipe("inert_crystal", 2, [<bloodarsenal:base_item>, <primal:mud_clump>, <primal:mud_clump>, <primal:mud_clump>], [<thaumcraft:nugget:9> *8]);
+Smelter.addRecipe("inert_crystal", 6, [<bloodarsenal:base_item>, <primal:mud_clump>], [<thaumcraft:nugget:9> *8]);
 
 //Ore Process
 Smelter.addRecipe("octine", 8, [<contenttweaker:octine_ingot_crude>], [<thebetweenlands:octine_ingot>]);
@@ -27,4 +27,4 @@ Smelter.addRecipe("nickel", 8, [<contenttweaker:nickel_ingot_crude>], [<primal:n
 Smelter.addRecipe("tin", 8, [<contenttweaker:tin_ingot_crude>], [<primal:tin_ingot>]);
 
 //Enhanced Ferramic
-Smelter.addRecipe("enhanced_ferramic", 3, [<contenttweaker:ferramic_composition>], [<contenttweaker:enhanced_ferramic>]);
+Smelter.addRecipe("enhanced_ferramic", 12, [<contenttweaker:ferramic_composition>], [<contenttweaker:enhanced_ferramic>]);

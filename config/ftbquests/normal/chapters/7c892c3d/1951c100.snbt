@@ -16,6 +16,11 @@
 		uid: "2666a04a",
 		type: "item",
 		item: "primal:thatching_wet",
-		count: 16
+		count: 2
+	},
+	{
+		uid: "74500358",
+		type: "item",
+		item: "primal:flint_workblade"
 	}]
 }

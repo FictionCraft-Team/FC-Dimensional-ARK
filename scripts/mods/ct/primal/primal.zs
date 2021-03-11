@@ -37,6 +37,7 @@ recipes.addShaped(<primal_tech:work_stump_upgraded>, [
 	[<thebetweenlands:weedwood_plank_pressure_plate>, null],
 	[<thebetweenlands:weedwood_planks>, null]
 ]);
+mods.primitivecrafting.addRecipe(<primal_tech:work_stump_upgraded>, <thebetweenlands:weedwood_plank_pressure_plate>, <thebetweenlands:weedwood_planks>);
 
 //crafting rock
 recipes.addShaped(
@@ -53,6 +54,9 @@ recipes.addShaped(<primal:thatching_wet> *2, [
 	[<contenttweaker:wet_fiber>, null, <contenttweaker:wet_fiber>],
 	[<contenttweaker:wet_fiber>, <contenttweaker:wet_fiber>, <contenttweaker:wet_fiber>]
 ]);
+
+//twine
+mods.primitivecrafting.addRecipe(<primal:plant_cordage>, <primal:plant_fiber>, <primal:plant_fiber>);
 
 //drying rack
 recipes.replaceAllOccurences(<minecraft:planks>, <thebetweenlands:weedwood_planks>, <primal:drying_rack>.withTag({type: "oak"}));

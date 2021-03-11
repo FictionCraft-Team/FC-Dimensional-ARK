@@ -13,10 +13,5 @@
 				type: "oak"
 			}
 		}]
-	}],
-	rewards: [{
-		uid: "d7f151a8",
-		type: "item",
-		item: "primal:flint_workblade"
 	}]
 }
