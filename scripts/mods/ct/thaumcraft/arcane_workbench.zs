@@ -37,3 +37,10 @@ ArcaneWorkbench.registerShapedRecipe("prodigymechanics:hot_air_engine", "", 10, 
 	[<mysticalmechanics:axle_iron>, <prodigytech:ferramic_gear>, <prodigytech:circuit_refined>],
 	[<contenttweaker:myths_ingot>, <contenttweaker:aero_casing>, <prodigytech:circuit_refined>]
 ]);
+
+//project table
+ArcaneWorkbench.registerShapedRecipe("researchtable:table", "", 40, [], <researchtable:table>,
+	[[<thaumcraft:plank_greatwood>, <thaumcraft:plank_greatwood>, <thaumcraft:plank_greatwood>],
+	[<ore:rodIron>, <contenttweaker:aero_casing>, <ore:rodIron>],
+	[<ore:rodIron>, null, <ore:rodIron>]
+]);

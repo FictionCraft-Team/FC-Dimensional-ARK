@@ -1,4 +1,5 @@
 import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
 
 //crafting table
 recipes.remove(<minecraft:crafting_table>);
@@ -45,3 +46,15 @@ recipes.addShaped(
 
 //quartz inert crystal recipe
 recipes.removeByRecipeName("hammercore:thaumadditions_recipestar.0");
+
+//flint
+var itemGallagher as IItemStack[] = [
+    <primal:stone_gallagher>,
+    <primal:quartz_gallagher>,
+    <primal:iron_gallagher>,
+    <primal:nether_gallagher>
+];
+
+for item in itemGallagher {
+    mods.primitivecrafting.addRecipe(<primal:flint_knapp>, <thebetweenlands:items_misc:50>, item.anyDamage().transformDamage(2));
+}

@@ -2,13 +2,32 @@
 cat.1=Put Those Goggles On
 
 title.start=Wow, this looks like real
-des.start=My name is Steve, after coming out the time rift and stucking on the ice planet I came back to your Overworld. But no one here believes my story. I am poor, no family, no friends (Alex: ????) ... One day I heard a new about a large technology company holding an event and need testers for it. If I can survived after the event, they will reward me a large amount of money. I didnt even think much, and joined. Because I know, my story about surviving on a icy planet is real. If I am able to survive like that, why can't I survive here?
+des.start=My name is Steve, after coming out the time rift and stucking on the ice planet I came back to your Overworld. But no one here believes my story. I am poor, no family, no friends... One day I heard a new about a large technology company holding an event and need testers for it. If I can survived after the event, they will reward me a large amount of money. I didnt even think much, and joined. Because I know, my story about surviving on a icy planet is real. If I am able to survive like that, why can't I survive here?
 des.start2=1 Month later, 10 mins before the event started  
 des.start3=I am told to sit on the chair, wear the weird looking mask they gave me on my eyes... 10 Mins have pasted. The event started. Suddenly, I dont feel anything anymore. Its pitch black in front of you. You cant hear anything... A couple seconds later, you start to feel things, and to hear, to see things. Its muddy, its wet, its dark green, its creepy. This is not Overworld... And a voice appeared: Welcome... To the betweenlands.
-des.start4=Note: There is a spawn protection function to prevent testers die immediately when first joined. No hostile mobs will be spawning (except bosses) before you forge your first weapon to protect yourself.
+des.start4=[There is a spawn protection function to prevent testers die immediately when first joined. No hostile mobs will be spawning (except bosses) before you forge your first weapon to protect yourself]
 
 des.stick=I should follow the instructions I am given, they will help me survive (or will they?)
 des.stick2=[Break some bushes to obtain weedwood sticks]
+
+des.cluster=After some running around, I have spotted some rock clusters on the ground, I suspect that this indicates there are ore veins below for us to gather. I guess the people that built this simulation isn't that bad, gave us basic things to start with. This is a lot easier than last time, stranded on a icy planet.
+des.cluster2=[Clusters can be obtained by right-click/breaking ore samples that spawn. You will also be able to find ore veins under ore samples]
+
+des.workstump=Well, this journey gotta start somewhere, with the experience I have, start with making a workstump should not be a bad idea.
+des.workstump2=[Craft a weedwood workstump]
+
+des.mud=There are some mud in this swampy place. I should be able to put them in a good use.
+des.mud2=[Collect some mud clumps by breaking mud blocks]
+
+des.brickmold=I think I would need a softer but not mushy material to make a brick mold to form bricks with the mud I have. Striped weedwood log (weedwood) would be perfect I think.
+des.brickmold2=[Use a blade on weedwood log to obtain weedwood. Use a blade on weedwood to obtain weedwood as an item]
+des.brickmold3=[Flint can be obtained by flaking/gallaghering a betweenstone pebble]
+
+des.adobemix=Mixing some mud with some dried thatch will allow me to enhance the mud, creating a new sort of material that is perfect for replacement of bricks.
+des.adobemix2=[Craft some adobe mixes]
+
+des.dryrack=Those wet bricks wont be very helpful, I would probably need to dry those up in order to use them.
+des.dryrack2=[Craft a drying rack]
 
 title.line1=§6§lOperation Arcane Iteration
 subtitle.line1=§5Code 1.1
@@ -43,6 +62,5 @@ dimension.atum=Atum Dimension
 #researchtable
 research.title.mk1_data=Dimensional Data Collector MK1
 research.des.mk1_data=Use these items to design a machine that collects dimensional data
-
 research.title.mk1_heat_absorber=Heat Absorber MK1
 research.des.mk1_heat_absorber=Use these items to design a machine that absorbs the heat in the Atum to use them as energy

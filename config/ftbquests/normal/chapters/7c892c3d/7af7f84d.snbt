@@ -31,5 +31,10 @@
 		type: "item",
 		item: "thebetweenlands:sulfur_torch",
 		count: 16
+	},
+	{
+		uid: "e713ca49",
+		type: "item",
+		item: "akashictome:tome"
 	}]
 }

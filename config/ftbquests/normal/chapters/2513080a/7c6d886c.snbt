@@ -1,0 +1,14 @@
+{
+	x: -1.5d,
+	y: -1.5d,
+	dependencies: [
+		"7e669323"
+	],
+	tasks: [{
+		uid: "9c95a1ed",
+		type: "item",
+		items: [{
+			item: "bewitchment:hellebore_seeds"
+		}]
+	}]
+}

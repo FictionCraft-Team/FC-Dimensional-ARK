@@ -1,6 +1,11 @@
 {
 	x: 1.0d,
 	y: 3.0d,
+	text: [
+		"{des.dryrack}",
+		"",
+		"{des.dryrack2}"
+	],
 	dependencies: [
 		"1951c100"
 	],

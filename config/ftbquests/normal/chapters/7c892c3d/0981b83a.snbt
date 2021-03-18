@@ -1,6 +1,11 @@
 {
 	x: 1.0d,
 	y: 1.5d,
+	text: [
+		"{des.workstump}",
+		"",
+		"{des.workstump2}"
+	],
 	dependencies: [
 		"7e27cd72"
 	],

@@ -47,6 +47,7 @@ recipes.addShaped(
 ]);
 
 recipes.addShapeless(<primal_tech:rock>, [<ore:oreGeolosysCluster>, <ore:oreGeolosysCluster>]);
+recipes.addShapeless(<primal_tech:rock>, [<thebetweenlands:items_misc:50> *2, <thebetweenlands:items_misc:50> *2]);
 
 //thatch fresh
 recipes.addShaped(<primal:thatching_wet> *2, [
@@ -56,7 +57,7 @@ recipes.addShaped(<primal:thatching_wet> *2, [
 ]);
 
 //twine
-mods.primitivecrafting.addRecipe(<primal:plant_cordage>, <primal:plant_fiber>, <primal:plant_fiber>);
+mods.primitivecrafting.addRecipe(<primal:plant_cordage>, <primal:plant_fiber>*2, <primal:plant_fiber>);
 
 //drying rack
 recipes.replaceAllOccurences(<minecraft:planks>, <thebetweenlands:weedwood_planks>, <primal:drying_rack>.withTag({type: "oak"}));
@@ -71,4 +72,29 @@ recipes.addShaped(
 	[<thebetweenlands:weedwood>, null, <thebetweenlands:weedwood>],
 	[<thebetweenlands:weedwood>, null, <thebetweenlands:weedwood>],
 	[<thebetweenlands:weedwood>, <thebetweenlands:weedwood>, <thebetweenlands:weedwood>]
+]);
+
+//flint from flint flakes
+recipes.addShaped(
+    <minecraft:flint>, [
+    [null, <primal:flint_knapp>],
+    [<primal:flint_knapp>, null]
+]);
+
+mods.primitivecrafting.addRecipe(<minecraft:flint>, <primal:flint_knapp>, <primal:flint_knapp>);
+
+recipes.addShaped(
+    <primal:flint_knapp>, [
+    [null, <primal:flint_point>],
+    [<primal:flint_point>, null]
+]);
+
+mods.primitivecrafting.addRecipe(<primal:flint_knapp>, <primal:flint_point>, <primal:flint_point>);
+
+//rock gallagher
+recipes.addShaped(
+    <primal:stone_gallagher>, [
+    [<ore:oreGeolosysCluster>, <ore:cordageGeneral>, <ore:oreGeolosysCluster>],
+    [<ore:oreGeolosysCluster>, <ore:stickWood>, <ore:oreGeolosysCluster>],
+    [null, <ore:stickWood>, null]
 ]);

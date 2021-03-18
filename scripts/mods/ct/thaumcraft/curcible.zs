@@ -21,3 +21,6 @@ Crucible.registerRecipe("silverwood_sap", "", <thaumcraft:sapling_silverwood>, <
 
 //greatwood sapling
 Crucible.registerRecipe("greatwood_sap", "", <thaumcraft:sapling_greatwood>, <thebetweenlands:sapling_sap>, [<aspect:herba>*15, <aspect:victus>*15]);
+
+//salt
+Crucible.registerRecipe("salt", "", <primal:salt_dust_netjry> *10, <primal:adobe_clump> *10, [<aspect:alkimia>*5, <aspect:ordo>*15]);

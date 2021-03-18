@@ -4,6 +4,7 @@ import mods.MobStages;
 MobStages.addStage("mobfirst", "thebetweenlands:toad");
 MobStages.addStage("mobfirst", "thebetweenlands:lurker");
 MobStages.addStage("mobfirst", "thebetweenlands:swamp_hag");
+MobStages.addStage("mobfirst", "thebetweenlands:blood_snail");
 
 //Harder mobs
 MobStages.addStage("mobsecond", "thebetweenlands:wight");

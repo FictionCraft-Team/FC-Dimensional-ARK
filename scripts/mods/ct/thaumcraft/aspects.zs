@@ -1,13 +1,22 @@
 import crafttweaker.item.IItemStack;
 
 //red middle gem
-<thebetweenlands:crimson_middle_gem>.setAspects(<aspect:ignis>*40, <aspect:perditio>*20);
+<thebetweenlands:crimson_middle_gem>.setAspects(<aspect:ignis>*40, <aspect:perditio>*20, <aspect:alkimia>*5);
 
 //blue middle gem
-<thebetweenlands:aqua_middle_gem>.setAspects(<aspect:aqua>*40, <aspect:ordo>*20);
+<thebetweenlands:aqua_middle_gem>.setAspects(<aspect:aqua>*40, <aspect:ordo>*20, <aspect:alkimia>*5);
 
 //green middle gem
-<thebetweenlands:green_middle_gem>.setAspects(<aspect:terra>*40, <aspect:ordo>*20);
+<thebetweenlands:green_middle_gem>.setAspects(<aspect:terra>*40, <aspect:ordo>*20, <aspect:alkimia>*5);
+
+//gred middle gem
+<thebetweenlands:items_crushed:28>.setAspects(<aspect:ignis>*20, <aspect:perditio>*10, <aspect:alkimia>*25);
+
+//gblue middle gem
+<thebetweenlands:aqua_middle_gem>.setAspects(<aspect:aqua>*20, <aspect:ordo>*10, <aspect:alkimia>*25);
+
+//ggreen middle gem
+<thebetweenlands:green_middle_gem>.setAspects(<aspect:terra>*20, <aspect:ordo>*10, <aspect:alkimia>*25);
 
 //octine
 <thebetweenlands:octine_ingot>.setAspects(<aspect:ignis>*20, <aspect:metallum>*15, <aspect:lux>*5);

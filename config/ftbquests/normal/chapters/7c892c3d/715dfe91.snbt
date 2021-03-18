@@ -1,6 +1,12 @@
 {
 	x: 4.5d,
 	y: 1.5d,
+	text: [
+		"{des.brickmold}",
+		"",
+		"{des.brickmold2}",
+		"{des.brickmold3}"
+	],
 	dependencies: [
 		"1951c100"
 	],

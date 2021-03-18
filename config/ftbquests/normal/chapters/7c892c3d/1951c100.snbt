@@ -1,6 +1,11 @@
 {
 	x: 3.0d,
 	y: 1.5d,
+	text: [
+		"{des.mud}",
+		"",
+		"{des.mud2}"
+	],
 	dependencies: [
 		"0fd52360",
 		"0981b83a"
@@ -11,16 +16,5 @@
 		items: [{
 			item: "primal:mud_clump"
 		}]
-	}],
-	rewards: [{
-		uid: "2666a04a",
-		type: "item",
-		item: "primal:thatching_wet",
-		count: 2
-	},
-	{
-		uid: "74500358",
-		type: "item",
-		item: "primal:flint_workblade"
 	}]
 }

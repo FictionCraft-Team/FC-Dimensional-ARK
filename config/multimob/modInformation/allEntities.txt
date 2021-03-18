@@ -621,6 +621,7 @@ primal:bottle
 primal:boat_corypha
 primal:boat_wood
 primal:fire_proof
+requious:spear
 rustichromia:spear
 rustichromia:cart
 theaurorian:disturbedhollow
