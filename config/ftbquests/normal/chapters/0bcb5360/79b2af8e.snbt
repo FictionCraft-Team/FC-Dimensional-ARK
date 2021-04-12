@@ -1,0 +1,43 @@
+{
+	title: "The Herbologist",
+	icon: {
+		id: "thebetweenlands:pestle",
+		tag: {}
+	},
+	x: -2.5d,
+	y: 0.0d,
+	shape: "hexagon",
+	tasks: [{
+		uid: "fda30b2a",
+		type: "item",
+		items: [{
+			item: "primal:cauldron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "533e54b6",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:purifier"
+		}]
+	},
+	{
+		uid: "d6bd353a",
+		type: "item",
+		items: [{
+			id: "primal:quern",
+			tag: {
+				type: "sarsen"
+			}
+		}]
+	},
+	{
+		uid: "44a6fbb9",
+		type: "item",
+		items: [{
+			item: "primal:quern_buhrstone_carbonate"
+		}]
+	}]
+}

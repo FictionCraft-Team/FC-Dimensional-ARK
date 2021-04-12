@@ -138,6 +138,8 @@ abyssalcraft:blackhole
 abyssalcraft:implosion
 abyssalcraft:shuboffspring
 abyssalcraft:spirititem
+naturesaura:effect_inhibitor
+naturesaura:mover_cart
 betternether:firefly
 bibliocraft:biblioseat
 buildinggadgets:blockbuildentity
@@ -375,8 +377,6 @@ mist:desert_fish
 mist:painting
 mist:rubber_ball
 multimob:dummy
-naturesaura:effect_inhibitor
-naturesaura:mover_cart
 primitivemobs:chameleon
 primitivemobs:treasure_slime
 primitivemobs:haunted_tool

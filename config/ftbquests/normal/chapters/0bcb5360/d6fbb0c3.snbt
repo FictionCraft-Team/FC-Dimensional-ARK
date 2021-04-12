@@ -1,0 +1,15 @@
+{
+	title: "Gathering for More",
+	x: -1.0d,
+	y: 1.5d,
+	dependencies: [
+		"79b2af8e"
+	],
+	tasks: [{
+		uid: "1cb65da9",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_plant_drop 1 10"
+		}]
+	}]
+}

@@ -1,6 +1,6 @@
 {
 	x: 4.5d,
-	y: 1.5d,
+	y: 3.5d,
 	text: [
 		"{des.brickmold}",
 		"",
@@ -8,7 +8,7 @@
 		"{des.brickmold3}"
 	],
 	dependencies: [
-		"1951c100"
+		"b7322189"
 	],
 	tasks: [{
 		uid: "14420683",

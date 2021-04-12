@@ -61,6 +61,10 @@ dimension.atum=Atum Dimension
 
 #researchtable
 research.title.mk1_data=Dimensional Data Collector MK1
-research.des.mk1_data=Use these items to design a machine that collects dimensional data
+research.des.mk1_data=Use these items to design a primitive machine that collects dimensional data
 research.title.mk1_heat_absorber=Heat Absorber MK1
 research.des.mk1_heat_absorber=Use these items to design a machine that absorbs the heat in the Atum to use them as energy
+
+#renames
+rename.da=Artificial Weedwood Hive
+rename.da1=Grounded Sulfur

@@ -1,0 +1,20 @@
+{
+  "entries": [
+    {
+      "block": "rustic:apiary",
+      "meta": 0,
+      "ignoreMeta": false,
+      "restrictions": [
+        {
+          "type": "NEARBYBLOCKS",
+          "reverse": false,
+          "size": 3,
+          "block": "thebetweenlands:nettle_flowered",
+          "meta": 0,
+          "ignoreMeta": false,
+          "amount": 4
+        }
+      ]
+    }
+  ]
+}
