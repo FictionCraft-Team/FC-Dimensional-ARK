@@ -46,8 +46,7 @@ recipes.addShaped(
 	[<thebetweenlands:items_misc:50>, <thebetweenlands:items_misc:50>]
 ]);
 
-recipes.addShapeless(<primal_tech:rock>, [<ore:oreGeolosysCluster>, <ore:oreGeolosysCluster>]);
-recipes.addShapeless(<primal_tech:rock>, [<thebetweenlands:items_misc:50> *2, <thebetweenlands:items_misc:50> *2]);
+recipes.addShapeless(<primal_tech:rock>, [<ore:oreGeolosysCluster>*2, <ore:oreGeolosysCluster>*2]);
 
 //thatch fresh
 recipes.addShaped(<primal:thatching_wet> *2, [
@@ -97,4 +96,11 @@ recipes.addShaped(
     [<ore:oreGeolosysCluster>, <ore:cordageGeneral>, <ore:oreGeolosysCluster>],
     [<ore:oreGeolosysCluster>, <ore:stickWood>, <ore:oreGeolosysCluster>],
     [null, <ore:stickWood>, null]
+]);
+
+//raw hide from lurker hide
+recipes.addShapedMirrored(
+	<primal:hide_raw>, [
+	[<ore:toolWorkBlade>, null],
+	[<primal:hide_raw>, null]
 ]);

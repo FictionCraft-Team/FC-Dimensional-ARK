@@ -15,4 +15,14 @@ Blade.addRecipe("weedwood_bark", <blockstate:thebetweenlands:log_weedwood:axis=n
 Blade.addRecipe("weedwood", <blockstate:thebetweenlands:weedwood>, null, <thebetweenlands:weedwood>, [1, 1]);
 
 //between pebble
-Gallagher.addRecipe("between_pebble", <blockstate:thebetweenlands:betweenstone>, null, <thebetweenlands:items_misc:50>, [1, 4]);
+Gallagher.addRecipe("between_pebble", <blockstate:thebetweenlands:betweenstone>, null, <thebetweenlands:items_misc:50>, [2, 4]);
+
+//betweenland gems
+Gallagher.addRecipe("gem_red", <blockstate:thebetweenlands:crimson_middle_gem_ore>, null, <thebetweenlands:crimson_middle_gem>, [1, 2]);
+Gallagher.addRecipe("gem_blue", <blockstate:thebetweenlands:aqua_middle_gem_ore>, null, <thebetweenlands:aqua_middle_gem>, [1, 2]);
+Gallagher.addRecipe("gem_green", <blockstate:thebetweenlands:green_middle_gem_ore>, null, <thebetweenlands:green_middle_gem>, [1, 2]);
+
+//betweenland crushed gems
+Flake.addRecipe("c_gem_red", 1, 0.25, 0.4, <thebetweenlands:crimson_middle_gem>, <thebetweenlands:items_crushed:28>);
+Flake.addRecipe("c_gem_blue", 1, 0.25, 0.4, <thebetweenlands:aqua_middle_gem>, <thebetweenlands:items_crushed:45>);
+Flake.addRecipe("c_gem_green", 1, 0.25, 0.4, <thebetweenlands:green_middle_gem>, <thebetweenlands:items_crushed:32>);

@@ -14,3 +14,6 @@ recipes.addShaped(
 	[<thebetweenlands:items_misc:20>, <thebetweenlands:items_misc:20>]
 ]);
 mods.primitivecrafting.addRecipe(<thebetweenlands:weedwood_planks>, <thebetweenlands:items_misc:20>*2, <thebetweenlands:items_misc:20>*2);
+
+//animator
+recipes.replaceAllOccurences(<primal:planks:2>, <thebetweenlands:weedwood_planks>, <thebetweenlands:animator>);

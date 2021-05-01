@@ -2,6 +2,11 @@
 	icon: "thaumcraft:arcane_workbench",
 	x: 7.5d,
 	y: 0.0d,
+	text: [
+		"{des.arcanecrafting}",
+		"",
+		"{des.arcanecrafting2}"
+	],
 	dependencies: [
 		"043357c2"
 	],

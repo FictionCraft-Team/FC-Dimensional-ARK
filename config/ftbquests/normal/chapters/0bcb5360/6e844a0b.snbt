@@ -1,0 +1,15 @@
+{
+	x: -1.0d,
+	y: 1.5d,
+	shape: "diamond",
+	dependencies: [
+		"79b2af8e"
+	],
+	tasks: [{
+		uid: "e30f6212",
+		type: "item",
+		items: [{
+			item: "zensummoning:altar"
+		}]
+	}]
+}

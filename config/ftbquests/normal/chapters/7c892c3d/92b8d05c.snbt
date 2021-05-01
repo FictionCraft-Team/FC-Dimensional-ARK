@@ -1,6 +1,11 @@
 {
 	x: 6.0d,
 	y: 1.5d,
+	text: [
+		"{des.sarias}",
+		"",
+		"{des.sarias2}"
+	],
 	dependencies: [
 		"715dfe91"
 	],

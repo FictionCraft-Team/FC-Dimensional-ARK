@@ -1,6 +1,12 @@
 {
+	title: "{title.flint}",
 	x: 4.5d,
 	y: 1.5d,
+	text: [
+		"{des.flint}",
+		"",
+		"{des.flint2}"
+	],
 	dependencies: [
 		"1951c100"
 	],

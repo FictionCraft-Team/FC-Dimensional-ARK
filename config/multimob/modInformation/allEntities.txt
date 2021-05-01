@@ -344,6 +344,9 @@ thebetweenlands:chiromaw_tame
 thebetweenlands:greebling_corpse
 thebetweenlands:stalker
 thebetweenlands:swarm
+refraction:laser_pointer
+refraction:plasma
+refraction:grenade
 lightningcraft:helper_zombie
 lightningcraft:demon_soldier
 lightningcraft:underworld_slime

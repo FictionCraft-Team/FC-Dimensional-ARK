@@ -163,5 +163,10 @@ thebetweenlands:effect_strength
 thebetweenlands:root_bound
 thebetweenlands:enlightened
 lightningcraft:demon_warding
+xaerominimap:no_minimap
+xaerominimap:no_entity_radar
+xaerominimap:no_waypoints
+xaerominimap:no_cave_maps
+xaeroworldmap:no_world_map
 thaumadditions:sonus
 thaumadditions:sanity_checker

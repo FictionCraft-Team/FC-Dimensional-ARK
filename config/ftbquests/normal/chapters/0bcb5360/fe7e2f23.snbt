@@ -1,0 +1,14 @@
+{
+	x: -2.5d,
+	y: 4.5d,
+	dependencies: [
+		"1961962e"
+	],
+	tasks: [{
+		uid: "0d47dad0",
+		type: "item",
+		items: [{
+			item: "rustic:honeycomb"
+		}]
+	}]
+}

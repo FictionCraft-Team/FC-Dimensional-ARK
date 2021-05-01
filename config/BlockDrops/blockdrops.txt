@@ -27463,5 +27463,20 @@
     "1pair0": "{\n  \"left\": 2,\n  \"right\": 12\n}",
     "2pair0": "{\n  \"left\": 2,\n  \"right\": 18\n}",
     "3pair0": "{\n  \"left\": 2,\n  \"right\": 24\n}"
+  },
+  {
+    "name": "thebetweenlands:mud",
+    "meta": 0,
+    "length": 1,
+    "name0": "primal:mud_clump",
+    "meta0": 0,
+    "0chance0": 100.0,
+    "1chance0": 120.0,
+    "2chance0": 140.0,
+    "3chance0": 150.0,
+    "0pair0": "{\n  \"left\": 1,\n  \"right\": 2\n}",
+    "1pair0": "{\n  \"left\": 2,\n  \"right\": 4\n}",
+    "2pair0": "{\n  \"left\": 3,\n  \"right\": 5\n}",
+    "3pair0": "{\n  \"left\": 5,\n  \"right\": 7\n}"
   }
 ]

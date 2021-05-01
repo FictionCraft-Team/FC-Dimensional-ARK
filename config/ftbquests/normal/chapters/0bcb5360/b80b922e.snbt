@@ -1,0 +1,25 @@
+{
+	x: -4.0d,
+	y: 1.5d,
+	shape: "diamond",
+	dependencies: [
+		"79b2af8e"
+	],
+	tasks: [{
+		uid: "ffe7573d",
+		type: "item",
+		items: [{
+			id: "primal:quern",
+			tag: {
+				type: "sarsen"
+			}
+		}]
+	},
+	{
+		uid: "ccfad2b5",
+		type: "item",
+		items: [{
+			item: "primal:quern_buhrstone_carbonate"
+		}]
+	}]
+}

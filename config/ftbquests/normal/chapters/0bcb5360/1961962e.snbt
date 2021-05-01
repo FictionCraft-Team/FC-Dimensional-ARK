@@ -1,0 +1,17 @@
+{
+	x: -2.5d,
+	y: 3.0d,
+	shape: "square",
+	dependencies: [
+		"b80b922e",
+		"7bc2f768",
+		"6e844a0b"
+	],
+	tasks: [{
+		uid: "9d692cb6",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:animator"
+		}]
+	}]
+}

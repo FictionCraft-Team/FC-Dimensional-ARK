@@ -44,3 +44,10 @@ ArcaneWorkbench.registerShapedRecipe("researchtable:table", "", 40, [], <researc
 	[<ore:rodIron>, <contenttweaker:aero_casing>, <ore:rodIron>],
 	[<ore:rodIron>, null, <ore:rodIron>]
 ]);
+
+//assembler
+ArcaneWorkbench.registerShapedRecipe("rustichromia:assembler1", "", 40, [], <rustichromia:assembler1>,
+	[[<rustichromia:gear_wood>, <prodigytech:circuit_refined>, <rustichromia:gear_wood>],
+	[<thaumcraft:mechanism_complex>, <thaumcraft:mechanism_complex>, <thaumcraft:mechanism_complex>],
+	[<rustichromia:gear_wood>, <prodigytech:circuit_refined>, <rustichromia:gear_wood>]
+]);

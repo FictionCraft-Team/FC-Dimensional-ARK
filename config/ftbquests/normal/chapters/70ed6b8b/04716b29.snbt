@@ -2,6 +2,10 @@
 	x: 0.0d,
 	y: -0.5d,
 	shape: "octagon",
+	dependencies: [
+		"6d7b6eb1"
+	],
+	hide: true,
 	tasks: [{
 		uid: "83589e37",
 		type: "item",
