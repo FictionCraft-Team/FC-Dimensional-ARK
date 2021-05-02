@@ -1,0 +1,16 @@
+{
+	x: -1.5d,
+	y: 2.5d,
+	dependencies: [
+		"a5ec5272"
+	],
+	tasks: [{
+		uid: "c0df344c",
+		type: "item",
+		items: [{
+			item: "bewitchment:ritual_chalk"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

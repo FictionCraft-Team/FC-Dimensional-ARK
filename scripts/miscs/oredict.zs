@@ -39,27 +39,16 @@ var itemingot as IItemStack[] = [
 	<bewitchment:cold_iron_ingot>,
 	<bloodarsenal:base_item:3>,
 	<bloodarsenal:base_item:4>,
-	<contenttweaker:aluminum_ingot_hot>,
 	<contenttweaker:tin_ingot_crude>,
 	<contenttweaker:zinc_ingot_crude>,
-	<contenttweaker:silver_ingot_hot>,
-	<contenttweaker:zinc_ingot_hot>,
-	<contenttweaker:lead_ingot_hot>,
 	<contenttweaker:syrmorite_ingot_crude>,
 	<contenttweaker:platinum_ingot_crude>,
-	<contenttweaker:tin_ingot_hot>,
 	<contenttweaker:copper_ingot_crude>,
-	<contenttweaker:copper_ingot_hot>,
-	<contenttweaker:nickel_ingot_hot>,
 	<contenttweaker:nickel_ingot_crude>,
 	<contenttweaker:lead_ingot_crude>,
 	<contenttweaker:octine_ingot_crude>,
 	<contenttweaker:silver_ingot_crude>,
-	<contenttweaker:octine_ingot_hot>,
-	<contenttweaker:gold_ingot_hot>,
 	<contenttweaker:gold_ingot_crude>,
-	<contenttweaker:syrmorite_ingot_hot>,
-	<contenttweaker:platinum_ingot_hot>,
 	<contenttweaker:aluminum_ingot_crude>,
 	<endreborn:item_ingot_endorium>,
 	<endreborn:item_ingot_wolframium>,
@@ -110,3 +99,14 @@ for item in itemingot {
 
 <ore:oasisPlant>.add(<atum:oasis_grass>);
 <ore:oasisPlant>.add(<atum:palm_leaves>);
+
+//animal fats
+<ore:fatAnimal>.add(<thebetweenlands:snail_flesh_raw>);
+<ore:fatAnimal>.add(<thebetweenlands:angler_meat_raw>);
+<ore:fatAnimal>.add(<thebetweenlands:critter>.withTag({Entity: {id: "thebetweenlands:firefly"}}));
+<ore:fatAnimal>.add(<thebetweenlands:critter>.withTag({Entity: {id: "thebetweenlands:gecko"}}));
+
+//middle gems
+<ore:middleGem>.add(<thebetweenlands:crimson_middle_gem>);
+<ore:middleGem>.add(<thebetweenlands:aqua_middle_gem>);
+<ore:middleGem>.add(<thebetweenlands:green_middle_gem>);

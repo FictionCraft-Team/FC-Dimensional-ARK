@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: 4.0d,
+	dependencies: [
+		"31f9fe5e",
+		"c37fbdf8"
+	],
+	tasks: [{
+		uid: "76478856",
+		type: "item",
+		items: [{
+			item: "bewitchment:witches_cauldron"
+		}]
+	}],
+	rewards: [{
+		uid: "d78b4b27",
+		type: "item",
+		item: "primal_tech:charcoal_block"
+	}]
+}

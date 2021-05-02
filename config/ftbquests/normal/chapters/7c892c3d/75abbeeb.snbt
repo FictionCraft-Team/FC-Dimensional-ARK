@@ -1,8 +1,8 @@
 {
 	title: "{title.line1}",
 	icon: "bewitchment:gold_lilith_statue",
-	x: 9.0d,
-	y: -1.5d,
+	x: 10.5d,
+	y: 1.5d,
 	description: "{subtitle.line1}",
 	text: [
 		"{des.line1}",

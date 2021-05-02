@@ -1,0 +1,12 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	shape: "octagon",
+	tasks: [{
+		uid: "c7fac87b",
+		type: "item",
+		items: [{
+			item: "primal:salt_dust_netjry"
+		}]
+	}]
+}

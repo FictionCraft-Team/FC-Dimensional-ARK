@@ -15,7 +15,6 @@ base.material.zinc=Zinc
 
 #parts
 contenttweaker.part.ingot_crude=Crude %s Ingot
-contenttweaker.part.ingot_hot=Hot %s Ingot
 
 #item
 item.contenttweaker.wet_fiber.name=Wet Fiber

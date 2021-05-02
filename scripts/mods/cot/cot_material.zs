@@ -14,12 +14,6 @@ crudeIngots.setPartType(MaterialSystem.getPartType("item"));
 crudeIngots.setOreDictName("crudeIngot");
 var ingot_crude = crudeIngots.build();
 
-var hotIngots = MaterialSystem.getPartBuilder();
-hotIngots.setName("ingot_hot");
-hotIngots.setPartType(MaterialSystem.getPartType("item"));
-hotIngots.setOreDictName("hotIngot");
-var ingot_hot = hotIngots.build();
-
 #Materials
 var octinecolor = Color.fromHex("d69b24");
 var octine = MaterialSystem.getMaterialBuilder().setName("octine").setColor(octinecolor).build();
@@ -52,7 +46,7 @@ var zinc = MaterialSystem.getMaterialBuilder().setName("zinc").setColor(zinccolo
 var sampleList = [octine, syrmorite, valonite, scabyst] as Material[];
 var partList = ["ore_sample", "cluster"] as string[];
 var crudeIngotList = [octine, syrmorite, lead, alu, nickel, plat, gold, copper, tin, silver, zinc] as Material[];
-var partListCrude = ["ingot_crude", "ingot_hot"] as string[];
+var partListCrude = ["ingot_crude"] as string[];
 
 #Registrys
 for i, metal in sampleList {

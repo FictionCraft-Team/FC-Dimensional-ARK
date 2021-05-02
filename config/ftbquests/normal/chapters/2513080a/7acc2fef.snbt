@@ -1,15 +1,15 @@
 {
-	x: -1.0d,
-	y: 1.5d,
+	x: 1.0d,
+	y: -1.5d,
 	shape: "diamond",
 	dependencies: [
-		"79b2af8e"
+		"b049c65e"
 	],
 	tasks: [{
-		uid: "e30f6212",
+		uid: "8d165b09",
 		type: "item",
 		items: [{
-			item: "zensummoning:altar"
+			item: "minecraft:sapling 1 2"
 		}]
 	}]
 }

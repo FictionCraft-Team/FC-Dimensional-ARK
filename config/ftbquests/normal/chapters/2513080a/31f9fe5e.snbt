@@ -1,0 +1,20 @@
+{
+	x: 1.5d,
+	y: 2.5d,
+	dependencies: [
+		"a5ec5272"
+	],
+	tasks: [{
+		uid: "c66d7190",
+		type: "item",
+		items: [{
+			item: "bewitchment:stone_witches_altar"
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "16477088",
+		type: "item",
+		item: "minecraft:carpet 1 15"
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: -1.5d,
+	y: 5.5d,
+	shape: "diamond",
+	dependencies: [
+		"e5c450f4"
+	],
+	tasks: [{
+		uid: "ab3c3565",
+		type: "item",
+		items: [{
+			id: "bewitchment:grimoire_magia",
+			tag: {
+				amount: 0,
+				maxAmount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

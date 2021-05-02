@@ -2,7 +2,6 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 
 //crafting table
-recipes.remove(<minecraft:crafting_table>);
 mods.jei.JEI.removeAndHide(<minecraft:crafting_table>, true);
 
 //vanillatools
@@ -25,7 +24,6 @@ var vanillaTools as IIngredient[] = [
 ];
 
 for item in vanillaTools {
-	recipes.remove(item);
 	mods.jei.JEI.removeAndHide(item, false);	
 }
 
@@ -58,3 +56,6 @@ var itemGallagher as IItemStack[] = [
 for item in itemGallagher {
     mods.primitivecrafting.addRecipe(<primal:flint_knapp>, <thebetweenlands:items_misc:50>, item.anyDamage().transformDamage(2));
 }
+
+//sugar
+recipes.remove(<minecraft:sugar>);

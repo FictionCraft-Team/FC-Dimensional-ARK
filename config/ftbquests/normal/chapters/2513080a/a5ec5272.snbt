@@ -1,0 +1,22 @@
+{
+	x: 0.0d,
+	y: 2.5d,
+	dependencies: [
+		"cc006c7c",
+		"0ec740b4"
+	],
+	tasks: [{
+		uid: "2787257d",
+		type: "item",
+		items: [{
+			item: "bewitchment:oak_spirit"
+		}]
+	},
+	{
+		uid: "43b7e7c9",
+		type: "item",
+		items: [{
+			item: "bewitchment:birch_soul"
+		}]
+	}]
+}

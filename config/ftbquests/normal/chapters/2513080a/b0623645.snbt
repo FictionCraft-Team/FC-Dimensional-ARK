@@ -1,0 +1,15 @@
+{
+	x: -1.0d,
+	y: -1.5d,
+	shape: "diamond",
+	dependencies: [
+		"b049c65e"
+	],
+	tasks: [{
+		uid: "65530f31",
+		type: "item",
+		items: [{
+			item: "minecraft:sapling"
+		}]
+	}]
+}

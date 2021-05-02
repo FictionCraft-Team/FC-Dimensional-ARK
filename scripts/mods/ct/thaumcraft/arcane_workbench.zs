@@ -10,7 +10,7 @@ ArcaneWorkbench.registerShapedRecipe("thaumcraft:thaumometer", "", 50, [], <thau
 
 //simple mechanism
 ArcaneWorkbench.removeRecipe(<thaumcraft:mechanism_simple>);
-ArcaneWorkbench.registerShapedRecipe("thaumcraft:mechanism_simple", "", 25, [<aspect:aer>, <aspect:metallum>], <thaumcraft:mechanism_simple>,
+ArcaneWorkbench.registerShapedRecipe("thaumcraft:mechanism_simple", "", 25, [<aspect:aer>], <thaumcraft:mechanism_simple>,
 	[[<primal:brass_ingot>, <primal:brass_ingot>, <primal:brass_ingot>],
 	[<primal:iron_plate>, <thaumadditions:brass_plated_silverwood>, null],
 	[<primal:iron_plate>, <primal:iron_plate>, <primal:iron_plate>]
@@ -25,7 +25,7 @@ ArcaneWorkbench.registerShapedRecipe("prodigytech:solderer", "", 50, [<aspect:ae
 
 //complex machianism
 ArcaneWorkbench.removeRecipe(<thaumcraft:mechanism_complex>);
-ArcaneWorkbench.registerShapedRecipe("thaumcraft:mechanism_complex", "", 25, [<aspect:aer>*5, <aspect:metallum>*5, <aspect:auram>*5], <thaumcraft:mechanism_complex>,
+ArcaneWorkbench.registerShapedRecipe("thaumcraft:mechanism_complex", "", 25, [<aspect:aer>*5], <thaumcraft:mechanism_complex>,
 	[[<contenttweaker:myths_ingot>, <prodigytech:circuit_crude>, <contenttweaker:myths_ingot>],
 	[<thaumcraft:mechanism_simple>, <thaumadditions:iron_framed_greatwood>, <thaumcraft:mechanism_simple>],
 	[<contenttweaker:myths_ingot>, <prodigytech:circuit_crude>, <contenttweaker:myths_ingot>]
@@ -50,4 +50,11 @@ ArcaneWorkbench.registerShapedRecipe("rustichromia:assembler1", "", 40, [], <rus
 	[[<rustichromia:gear_wood>, <prodigytech:circuit_refined>, <rustichromia:gear_wood>],
 	[<thaumcraft:mechanism_complex>, <thaumcraft:mechanism_complex>, <thaumcraft:mechanism_complex>],
 	[<rustichromia:gear_wood>, <prodigytech:circuit_refined>, <rustichromia:gear_wood>]
+]);
+
+//crucible
+ArcaneWorkbench.registerShapedRecipe("bewitchment:witches_cauldron", "", 20, [<aspect:ignis>*5, <aspect:aer>*2, <aspect:aqua>*5], <bewitchment:witches_cauldron>,
+	[[<minecraft:iron_ingot>, null, <minecraft:iron_ingot>],
+	[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],
+	[<thebetweenlands:octine_ingot>, <thebetweenlands:octine_ingot>, <thebetweenlands:octine_ingot>]
 ]);

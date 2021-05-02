@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: 5.5d,
+	dependencies: [
+		"e5c450f4"
+	],
+	tasks: [{
+		uid: "28b46a91",
+		type: "item",
+		items: [{
+			item: "bewitchment:focal_chalk"
+		}],
+		consume_items: false,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

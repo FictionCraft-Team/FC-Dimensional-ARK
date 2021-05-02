@@ -20,6 +20,5 @@ var disabledJEIList as string[] = [
 for cat in disabledJEIList {
     JEI.hideCategory(cat);
 }
-
 //disable recipes
 mods.rustichromia.Quern.removeAll();

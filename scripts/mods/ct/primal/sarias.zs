@@ -28,3 +28,12 @@ Smelter.addRecipe("tin", 8, [<contenttweaker:tin_ingot_crude>], [<primal:tin_ing
 
 //Enhanced Ferramic
 Smelter.addRecipe("enhanced_ferramic", 12, [<contenttweaker:ferramic_composition>], [<contenttweaker:enhanced_ferramic>]);
+
+//salt
+Smelter.addRecipe("salt", 24, [<primal:mud_clump>], [<primal:salt_dust_netjry>]);
+
+//jar
+Smelter.addRecipe("jar", 5, [<bewitchment:unfired_jar>], [<bewitchment:empty_jar>]);
+
+//low grade charcoal
+Smelter.addRecipe("low_charcoal", 4, [<ore:logWood>], [<primal_tech:charcoal_block>]);

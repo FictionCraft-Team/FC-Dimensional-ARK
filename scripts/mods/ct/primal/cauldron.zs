@@ -13,7 +13,7 @@ mods.primal.Cauldron.addRecipe(
 //honey
 mods.primal.Cauldron.addRecipe(
     "honey",
-    200, 
+    200,
     null, 
     <liquid:honey> * 100, 
     [<rustic:honeycomb>, <minecraft:sugar>], 
@@ -28,4 +28,24 @@ mods.primal.Cauldron.addRecipe(
     null,
     [<ore:stone>],
     [<primal:sarsen_stone>]
+);
+
+//clay
+mods.primal.Cauldron.addRecipe(
+    "clay",
+    4,
+    <liquid:water> *100,
+    null,
+    [<primal:adobe_clump>, <primal:salt_dust_netjry>],
+    [<minecraft:clay_ball>*4]
+);
+
+//tallow
+mods.primal.Cauldron.addRecipe(
+    "tallow",
+    3,
+    <liquid:brine_netjry> *25,
+    null,
+    [<primal:plant_cloth>, <ore:fatAnimal>*2],
+    [<primal:tallow>]
 );

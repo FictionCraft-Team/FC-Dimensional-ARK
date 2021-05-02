@@ -10,23 +10,6 @@
 		"4ed570c7"
 	],
 	tasks: [{
-		uid: "15ebfe27",
-		type: "item",
-		items: [{
-			item: "thebetweenlands:mortar"
-		}]
-	},
-	{
-		uid: "bc6a5612",
-		type: "item",
-		items: [{
-			id: "thebetweenlands:pestle",
-			tag: {}
-		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
-	},
-	{
 		uid: "519e35c1",
 		type: "item",
 		items: [{

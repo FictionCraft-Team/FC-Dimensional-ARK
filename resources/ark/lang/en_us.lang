@@ -42,7 +42,7 @@ des.sarias2=§e[Drop items on top of the sariras to put items in. Make sure to p
 des.thaumonomicon=I had a weird dream, about splashing a tiny splash of salis mundas, a magical compound, on a bookshelf, will create something, incredible. Maybe I should try it?
 
 des.arcanecrafting=Magic infused crafting bench, this would allow me to do more crafts with higher complexity I believe.
-des.arcanecrafting2=[Splash some salis mundus on a workstump]
+des.arcanecrafting2=§e[Splash some salis mundus on a workstump]
 
 title.line1=§6§lOperation Arcane Iteration
 subtitle.line1=§5Code 1.1
@@ -56,7 +56,7 @@ title.line3=§6§lOperation Create
 subtitle.line3=§5Code 1.3
 des.line3=This line will be focused on Technology and Exploration.
 
-des.linesnote=[§6Information of these 3 lines can be found in the thaumonomicon. The order of these 3 lines does not matter that much. Choose whatever you want to do first§f]
+des.linesnote=[§6It is recommended that you start with 1.3, as a lot of things in 1.3 is required by things in 1.2§f]
 
 #1.1
 cat.1.1=1.1 Operation Arcane Iteration
@@ -82,4 +82,10 @@ rename.da1=Grounded Sulfur
 
 #jei description
 jei.da.1=Project Packages can be obtained through the "Project Table"
-jei.da.2=A drop of the "Wight" from betweenlands, can be summoned through abyssal craft or zensummoning.
+jei.da.2=A drop of the "Wight" from betweenlands, can be summoned through abyssal craft or bewitchment ritual or using a "Swampland Grove". They also spawn naturally after mobsecond stage.
+
+#bewitchment ritual
+ritual.moretweaker.moretweakerrecipe0=Ritual of the Burning Distillery
+
+#groves
+grove.swamp=Swamplands Grove

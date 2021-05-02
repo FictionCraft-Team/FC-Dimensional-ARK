@@ -1,6 +1,6 @@
 {
 	icon: "thaumcraft:arcane_workbench",
-	x: 7.5d,
+	x: 9.0d,
 	y: 0.0d,
 	text: [
 		"{des.arcanecrafting}",

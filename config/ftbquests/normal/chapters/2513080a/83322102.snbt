@@ -1,14 +1,14 @@
 {
 	x: 0.0d,
-	y: -2.5d,
+	y: 7.0d,
 	dependencies: [
-		"7e669323"
+		"605454ad"
 	],
 	tasks: [{
-		uid: "c87d176e",
+		uid: "9174b0b8",
 		type: "item",
 		items: [{
-			item: "bewitchment:white_sage_seeds"
+			item: "bewitchment:distillery"
 		}]
 	}]
 }

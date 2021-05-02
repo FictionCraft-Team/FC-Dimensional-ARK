@@ -1,11 +1,11 @@
 {
-	x: 7.5d,
+	x: 9.0d,
 	y: -1.5d,
 	text: [
 		"{des.thaumonomicon}"
 	],
 	dependencies: [
-		"ffb54cfa"
+		"b4e2f30e"
 	],
 	tasks: [{
 		uid: "204300dc",

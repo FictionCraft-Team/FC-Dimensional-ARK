@@ -9,8 +9,8 @@
 		}
 	},
 	x: 9.0d,
-	y: 0.0d,
-	description: "{subtitle.line1}",
+	y: 1.5d,
+	description: "{subtitle.line2}",
 	text: [
 		"{des.line2}",
 		"",

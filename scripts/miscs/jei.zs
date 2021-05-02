@@ -1,5 +1,6 @@
 import mods.jei.JEI;
 import crafttweaker.item.IItemStack;
+import moretweaker.jei.MoreJei;
 
 //adding Jei information for modular machinery capsules
 var capsuleMMList as IItemStack[] = [
@@ -13,3 +14,6 @@ for items in capsuleMMList {
 
 //wight's heart description
 JEI.addDescription(<thebetweenlands:wight_heart>, "jei.da.2");
+
+//salis mundas description
+MoreJei.removeDescription(<thaumcraft:salis_mundus>);

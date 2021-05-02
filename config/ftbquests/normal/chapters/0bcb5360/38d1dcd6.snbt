@@ -1,0 +1,13 @@
+{
+	x: -1.0d,
+	y: 3.0d,
+	dependencies: [
+		"1fde72e3"
+	],
+	tasks: [{
+		uid: "2860461d",
+		type: "kill",
+		entity: "thebetweenlands:wight",
+		value: 1L
+	}]
+}

@@ -100,7 +100,16 @@ recipes.addShaped(
 
 //raw hide from lurker hide
 recipes.addShapedMirrored(
-	<primal:hide_raw>, [
-	[<ore:toolWorkBlade>, null],
-	[<primal:hide_raw>, null]
+	<primal:hide_raw>*4, [
+	[null, <ore:toolWorkBlade>],
+	[null, <thebetweenlands:items_misc:4>]
 ]);
+
+//ground resin
+recipes.addShaped(
+	<primal:tannin_ground>*2, [
+	[<ore:barkWood>, <primal:plant_cloth>],
+	[<primal:plant_cloth>, <ore:barkWood>]
+]);
+
+mods.primitivecrafting.addRecipe(<primal:tannin_ground>, <ore:barkWood>*2, <primal:plant_cloth>*2);

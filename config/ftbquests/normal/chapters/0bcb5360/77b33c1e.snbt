@@ -1,0 +1,14 @@
+{
+	x: -4.0d,
+	y: 6.0d,
+	dependencies: [
+		"1961962e"
+	],
+	tasks: [{
+		uid: "0e7a8325",
+		type: "item",
+		items: [{
+			item: "rustic:evaporating_basin"
+		}]
+	}]
+}

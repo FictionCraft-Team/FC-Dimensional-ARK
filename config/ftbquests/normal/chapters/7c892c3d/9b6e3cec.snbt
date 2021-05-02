@@ -1,0 +1,42 @@
+{
+	x: 7.5d,
+	y: -1.5d,
+	dependencies: [
+		"ffb54cfa"
+	],
+	tasks: [{
+		uid: "65d340ea",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 4"
+		}]
+	},
+	{
+		uid: "27183134",
+		type: "item",
+		items: [{
+			item: "primal:salt_dust_netjry"
+		}]
+	},
+	{
+		uid: "308842ef",
+		type: "item",
+		items: [{
+			item: "primal:hide_tanned"
+		}]
+	},
+	{
+		uid: "3120c489",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:swamp_reed_item"
+		}]
+	},
+	{
+		uid: "76874db5",
+		type: "item",
+		items: [{
+			item: "minecraft:paper"
+		}]
+	}]
+}

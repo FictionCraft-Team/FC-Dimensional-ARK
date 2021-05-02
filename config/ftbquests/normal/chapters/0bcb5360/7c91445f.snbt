@@ -1,0 +1,16 @@
+{
+	x: -4.0d,
+	y: 3.0d,
+	dependencies: [
+		"b80b922e"
+	],
+	tasks: [{
+		uid: "fb3636b1",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:life_crystal"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
