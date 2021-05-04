@@ -2,9 +2,9 @@
 cat.1=Put Those Goggles On
 
 title.start=Wow, this looks like real
-des.start=My name is Steve, after getting out the ice planet, I came back to my Overworld. But no one here believes my story. I am poor, no family, no friends... One day I heard a new about a large technology company holding an event and need testers for it. If I can survived after the event, they will reward me a large amount of money. I didnt even think much, and joined. Because I know, my story about surviving on a icy planet is real. If I am able to survive like that, why can't I survive here?
-des.start2=1 Month later, 10 mins before the event started  
-des.start3=I am told to sit on the chair, wear the weird looking mask they gave me on my eyes... 10 Mins have pasted. The event started. Suddenly, I dont feel anything anymore. Its pitch black in front of you. You cant hear anything... A couple seconds later, you start to feel things, and to hear, to see things. Its muddy, its wet, its dark green, its creepy. This is not Overworld... And a voice appeared: Welcome... To the betweenlands.
+des.start=From the outside, I look like just another random guy. But under the public, But under the public, I am way more than that; A spacial explorer, scientist, chemist... I successfully escaped a radioactive planet entirely covered in ice, bringing with me the dreadful knowledge of what happened here. ust a few months ago, I returned to my time, with the plan of starting an organization to prevent the frightening future from happening.
+des.start2=A mysterious group of people who calls themselves: "The Monitor" started to appear in the city's black market, selling a new and intriguing technology device. They are claiming their device can immerse people into a whole new universe, make users dive into a new world. 
+des.start3=Out of my curiosity, I decided to try it out. But to my surprise, this was the start of a new journey...
 des.start4=§e[There is a spawn protection function to prevent testers die immediately when first joined. No hostile mobs will be spawning (except bosses) before you forge your first weapon to protect yourself]
 
 des.stick=I should follow the instructions I am given, they will help me survive (or will they?)
@@ -83,9 +83,15 @@ rename.da1=Grounded Sulfur
 #jei description
 jei.da.1=Project Packages can be obtained through the "Project Table"
 jei.da.2=A drop of the "Wight" from betweenlands, can be summoned through abyssal craft or bewitchment ritual or using a "Swampland Grove". They also spawn naturally after mobsecond stage.
+jei.da.3=The fruit can be obtained through planting aspectrus seeds.
+jei.da.4=The seeds can be obtained from killing the "Chiromaw Matriarch", which can be found on floating islands in the betweenlands, can also be summoned using the "Grove of the Flying Beast". The seed can be also found in loot pots, or urns. Note: The seed has be infused with some kind of aspect before it can be grown. Use the censer to infuse it with aspect. More information about this can be either found on betweelands wiki or in the custom guide made by this pack. 
+
+#tooltips
+tooltips.da1=This torch will not extinguish in the betweelands dimension
 
 #bewitchment ritual
 ritual.moretweaker.moretweakerrecipe0=Ritual of the Burning Distillery
+ritual.moretweaker.moretweakerrecipe1=Ritual of Crystallization
 
 #groves
 grove.swamp=Swamplands Grove

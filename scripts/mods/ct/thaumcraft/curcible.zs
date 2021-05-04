@@ -27,3 +27,6 @@ Crucible.registerRecipe("salt", "", <primal:salt_dust_netjry>*5, <primal:adobe_c
 
 //hellfire bottle
 Crucible.registerRecipe("hellfire", "", <bewitchment:bottled_hellfire>, <bewitchment:fiery_unguent>, [<aspect:alkimia>*20, <aspect:ignis>*50]);
+
+//crystal vitality
+Crucible.registerRecipe("crystal_vitality", "", <contenttweaker:crystal_vitality>, <thebetweenlands:items_misc:19>, [<aspect:herba>*15, <aspect:vitreus>*25]);

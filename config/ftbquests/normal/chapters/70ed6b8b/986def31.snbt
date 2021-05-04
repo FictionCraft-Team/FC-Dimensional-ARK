@@ -12,5 +12,21 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	},
+	{
+		uid: "c6f840b3",
+		type: "item",
+		items: [{
+			item: "thaumadditions:brass_plated_silverwood"
+		}],
+		count: 4L
+	},
+	{
+		uid: "dfbf46fb",
+		type: "item",
+		items: [{
+			item: "thaumadditions:iron_framed_greatwood"
+		}],
+		count: 12L
 	}]
 }

@@ -1,9 +1,9 @@
 {
-	x: 1.0d,
-	y: -1.5d,
+	x: 1.5d,
+	y: -0.5d,
 	shape: "diamond",
 	dependencies: [
-		"b049c65e"
+		"283625e2"
 	],
 	tasks: [{
 		uid: "8d165b09",

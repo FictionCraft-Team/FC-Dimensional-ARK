@@ -17,3 +17,6 @@ mods.primitivecrafting.addRecipe(<thebetweenlands:weedwood_planks>, <thebetweenl
 
 //animator
 recipes.replaceAllOccurences(<primal:planks:2>, <thebetweenlands:weedwood_planks>, <thebetweenlands:animator>);
+
+//mud brick recipe fix
+recipes.replaceAllOccurences(<thebetweenlands:items_misc:10>, <ore:brickMud>, <thebetweenlands:mud_bricks>);

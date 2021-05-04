@@ -28,6 +28,10 @@ item.contenttweaker.myths_ingot.name=Ingot of the Myths
 item.contenttweaker.ferramic_composition.name=Ferramic Composition
 item.contenttweaker.enhanced_ferramic.name=Enhanced Ferramic Ingot
 item.contenttweaker.oasis_mass.name=Oasis Mass
+item.contenttweaker.crystallized_honey.name=Crystallized Honey
+item.contenttweaker.crystal_vitality.name=Crystal of Vitality
+item.contenttweaker.data_chip_1.name=Dimensional Data Chip Mk1
 
 #blocks
 tile.contenttweaker.aero_casing.name=Aero Casing
+tile.contenttweaker.grove.name=Grove(Deactivated)

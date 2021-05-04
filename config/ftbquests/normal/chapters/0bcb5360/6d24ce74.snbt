@@ -1,0 +1,16 @@
+{
+	x: -1.0d,
+	y: 6.0d,
+	shape: "rsquare",
+	dependencies: [
+		"34148582"
+	],
+	size: 1.25d,
+	tasks: [{
+		uid: "e45d0587",
+		type: "item",
+		items: [{
+			item: "contenttweaker:crystallized_honey"
+		}]
+	}]
+}

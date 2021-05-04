@@ -63,3 +63,11 @@ Quern.addRecipe(
     [<thebetweenlands:green_middle_gem>],
     [<thebetweenlands:items_crushed:32>*2]
 );
+
+//life crystal
+Quern.addRecipe(
+    "life_crystal",
+    2,
+    [<thebetweenlands:wight_heart>],
+    [<thebetweenlands:life_crystal>]
+);

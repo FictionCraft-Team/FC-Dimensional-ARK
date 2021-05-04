@@ -1,0 +1,14 @@
+{
+	x: -1.0d,
+	y: 4.5d,
+	dependencies: [
+		"6d24ce74"
+	],
+	tasks: [{
+		uid: "2c5f6377",
+		type: "item",
+		items: [{
+			item: "tropicraft:sapling"
+		}]
+	}]
+}

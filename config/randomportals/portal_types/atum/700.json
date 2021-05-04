@@ -4,9 +4,9 @@
 		"size": {
 			"lateral": {
 				"minWidth": 3,
-				"maxWidth": 2147483647,
+				"maxWidth": 5,
 				"minHeight": 3,
-				"maxHeight": 2147483647
+				"maxHeight": 5
 			},
 			"verticalX": {
 				"minWidth": 3,
@@ -23,13 +23,18 @@
 		},
 		"blocks": [
 			{
-				"registryName": "atum:limestone_brick_small",
-				"meta": 32767,
-				"minimumAmount": 0
+				"registryName": "thaumadditions:iron_framed_greatwood",
+				"meta": 0,
+				"minimumAmount": 12
+			},
+			{
+				"registryName": "thaumadditions:brass_plated_silverwood",
+				"meta": 0,
+				"minimumAmount": 4
 			}
 		],
 		"requiredCorner": "ANY_NON_AIR",
-		"cornerBlocksContributeToMinimumAmount": false,
+		"cornerBlocksContributeToMinimumAmount": true,
 		"doGeneratedFramesDrop": false
 	},
 	"activation": {
@@ -37,12 +42,14 @@
 		"activators": [
 			{
 				"registryName": "atum:scarab",
-				"meta": 32767
+				"meta": 0
 			}
 		],
 		"activatorConsumeBehavior": "CONSUME",
 		"spawnFireBeforeActivating": false,
-		"activationSounds": []
+		"activationSounds": [
+			"minecraft:entity.wither.death"
+		]
 	},
 	"color": {
 		"colors": [
@@ -57,12 +64,12 @@
 			"x": 0,
 			"y": 0,
 			"z": 0,
-			"useTopSolidY": false
+			"useTopSolidY": true
 		},
 		"coordinateMultiplier": 8.0,
 		"teleportToPortal": true,
 		"oneWay": false,
-		"ensureReturnToSameDimension": false,
+		"ensureReturnToSameDimension": true,
 		"generatePortalIfNotFound": true,
 		"portalGenerationBehavior": "CLONE",
 		"generatedFrameType": "SAME",
@@ -88,7 +95,7 @@
 		}
 	},
 	"teleportationDelay": {
-		"lateral": 100,
+		"lateral": 40,
 		"verticalX": 0,
 		"verticalZ": 0
 	},

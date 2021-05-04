@@ -36,6 +36,9 @@ import crafttweaker.item.IItemStack;
 //brass
 <primal:brass_ingot>.setAspects(<aspect:aer>*10, <aspect:metallum>*10, <aspect:perditio>*10, <aspect:ignis>*5);
 
+//glass shard
+<bloodarsenal:base_item>.setAspects(<aspect:vitreus>*10);
+
 //herba 10
 var herbaItemArray10 as IItemStack[] = [
     <thebetweenlands:volarpad>,

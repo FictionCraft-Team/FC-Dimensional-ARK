@@ -1,0 +1,27 @@
+{
+	x: 0.0d,
+	y: -1.5d,
+	dependencies: [
+		"b049c65e"
+	],
+	tasks: [{
+		uid: "67f13e21",
+		type: "observation",
+		icon: {
+			id: "ftbquests:custom_icon",
+			tag: {
+				icon: "ark:quest/icons/grove.png"
+			}
+		},
+		match_type: "block_id",
+		match: "groves:grove of vitality",
+		timer: 0L
+	},
+	{
+		uid: "a6321888",
+		type: "item",
+		items: [{
+			item: "contenttweaker:crystal_vitality"
+		}]
+	}]
+}

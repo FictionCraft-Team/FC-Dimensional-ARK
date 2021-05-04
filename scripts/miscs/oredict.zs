@@ -110,3 +110,6 @@ for item in itemingot {
 <ore:middleGem>.add(<thebetweenlands:crimson_middle_gem>);
 <ore:middleGem>.add(<thebetweenlands:aqua_middle_gem>);
 <ore:middleGem>.add(<thebetweenlands:green_middle_gem>);
+
+//mud brick betweenlands
+<ore:brickMud>.add(<thebetweenlands:items_misc:10>);

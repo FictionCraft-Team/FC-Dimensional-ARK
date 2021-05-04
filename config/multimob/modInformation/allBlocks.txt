@@ -2542,15 +2542,15 @@ erebus:fence_varnished
 erebus:fence_gate_varnished
 flopper:flopper
 primal:tannin
+primal:paraffin
 primal:waste
-primal:urushi
 primal:magma_basaltic
-primal:ovis_atre_milk
+primal:bitumen_boiling
 primal:smoke
 primal:brine_netjry
-primal:bitumen_boiling
-primal:paraffin
+primal:urushi
 primal:bitumen
+primal:ovis_atre_milk
 primal:firepit
 primal:brickform
 primal:quern
@@ -2777,6 +2777,8 @@ ftbquests:loot_crate_opener
 ftbquests:barrier
 ftbquests:reward_collector
 groves:grove_base
+groves:grove of vitality
+groves:the wetlands grove
 refraction:mirror
 refraction:lens
 refraction:magnifier
@@ -3552,6 +3554,7 @@ auraddons:block_aura_transporter
 auraddons:block_wither_proofer
 auraddons:block_rainbow_beacon
 contenttweaker:aero_casing
+contenttweaker:grove
 contenttweaker:sub_block_holder_0
 mcjtylib_ng:multipart
 thebetweenlands:swamp_water

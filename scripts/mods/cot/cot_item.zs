@@ -13,3 +13,6 @@ VanillaFactory.createItem("myths_ingot").register();
 VanillaFactory.createItem("ferramic_composition").register();
 VanillaFactory.createItem("enhanced_ferramic").register();
 VanillaFactory.createItem("oasis_mass").register();
+VanillaFactory.createItem("crystallized_honey").register();
+VanillaFactory.createItem("crystal_vitality").register();
+VanillaFactory.createItem("data_chip_1").register();

@@ -1,11 +1,32 @@
-#loader groves;
+#loader groves
 import mods.groves;
 
 //swampland grove
-groves.createGrove("grove.swamp",
-        8, // radius in blocks
-        256, // nr of uses
-        200, // spawn cooldown in ticks
-        500, // total minumum value
-        044A0D // grove color
+groves.createGrove(
+        "The Wetlands Grove",
+        8,
+        256,
+        1000,
+        500,
+        "044A0D"
+);
+
+//vitality grove
+groves.createGrove(
+        "Grove of Vitality",
+        16,
+        256,
+        300,
+        200,
+        "63E676"
+);
+
+//grove of the flying beast
+groves.createGrove(
+        "Grove of the Flying Beast",
+        16,
+        2,
+        8000,
+        200,
+        "381F01"
 );

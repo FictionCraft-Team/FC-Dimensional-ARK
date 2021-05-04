@@ -1,0 +1,470 @@
+{
+    "block_pools": [
+		{
+            "name": "GroveBase",
+            "type": {
+                "type": "block",
+                "name": "thebetweenlands:betweenstone_tiles"
+            },
+            "clicktype": "rightclick",
+            "disablejei": true,
+            "properties": [
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "require_item",
+                    "name": "primal:flint_workblade"
+
+                },
+                {
+                    "type": "play_sound",
+                    "name": "item.shovel.flatten"
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "consume_block",
+                    "chance": "100",
+                    "name": "contenttweaker:grove"
+                },
+                {
+                    "type": "place_block_structure",
+                    "blocks": [
+                        {
+                            "name": "minecraft:air",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": -1,
+                                "z": 0
+                            }
+                        },
+                        {
+                            "name": "minecraft:air",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": 1,
+                                "z": 0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "has_block_structure",
+                    "blocks": [
+                        {
+                            "name": "thebetweenlands:betweenstone_tiles",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": -1,
+                                "z": 0
+                            }
+                        },
+                        {
+                            "name": "thaumcraft:plank_greatwood",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": 1,
+                                "z": 0
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "name": "GroveBase",
+            "type": {
+                "type": "block",
+                "name": "thebetweenlands:betweenstone_tiles"
+            },
+            "clicktype": "rightclick",
+            "disablejei": true,
+            "properties": [
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "require_item",
+                    "name": "primal:quartz_workblade"
+
+                },
+                {
+                    "type": "play_sound",
+                    "name": "item.shovel.flatten"
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "consume_block",
+                    "chance": "100",
+                    "name": "contenttweaker:grove"
+                },
+                {
+                    "type": "place_block_structure",
+                    "blocks": [
+                        {
+                            "name": "minecraft:air",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": -1,
+                                "z": 0
+                            }
+                        },
+                        {
+                            "name": "minecraft:air",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": 1,
+                                "z": 0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "has_block_structure",
+                    "blocks": [
+                        {
+                            "name": "thebetweenlands:betweenstone_tiles",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": -1,
+                                "z": 0
+                            }
+                        },
+                        {
+                            "name": "thaumcraft:plank_greatwood",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": 1,
+                                "z": 0
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "name": "GroveBase",
+            "type": {
+                "type": "block",
+                "name": "thebetweenlands:betweenstone_tiles"
+            },
+            "clicktype": "rightclick",
+            "disablejei": true,
+            "properties": [
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "require_item",
+                    "name": "primal:iron_workblade"
+
+                },
+                {
+                    "type": "play_sound",
+                    "name": "item.shovel.flatten"
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "consume_block",
+                    "chance": "100",
+                    "name": "contenttweaker:grove"
+                },
+                {
+                    "type": "place_block_structure",
+                    "blocks": [
+                        {
+                            "name": "minecraft:air",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": -1,
+                                "z": 0
+                            }
+                        },
+                        {
+                            "name": "minecraft:air",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": 1,
+                                "z": 0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "has_block_structure",
+                    "blocks": [
+                        {
+                            "name": "thebetweenlands:betweenstone_tiles",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": -1,
+                                "z": 0
+                            }
+                        },
+                        {
+                            "name": "thaumcraft:plank_greatwood",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": 1,
+                                "z": 0
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "name": "GroveBase",
+            "type": {
+                "type": "block",
+                "name": "thebetweenlands:betweenstone_tiles"
+            },
+            "clicktype": "rightclick",
+            "disablejei": true,
+            "properties": [
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "require_item",
+                    "name": "primal:obsidian_workblade"
+
+                },
+                {
+                    "type": "play_sound",
+                    "name": "item.shovel.flatten"
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "consume_block",
+                    "chance": "100",
+                    "name": "contenttweaker:grove"
+                },
+                {
+                    "type": "place_block_structure",
+                    "blocks": [
+                        {
+                            "name": "minecraft:air",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": -1,
+                                "z": 0
+                            }
+                        },
+                        {
+                            "name": "minecraft:air",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": 1,
+                                "z": 0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "has_block_structure",
+                    "blocks": [
+                        {
+                            "name": "thebetweenlands:betweenstone_tiles",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": -1,
+                                "z": 0
+                            }
+                        },
+                        {
+                            "name": "thaumcraft:plank_greatwood",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": 1,
+                                "z": 0
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "name": "GroveBase",
+            "type": {
+                "type": "block",
+                "name": "thebetweenlands:betweenstone_tiles"
+            },
+            "clicktype": "rightclick",
+            "disablejei": true,
+            "properties": [
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "require_item",
+                    "name": "primal:opal_workblade"
+
+                },
+                {
+                    "type": "play_sound",
+                    "name": "item.shovel.flatten"
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "consume_block",
+                    "chance": "100",
+                    "name": "contenttweaker:grove"
+                },
+                {
+                    "type": "place_block_structure",
+                    "blocks": [
+                        {
+                            "name": "minecraft:air",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": -1,
+                                "z": 0
+                            }
+                        },
+                        {
+                            "name": "minecraft:air",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": 1,
+                                "z": 0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "has_block_structure",
+                    "blocks": [
+                        {
+                            "name": "thebetweenlands:betweenstone_tiles",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": -1,
+                                "z": 0
+                            }
+                        },
+                        {
+                            "name": "thaumcraft:plank_greatwood",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": 1,
+                                "z": 0
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "name": "GroveBase",
+            "type": {
+                "type": "block",
+                "name": "thebetweenlands:betweenstone_tiles"
+            },
+            "clicktype": "rightclick",
+            "disablejei": true,
+            "properties": [
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "require_item",
+                    "name": "primal:emerald_workblade"
+
+                },
+                {
+                    "type": "play_sound",
+                    "name": "item.shovel.flatten"
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "consume_block",
+                    "chance": "100"
+                },
+                {
+                    "type": "place_block_structure",
+                    "blocks": [
+                        {
+                            "name": "minecraft:air",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": -1,
+                                "z": 0
+                            }
+                        },
+                        {
+                            "name": "contenttweaker:grove",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": 1,
+                                "z": 0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "has_block_structure",
+                    "blocks": [
+                        {
+                            "name": "thebetweenlands:betweenstone_tiles",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": -1,
+                                "z": 0
+                            }
+                        },
+                        {
+                            "name": "thaumcraft:plank_greatwood",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": 1,
+                                "z": 0
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

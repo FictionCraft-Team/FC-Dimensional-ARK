@@ -1,0 +1,31 @@
+{
+    "block_pools": [
+        {
+            "name": "PalmSapling",
+            "type": {
+                "type": "block",
+                "name": "thebetweenlands:sapling_weedwood"
+            },
+            "clicktype": "rightclick",
+            "disablejei": false,
+            "properties": [
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:crystallized_honey"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "block.enchantment_table.use"
+                },
+                {
+                    "type": "consume_block",
+                    "chance": "100",
+                    "name": "tropicraft:sapling"
+                }
+            ]
+        }
+    ]
+}

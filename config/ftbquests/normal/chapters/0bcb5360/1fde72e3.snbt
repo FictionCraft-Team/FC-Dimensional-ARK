@@ -4,5 +4,25 @@
 	shape: "diamond",
 	dependencies: [
 		"79b2af8e"
-	]
+	],
+	tasks: [{
+		uid: "82be932c",
+		type: "observation",
+		icon: {
+			id: "ftbquests:custom_icon",
+			tag: {
+				icon: "ark:quest/icons/grove.png"
+			}
+		},
+		match_type: "block_id",
+		match: "groves:swamplands grove",
+		timer: 0L
+	},
+	{
+		uid: "3c5c4301",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 14"
+		}]
+	}]
 }

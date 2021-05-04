@@ -9,5 +9,10 @@
 		type: "kill",
 		entity: "thebetweenlands:wight",
 		value: 1L
+	}],
+	rewards: [{
+		uid: "a2ddcded",
+		type: "item",
+		item: "thebetweenlands:wight_heart"
 	}]
 }
