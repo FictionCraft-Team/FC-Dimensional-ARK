@@ -2,6 +2,10 @@
 	x: 4.5d,
 	y: 6.0d,
 	shape: "gear",
+	dependencies: [
+		"e3c1a79d",
+		"2d147015"
+	],
 	size: 1.5d,
 	tasks: [{
 		uid: "0517990f",

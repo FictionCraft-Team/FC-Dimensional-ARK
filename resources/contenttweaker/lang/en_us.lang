@@ -31,6 +31,8 @@ item.contenttweaker.oasis_mass.name=Oasis Mass
 item.contenttweaker.crystallized_honey.name=Crystallized Honey
 item.contenttweaker.crystal_vitality.name=Crystal of Vitality
 item.contenttweaker.data_chip_1.name=Dimensional Data Chip Mk1
+item.contenttweaker.data_chip_2.name=Dimensional Data Chip Mk2
+item.contenttweaker.project_package_uninfused_mk2.name=Uninfused <<§oDimensional Data Collector Mk2§r>> Project Package
 
 #blocks
 tile.contenttweaker.aero_casing.name=Aero Casing

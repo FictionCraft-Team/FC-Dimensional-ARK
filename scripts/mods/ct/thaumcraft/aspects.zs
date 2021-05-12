@@ -39,6 +39,9 @@ import crafttweaker.item.IItemStack;
 //glass shard
 <bloodarsenal:base_item>.setAspects(<aspect:vitreus>*10);
 
+//witchcraft
+<bewitchment:liquid_witchcraft>.setAspects(<aspect:vitium>*10);
+
 //herba 10
 var herbaItemArray10 as IItemStack[] = [
     <thebetweenlands:volarpad>,

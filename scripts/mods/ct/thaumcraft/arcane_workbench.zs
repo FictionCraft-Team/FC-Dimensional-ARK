@@ -58,3 +58,10 @@ ArcaneWorkbench.registerShapedRecipe("bewitchment:witches_cauldron", "", 20, [<a
 	[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],
 	[<thebetweenlands:octine_ingot>, <thebetweenlands:octine_ingot>, <thebetweenlands:octine_ingot>]
 ]);
+
+//rune of monitors
+ArcaneWorkbench.registerShapedRecipe("thebetweenlands:swamp_talisman", "", 20, [<aspect:terra>*15], <thebetweenlands:swamp_talisman>,
+	[[<thebetweenlands:life_crystal>, <thebetweenlands:items_misc:50>, <thebetweenlands:life_crystal>],
+	[<thebetweenlands:items_misc:50>, <contenttweaker:data_chip_1>, <thebetweenlands:items_misc:50>],
+	[<thebetweenlands:life_crystal>, <thebetweenlands:items_misc:50>, <thebetweenlands:life_crystal>]
+]);

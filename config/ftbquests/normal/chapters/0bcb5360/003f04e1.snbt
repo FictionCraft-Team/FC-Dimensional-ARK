@@ -1,0 +1,22 @@
+{
+	x: -2.5d,
+	y: -1.0d,
+	shape: "pentagon",
+	dependencies: [
+		"79b2af8e"
+	],
+	tasks: [{
+		uid: "44dd1ec3",
+		type: "item",
+		items: [{
+			id: "naturescompass:naturescompass",
+			tag: {
+				FoundX: -2788,
+				State: 2,
+				Samples: 100,
+				BiomeID: 147,
+				FoundZ: -1136
+			}
+		}]
+	}]
+}

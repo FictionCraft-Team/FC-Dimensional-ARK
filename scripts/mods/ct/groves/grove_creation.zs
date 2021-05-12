@@ -4,7 +4,7 @@ import mods.groves;
 //swampland grove
 groves.createGrove(
         "The Wetlands Grove",
-        8,
+        12,
         256,
         1000,
         500,

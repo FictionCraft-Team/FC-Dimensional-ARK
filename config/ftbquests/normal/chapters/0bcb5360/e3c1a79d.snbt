@@ -1,0 +1,14 @@
+{
+	x: 2.0d,
+	y: 7.5d,
+	dependencies: [
+		"e071de41"
+	],
+	tasks: [{
+		uid: "8a940459",
+		type: "item",
+		items: [{
+			item: "tropicraft:chunk"
+		}]
+	}]
+}

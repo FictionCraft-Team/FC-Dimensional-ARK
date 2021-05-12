@@ -20,3 +20,6 @@ recipes.replaceAllOccurences(<primal:planks:2>, <thebetweenlands:weedwood_planks
 
 //mud brick recipe fix
 recipes.replaceAllOccurences(<thebetweenlands:items_misc:10>, <ore:brickMud>, <thebetweenlands:mud_bricks>);
+
+//rune of the monitor
+recipes.remove(<thebetweenlands:swamp_talisman>);

@@ -16,3 +16,5 @@ VanillaFactory.createItem("oasis_mass").register();
 VanillaFactory.createItem("crystallized_honey").register();
 VanillaFactory.createItem("crystal_vitality").register();
 VanillaFactory.createItem("data_chip_1").register();
+VanillaFactory.createItem("data_chip_2").register();
+VanillaFactory.createItem("project_package_uninfused_mk2").register();

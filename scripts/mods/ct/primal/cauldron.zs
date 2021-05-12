@@ -49,3 +49,13 @@ mods.primal.Cauldron.addRecipe(
     [<primal:plant_cloth>, <ore:fatAnimal>*2],
     [<primal:tallow>]
 );
+
+//nature compass
+mods.primal.Cauldron.addRecipe(
+    "nature_compass",
+    3,
+    <liquid:tannin> *25,
+    null,
+    [<ore:treeSapling>],
+    [<naturescompass:naturescompass>]
+);

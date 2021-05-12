@@ -10,5 +10,13 @@
 		items: [{
 			item: "tropicraft:sapling"
 		}]
+	},
+	{
+		uid: "a27aff10",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:swamp_talisman"
+		}],
+		ignore_nbt: 1b
 	}]
 }

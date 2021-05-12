@@ -8,6 +8,7 @@ groves.addBlock("The Wetlands Grove", <thebetweenlands:log_spirit_tree:12>, 10);
 groves.addBlock("The Wetlands Grove", <thebetweenlands:log_spirit_tree>, 10);
 groves.addBlock("The Wetlands Grove", <thebetweenlands:leaves_spirit_tree_top>, 2);
 groves.addBlock("The Wetlands Grove", <thebetweenlands:leaves_spirit_tree_middle>, 2);
+groves.addBlock("The Wetlands Grove", <thebetweenlands:wisp>, 400);
 groves.addBlock("The Wetlands Grove", <thebetweenlands:leaves_spirit_tree_bottom>, 2);
 groves.addEntitySpawn("The Wetlands Grove", "thebetweenlands:wight", 0.95);
 
