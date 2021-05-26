@@ -1,0 +1,71 @@
+{
+    "block_pools": [
+        {
+            "name": "ArcaneWorkbench",
+            "type": {
+                "type": "block",
+                "name": "thaumcraft:arcane_workbench"
+            },
+            "clicktype": "rightclick",
+            "disablejei": false,
+            "properties": [
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "require_empty_hand"
+                },
+                {
+                    "type": "consume_block",
+                    "chance": "100",
+                    "name": "thebetweenlands:weedwood_workbench"
+                },
+                {
+                    "type": "drop_items"
+                }
+            ],
+            "drops": [
+                {
+					"name": "contenttweaker:arcane_cloth",
+					"meta": 0,
+					"amount": "1",
+					"chance": "100"
+				}
+            ]
+        },
+        {
+            "name": "ConvertBack",
+            "type": {
+                "type": "block",
+                "name": "thebetweenlands:weedwood_workbench"
+            },
+            "clicktype": "rightclick",
+            "disablejei": false,
+            "properties": [
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:arcane_cloth"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": 1
+                },
+                {
+                    "type": "play_sound",
+                    "name": "block.enchantment_table.use"
+                },
+                {
+                    "type": "consume_block",
+                    "chance": "100",
+                    "name": "thaumcraft:arcane_workbench"
+                }
+            ]
+        }
+    ]
+}

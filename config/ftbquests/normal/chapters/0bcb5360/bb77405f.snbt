@@ -1,27 +1,28 @@
 {
-	x: 5.0d,
-	y: 0.0d,
+	x: 2.0d,
+	y: 1.5d,
 	shape: "gear",
 	dependencies: [
-		"1cbdd4d4"
+		"ef5359e1",
+		"3fac276a"
 	],
-	size: 2.0d,
+	size: 1.8d,
 	tasks: [{
-		uid: "b325e0e1",
+		uid: "f737b73e",
 		type: "item",
 		items: [{
 			id: "capsule:capsule",
 			tag: {
-				color: 11311110,
-				size: 9,
+				color: 4194219,
+				size: 11,
 				isReward: 1b,
 				oneUse: 1b,
-				structureName: "config/capsule/rewards/mk1_data",
+				structureName: "config/capsule/rewards/mk2_data",
 				author: "winterSteve25",
 				display: {
-					color: 35072
+					color: 4194219
 				},
-				label: "Dimensional Data Collector Mk1",
+				label: "Dimensional Data Collector Mk2",
 				canRotate: 0b
 			},
 			Damage: 5s

@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "TropicsHutLoot",
+  "items": [
+    {
+      "weight": 99.99998474121094,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "dautils:blood_note",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 99.99998474121094,
+      "min": 2,
+      "max": 5,
+      "item": {
+        "id": "modularmachinery:itemblueprint",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "dynamicmachine": {
+              "nbtType": "string",
+              "nbt": "modularmachinery:mk2_data"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}

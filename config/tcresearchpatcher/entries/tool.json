@@ -1,16 +1,16 @@
 {
 	"entries" :[
         {
-            "key": "TOOLFORGING",    
-            "name": "research.TOOLFORGING.title",
+            "key": "STONEANVIL",    
+            "name": "research.STONEANVIL.title",
             "icons": [ "thaumcraft:textures/research/cat_toolforging.png" ],
             "category": "TOOLFORGING", "location": [ 0,0 ], 
             "parents": [ "!gotthaumonomicon" ],
             "meta": [ "ROUND","SPIKY" ],        
             "stages": [
                 {   
-                    "text": "research.TOOLFORGING.stage.1", 
-                    "required_item":["thaumcraft:arcane_workbench"]
+                    "text": "research.STONEANVIL.stage.1", 
+                    "required_craft":["forgecraft:stoneanvil"]
                 }
             ]
         }

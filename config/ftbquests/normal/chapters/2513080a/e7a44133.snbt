@@ -1,0 +1,18 @@
+{
+	x: 4.5d,
+	y: 0.5d,
+	shape: "gear",
+	dependencies: [
+		"91e24334"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "d604162b",
+		type: "item",
+		items: [{
+			item: "bloodmagic:monster_soul"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

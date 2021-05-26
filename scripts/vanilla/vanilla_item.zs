@@ -59,3 +59,6 @@ for item in itemGallagher {
 
 //sugar
 recipes.remove(<minecraft:sugar>);
+
+//cauldron
+recipes.replaceAllOccurences(<minecraft:iron_ingot>, <thebetweenlands:octine_ingot>, <minecraft:cauldron>);

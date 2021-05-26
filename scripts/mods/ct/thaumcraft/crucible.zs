@@ -30,3 +30,6 @@ Crucible.registerRecipe("hellfire", "", <bewitchment:bottled_hellfire>, <bewitch
 
 //crystal vitality
 Crucible.registerRecipe("crystal_vitality", "", <contenttweaker:crystal_vitality>, <thebetweenlands:items_misc:19>, [<aspect:herba>*15, <aspect:vitreus>*25]);
+
+//demon heart
+Crucible.registerRecipe("demon_heart", "", <bewitchment:demon_heart>, <bewitchment:heart>, [<aspect:diabolus>*10]);

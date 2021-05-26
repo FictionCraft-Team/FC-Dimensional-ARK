@@ -23,3 +23,10 @@ recipes.replaceAllOccurences(<thebetweenlands:items_misc:10>, <ore:brickMud>, <t
 
 //rune of the monitor
 recipes.remove(<thebetweenlands:swamp_talisman>);
+
+//druid altar
+recipes.addShaped(<thebetweenlands:druid_altar>, [
+	[null, <thebetweenlands:swamp_talisman>.reuse(), null],
+	[<tropicraft:shell>, <tropicraft:oreblock:1>, <tropicraft:shell>],
+	[<tropicraft:chunk>, <tropicraft:chunk>, <tropicraft:chunk>]
+]);	

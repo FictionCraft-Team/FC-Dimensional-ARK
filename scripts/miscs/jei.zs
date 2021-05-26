@@ -1,6 +1,6 @@
 import mods.jei.JEI;
 import crafttweaker.item.IItemStack;
-//import moretweaker.jei.MoreJei;
+import moretweaker.jei.MoreJei;
 
 //adding Jei information for modular machinery capsules
 var capsuleMMList as IItemStack[] = [
@@ -16,10 +16,10 @@ for items in capsuleMMList {
 JEI.addDescription(<thebetweenlands:wight_heart>, "jei.da.2");
 
 //salis mundas description
-//MoreJei.removeDescription(<thaumcraft:salis_mundus>);
+MoreJei.removeDescription(<thaumcraft:salis_mundus>);
 
 //aspectrus fruit
-//JEI.addDescription(<thebetweenlands:aspectrus_fruit>, "jei.da.3");
+JEI.addDescription(<thebetweenlands:aspectrus_fruit>, "jei.da.3");
 
 //aspectrus seed
-//JEI.addDescription(<thebetweenlands:aspectrus_seeds>, "jei.da.4");
+JEI.addDescription(<thebetweenlands:aspectrus_seeds>, "jei.da.4");

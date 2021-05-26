@@ -112,4 +112,4 @@ recipes.addShaped(
 	[<primal:plant_cloth>, <ore:barkWood>]
 ]);
 
-mods.primitivecrafting.addRecipe(<primal:tannin_ground>, <ore:barkWood>*2, <primal:plant_cloth>*2);
+mods.primitivecrafting.addRecipe(<primal:tannin_ground>*2, <ore:barkWood>*2, <primal:plant_cloth>*2);

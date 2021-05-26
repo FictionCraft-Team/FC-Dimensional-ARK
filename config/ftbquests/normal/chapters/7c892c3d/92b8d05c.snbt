@@ -27,23 +27,5 @@
 			}
 		}],
 		ignore_nbt: 1b
-	},
-	{
-		uid: "0b4749a8",
-		type: "item",
-		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "lidSmeltery",
-					id: "ore"
-				}
-			},
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any lidSmeltery"
-				}
-			}
-		}]
 	}]
 }

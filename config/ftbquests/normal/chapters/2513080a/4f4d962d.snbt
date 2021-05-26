@@ -1,0 +1,14 @@
+{
+	x: 3.0d,
+	y: 8.5d,
+	dependencies: [
+		"ac12ca46"
+	],
+	tasks: [{
+		uid: "308a43a0",
+		type: "item",
+		items: [{
+			item: "bewitchment:hellhound_horn"
+		}]
+	}]
+}

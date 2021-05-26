@@ -1,0 +1,14 @@
+{
+	x: 4.5d,
+	y: 3.5d,
+	dependencies: [
+		"0a53ff73"
+	],
+	tasks: [{
+		uid: "59c3e657",
+		type: "item",
+		items: [{
+			item: "contenttweaker:project_package_uninfused_mk2"
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 0.5d,
+	y: 4.0d,
+	dependencies: [
+		"e071de41"
+	],
+	tasks: [{
+		uid: "603a4d28",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:mk2_data"
+			}
+		}]
+	}]
+}

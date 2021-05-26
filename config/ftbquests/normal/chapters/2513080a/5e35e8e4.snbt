@@ -1,0 +1,14 @@
+{
+	x: 1.5d,
+	y: 7.0d,
+	dependencies: [
+		"ad458b43"
+	],
+	tasks: [{
+		uid: "45c57ceb",
+		type: "item",
+		items: [{
+			item: "bewitchment:heart"
+		}]
+	}]
+}

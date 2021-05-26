@@ -1,0 +1,13 @@
+{
+	x: 3.0d,
+	y: 4.0d,
+	dependencies: [
+		"cc56a464"
+	],
+	tasks: [{
+		uid: "c856d733",
+		type: "kill",
+		entity: "bewitchment:imp",
+		value: 1L
+	}]
+}
