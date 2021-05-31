@@ -74,7 +74,7 @@ Quern.addRecipe(
 
 //grounded urushi
 Quern.addRecipe(
-    "life_crystal",
+    "ground_urushi",
     4,
     [<thebetweenlands:items_misc:7>],
     [<primal:urushi_ground>*3]

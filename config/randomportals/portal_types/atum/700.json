@@ -21,7 +21,18 @@
 				"maxHeight": 30
 			}
 		},
-		"blocks": [],
+		"blocks": [
+			{
+				"registryName": "thaumadditions:iron_framed_greatwood",
+				"meta": 0,
+				"minimumAmount": 12
+			},
+			{
+				"registryName": "thaumadditions:brass_plated_silverwood",
+				"meta": 0,
+				"minimumAmount": 4
+			}
+		],
 		"requiredCorner": "ANY_NON_AIR",
 		"cornerBlocksContributeToMinimumAmount": true,
 		"doGeneratedFramesDrop": false
