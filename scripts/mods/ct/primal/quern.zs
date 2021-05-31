@@ -71,3 +71,11 @@ Quern.addRecipe(
     [<thebetweenlands:wight_heart>],
     [<thebetweenlands:life_crystal>]
 );
+
+//grounded urushi
+Quern.addRecipe(
+    "life_crystal",
+    4,
+    [<thebetweenlands:items_misc:7>],
+    [<primal:urushi_ground>*3]
+);

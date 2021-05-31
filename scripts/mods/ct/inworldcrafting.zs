@@ -13,8 +13,15 @@ FireCrafting.addRecipe(<contenttweaker:copper_ingot_crude>, <thebetweenlands:ite
 FireCrafting.addRecipe(<prodigytech:ash>, <ore:barkWood>, 20);
 
 //tanned hide
-FluidToItem.transform(<primal:hide_tanned>, <liquid:tannin>, [<primal:hide_dried>*2], true);
+FluidToItem.transform(<primal:hide_tanned>, <liquid:tannin>, [<primal:hide_dried>], true);
 
 //tannin
-FluidToFluid.transform(<liquid:tannin>, <liquid:water>, [<primal:tannin_ground>*2]);
-FluidToFluid.transform(<liquid:tannin>, <liquid:swamp_water>, [<primal:tannin_ground>*2]);
+FluidToFluid.transform(<liquid:tannin>, <liquid:water>, [<primal:tannin_ground>*4]);
+FluidToFluid.transform(<liquid:tannin>, <liquid:swamp_water>, [<primal:tannin_ground>*4]);
+
+//urushi
+FluidToFluid.transform(<liquid:urushi>, <liquid:water>, [<primal:urushi_ground>*4]);
+FluidToFluid.transform(<liquid:urushi>, <liquid:swamp_water>, [<primal:urushi_ground>*4]);
+
+//lacquar
+FluidToItem.transform(<primal:planks:2>, <liquid:tannin>, [<ore:plankWood>], true);

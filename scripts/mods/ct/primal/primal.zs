@@ -113,3 +113,8 @@ recipes.addShaped(
 ]);
 
 mods.primitivecrafting.addRecipe(<primal:tannin_ground>*2, <ore:barkWood>*2, <primal:plant_cloth>*2);
+
+//wooden pin
+recipes.addShapeless(
+	<primal:planks:2>, [<ore:toolWorkBlade>, <ore:stickWood>]
+);
