@@ -5,7 +5,8 @@ import moretweaker.jei.MoreJei;
 //adding Jei information for modular machinery capsules
 var capsuleMMList as IItemStack[] = [
     <capsule:capsule:5>.withTag({color: 4869306, size: 3, isReward: 1 as byte, oneUse: 1 as byte, structureName: "config/capsule/rewards/mk1_heat_absorber", author: "winterSteve25", display: {color: 8072841}, label: "Heat Absorber", canRotate: 0 as byte}),
-    <capsule:capsule:5>.withTag({color: 11311110, size: 9, isReward: 1 as byte, oneUse: 1 as byte, structureName: "config/capsule/rewards/mk1_data", author: "winterSteve25", display: {color: 35072}, label: "Dimensional Data Collector", canRotate: 0 as byte})
+    <capsule:capsule:5>.withTag({color: 11311110, size: 9, isReward: 1 as byte, oneUse: 1 as byte, structureName: "config/capsule/rewards/mk1_data", author: "winterSteve25", display: {color: 35072}, label: "Dimensional Data Collector", canRotate: 0 as byte}),
+    <capsule:capsule:5>.withTag({color: 4194219, size: 11, isReward: 1 as byte, oneUse: 1 as byte, structureName: "config/capsule/rewards/mk2_data", author: "PlatinumG17", display: {color: 4194219}, label: "Dimensional Data Collector Mk2", canRotate: 0 as byte})
 ];
 
 for items in capsuleMMList {

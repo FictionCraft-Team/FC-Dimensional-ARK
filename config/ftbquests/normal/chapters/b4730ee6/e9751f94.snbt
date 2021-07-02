@@ -1,0 +1,16 @@
+{
+	x: 1.5d,
+	y: 1.5d,
+	shape: "octagon",
+	dependencies: [
+		"bb77405f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8d8b6574",
+		type: "item",
+		items: [{
+			item: "contenttweaker:tropics_data_chip"
+		}]
+	}]
+}

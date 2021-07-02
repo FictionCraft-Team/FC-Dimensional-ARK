@@ -2,6 +2,11 @@
 	x: 9.5d,
 	y: 4.0d,
 	shape: "pentagon",
+	text: [
+		"{des.coppertools}",
+		"",
+		"{des.coppertools2}"
+	],
 	dependencies: [
 		"2865368f"
 	],
@@ -36,7 +41,6 @@
 	rewards: [{
 		uid: "41d4bb4b",
 		type: "command",
-		auto: "invisible",
 		command: "/gamestage add @p mobfirst"
 	}]
 }

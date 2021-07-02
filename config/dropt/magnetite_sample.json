@@ -1,0 +1,22 @@
+{
+    "rules": [
+      {
+        "match": {
+          "blocks": {
+            "blocks": [
+              "contenttweaker:sub_block_holder_0:4"
+            ]
+          }
+        },
+        "drops": [
+          {
+            "item": {
+              "items" : [
+                "primal:ore_cluster_magnetite"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }

@@ -12,5 +12,15 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "06c1e3ef",
+		type: "item",
+		item: {
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "bewitchment:codex_infernalis"
+			}
+		}
 	}]
 }

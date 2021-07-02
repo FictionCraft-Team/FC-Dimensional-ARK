@@ -116,5 +116,8 @@ mods.primitivecrafting.addRecipe(<primal:tannin_ground>*2, <ore:barkWood>*2, <pr
 
 //wooden pin
 recipes.addShapeless(
-	<primal:planks:2>, [<ore:toolWorkBlade>, <ore:stickWood>]
+	<primal:wood_pin>, [<ore:toolWorkBlade>.transformDamage(1), <ore:stickWood>]
 );
+
+//scoria stone
+recipes.remove(<primal:scoria_stone>);

@@ -55,3 +55,11 @@ recipes.addShapeless(<prodigytech:pattern_circuit_refined>, [<prodigytech:patter
 
 //hot air engine
 recipes.remove(<prodigymechanics:hot_air_engine>); //recipe is crafted in the thaumcraft table
+
+//wormhole funnel
+recipes.addShaped(
+    <prodigytech:wormhole_funnel>*6, [
+    [null, null, null],
+    [<prodigytech:ferramic_ingot>, <bloodmagic:monster_soul>, <prodigytech:ferramic_ingot>],
+    [<prodigytech:ferramic_ingot>, <prodigytech:circuit_refined>, <prodigytech:ferramic_ingot>]
+]);

@@ -1,0 +1,17 @@
+{
+	x: 10.5d,
+	y: -1.5d,
+	shape: "diamond",
+	text: [
+		"{des.backpack}"
+	],
+	tasks: [{
+		uid: "60564a12",
+		type: "item",
+		items: [{
+			id: "travelersbackpack:travelers_backpack",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -2,7 +2,9 @@
 	x: 4.5d,
 	y: 5.0d,
 	text: [
-		"{des.bloomery}"
+		"{des.bloomery}",
+		"",
+		"{des.bloomery1}"
 	],
 	dependencies: [
 		"a2464900"

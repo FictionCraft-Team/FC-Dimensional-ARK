@@ -8,7 +8,8 @@ var torchList as IIngredient[] = [
     <primal:torch_nether>,
     <primal:torch_nether_lit>,
     <bloodarsenal:blood_torch>,
-    <atum:pharaoh_torch>
+    <atum:pharaoh_torch>,
+    <thebetweenlands:sulfur_torch>
 ];
 
 for torches in torchList {

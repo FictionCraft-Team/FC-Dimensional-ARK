@@ -13,8 +13,9 @@
 		count: 6L
 	}],
 	rewards: [{
-		uid: "16477088",
-		type: "item",
-		item: "minecraft:carpet 1 15"
+		uid: "0bbeb0f8",
+		type: "choice",
+		icon: "minecraft:carpet",
+		table: 0
 	}]
 }

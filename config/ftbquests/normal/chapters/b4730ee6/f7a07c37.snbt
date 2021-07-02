@@ -1,0 +1,19 @@
+{
+	x: -0.5d,
+	y: -1.5d,
+	dependencies: [
+		"363e0839"
+	],
+	tasks: [{
+		uid: "8ca70008",
+		type: "item",
+		items: [{
+			item: "primal_tech:stone_anvil"
+		}]
+	}],
+	rewards: [{
+		uid: "b5a7af1c",
+		type: "item",
+		item: "primal_tech:stone_mallet"
+	}]
+}

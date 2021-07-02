@@ -1,0 +1,20 @@
+{
+	x: 0.5d,
+	y: 2.5d,
+	shape: "diamond",
+	dependencies: [
+		"62153c88"
+	],
+	tasks: [{
+		uid: "dba91998",
+		type: "item",
+		items: [{
+			id: "bloodarsenal:glass_sacrificial_dagger",
+			tag: {
+				sacrifice: 0b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -23,7 +23,7 @@
 		},
 		"blocks": [
 			{
-				"registryName": "minecraft:obsidian",
+				"registryName": "contenttweaker:blood_obby",
 				"meta": 32767,
 				"minimumAmount": 0
 			}

@@ -1,0 +1,17 @@
+{
+	x: 10.5d,
+	y: 0.0d,
+	shape: "diamond",
+	text: [
+		"{des.hangglider}"
+	],
+	tasks: [{
+		uid: "92d27e46",
+		type: "item",
+		items: [{
+			item: "openglider:hang_glider_basic"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

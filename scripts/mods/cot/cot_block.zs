@@ -16,3 +16,11 @@ grove.setToolClass("pickaxe");
 grove.setToolLevel(2);
 grove.setBlockSoundType(<soundtype:stone>);
 grove.register();
+
+var bloodObby = VanillaFactory.createBlock("blood_obby", <blockmaterial:rock>);
+bloodObby.setBlockHardness(6);
+bloodObby.setBlockResistance(25);
+bloodObby.setToolClass("pickaxe");
+bloodObby.setToolLevel(2);
+bloodObby.setBlockSoundType(<soundtype:stone>);
+bloodObby.register();

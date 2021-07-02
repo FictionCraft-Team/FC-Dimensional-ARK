@@ -14,6 +14,12 @@ crudeIngots.setPartType(MaterialSystem.getPartType("item"));
 crudeIngots.setOreDictName("crudeIngot");
 var ingot_crude = crudeIngots.build();
 
+var dataChip = MaterialSystem.getPartBuilder();
+dataChip.setName("data_chip");
+dataChip.setPartType(MaterialSystem.getPartType("item"));
+dataChip.setOreDictName("dataChip");
+var data_chip = dataChip.build();
+
 #Materials
 var octinecolor = Color.fromHex("d69b24");
 var octine = MaterialSystem.getMaterialBuilder().setName("octine").setColor(octinecolor).build();
@@ -41,12 +47,22 @@ var silvercolor = Color.fromHex("daf0ec");
 var silver = MaterialSystem.getMaterialBuilder().setName("silver").setColor(silvercolor).build();
 var zinccolor = Color.fromHex("f5f5f5");
 var zinc = MaterialSystem.getMaterialBuilder().setName("zinc").setColor(zinccolor).build();
+var magnetitecolor = Color.fromHex("141414");
+var magnetite = MaterialSystem.getMaterialBuilder().setName("magnetite").setColor(magnetitecolor).build();
+
+//chips
+var atumChipC = Color.fromHex("f2f2f0");
+var atumChip = MaterialSystem.getMaterialBuilder().setName("atum").setColor(atumChipC).build();
+var tropicsChipC = Color.fromHex("208bc9");
+var tropicsChip = MaterialSystem.getMaterialBuilder().setName("tropics").setColor(tropicsChipC).build();
 
 #Variable
-var sampleList = [octine, syrmorite, valonite, scabyst] as Material[];
+var sampleList = [octine, syrmorite, valonite, scabyst, magnetite] as Material[];
 var partList = ["ore_sample", "cluster"] as string[];
 var crudeIngotList = [octine, syrmorite, lead, alu, nickel, plat, gold, copper, tin, silver, zinc] as Material[];
 var partListCrude = ["ingot_crude"] as string[];
+var chipList = [atumChip, tropicsChip] as Material[];
+var chipListPart = ["data_chip"] as string[];
 
 #Registrys
 for i, metal in sampleList {
@@ -55,4 +71,8 @@ for i, metal in sampleList {
 
 for i, metal in crudeIngotList {
 	metal.registerParts(partListCrude);
+}
+
+for i, chips in chipList {
+	chips.registerParts(chipListPart);
 }

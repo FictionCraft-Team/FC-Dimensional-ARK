@@ -1,4 +1,4 @@
-import mods.dautils.Math;
+import mods.dautils.utils.Math;
 
 //pharaoh drop myths fragment
 <entity:atum:pharaoh>.addDrop(<contenttweaker:myths_fragment> % 95,3,8);
@@ -14,4 +14,5 @@ import mods.dautils.Math;
 <entity:bewitchment:imp>.addDrop(<bewitchment:hellhound_horn> % 100, 1, 1);
 
 //demon drop demonic will
+<entity:bewitchment:demon>.clearDrops();
 <entity:bewitchment:demon>.addDrop(<bloodmagic:monster_soul>.withTag({souls: Math.randomInRange(0.05, 4)}) % 100, 1, 1);

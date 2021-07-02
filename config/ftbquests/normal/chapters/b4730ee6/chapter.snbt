@@ -1,0 +1,7 @@
+{
+	title: "{cat.2}",
+	icon: "naturesaura:conversion_catalyst",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

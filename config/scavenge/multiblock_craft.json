@@ -1,0 +1,873 @@
+{
+    "block_pools": [
+		{
+            "name": "GroveBase",
+            "type": {
+                "type": "block",
+                "name": "thebetweenlands:betweenstone_tiles"
+            },
+            "clicktype": "rightclick",
+            "disablejei": true,
+            "properties": [
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "require_item",
+                    "name": "primal:flint_workblade"
+
+                },
+                {
+                    "type": "play_sound",
+                    "name": "item.shovel.flatten"
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "consume_block",
+                    "chance": "100"
+                },
+                {
+                    "type": "place_block_structure",
+                    "blocks": [
+                        {
+                            "name": "minecraft:air",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": 1,
+                                "z": 0
+                            }
+                        },
+                        {
+                            "name": "contenttweaker:grove",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": -1,
+                                "z": 0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "has_block_structure",
+                    "blocks": [
+                        {
+                            "name": "thebetweenlands:betweenstone_tiles",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": -1,
+                                "z": 0
+                            }
+                        },
+                        {
+                            "name": "thaumcraft:plank_greatwood",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": 1,
+                                "z": 0
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "name": "GroveBase",
+            "type": {
+                "type": "block",
+                "name": "thebetweenlands:betweenstone_tiles"
+            },
+            "clicktype": "rightclick",
+            "disablejei": true,
+            "properties": [
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "require_item",
+                    "name": "primal:quartz_workblade"
+
+                },
+                {
+                    "type": "play_sound",
+                    "name": "item.shovel.flatten"
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "consume_block",
+                    "chance": "100"
+                },
+                {
+                    "type": "place_block_structure",
+                    "blocks": [
+                        {
+                            "name": "minecraft:air",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": 1,
+                                "z": 0
+                            }
+                        },
+                        {
+                            "name": "contenttweaker:grove",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": -1,
+                                "z": 0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "has_block_structure",
+                    "blocks": [
+                        {
+                            "name": "thebetweenlands:betweenstone_tiles",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": -1,
+                                "z": 0
+                            }
+                        },
+                        {
+                            "name": "thaumcraft:plank_greatwood",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": 1,
+                                "z": 0
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "name": "GroveBase",
+            "type": {
+                "type": "block",
+                "name": "thebetweenlands:betweenstone_tiles"
+            },
+            "clicktype": "rightclick",
+            "disablejei": true,
+            "properties": [
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "require_item",
+                    "name": "primal:iron_workblade"
+
+                },
+                {
+                    "type": "play_sound",
+                    "name": "item.shovel.flatten"
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "consume_block",
+                    "chance": "100"
+                },
+                {
+                    "type": "place_block_structure",
+                    "blocks": [
+                        {
+                            "name": "minecraft:air",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": 1,
+                                "z": 0
+                            }
+                        },
+                        {
+                            "name": "contenttweaker:grove",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": -1,
+                                "z": 0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "has_block_structure",
+                    "blocks": [
+                        {
+                            "name": "thebetweenlands:betweenstone_tiles",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": -1,
+                                "z": 0
+                            }
+                        },
+                        {
+                            "name": "thaumcraft:plank_greatwood",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": 1,
+                                "z": 0
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "name": "GroveBase",
+            "type": {
+                "type": "block",
+                "name": "thebetweenlands:betweenstone_tiles"
+            },
+            "clicktype": "rightclick",
+            "disablejei": true,
+            "properties": [
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "require_item",
+                    "name": "primal:obsidian_workblade"
+
+                },
+                {
+                    "type": "play_sound",
+                    "name": "item.shovel.flatten"
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "consume_block",
+                    "chance": "100"
+                },
+                {
+                    "type": "place_block_structure",
+                    "blocks": [
+                        {
+                            "name": "minecraft:air",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": 1,
+                                "z": 0
+                            }
+                        },
+                        {
+                            "name": "contenttweaker:grove",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": -1,
+                                "z": 0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "has_block_structure",
+                    "blocks": [
+                        {
+                            "name": "thebetweenlands:betweenstone_tiles",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": -1,
+                                "z": 0
+                            }
+                        },
+                        {
+                            "name": "thaumcraft:plank_greatwood",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": 1,
+                                "z": 0
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "name": "GroveBase",
+            "type": {
+                "type": "block",
+                "name": "thebetweenlands:betweenstone_tiles"
+            },
+            "clicktype": "rightclick",
+            "disablejei": true,
+            "properties": [
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "require_item",
+                    "name": "primal:opal_workblade"
+
+                },
+                {
+                    "type": "play_sound",
+                    "name": "item.shovel.flatten"
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "consume_block",
+                    "chance": "100"
+                },
+                {
+                    "type": "place_block_structure",
+                    "blocks": [
+                        {
+                            "name": "minecraft:air",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": 1,
+                                "z": 0
+                            }
+                        },
+                        {
+                            "name": "contenttweaker:grove",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": -1,
+                                "z": 0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "has_block_structure",
+                    "blocks": [
+                        {
+                            "name": "thebetweenlands:betweenstone_tiles",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": -1,
+                                "z": 0
+                            }
+                        },
+                        {
+                            "name": "thaumcraft:plank_greatwood",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": 1,
+                                "z": 0
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "GroveBase",
+            "type": {
+                "type": "block",
+                "name": "thebetweenlands:betweenstone_tiles"
+            },
+            "clicktype": "rightclick",
+            "disablejei": true,
+            "properties": [
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "require_item",
+                    "name": "primal:emerald_workblade"
+
+                },
+                {
+                    "type": "play_sound",
+                    "name": "item.shovel.flatten"
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "consume_block",
+                    "chance": "100"
+                },
+                {
+                    "type": "place_block_structure",
+                    "blocks": [
+                        {
+                            "name": "minecraft:air",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": 1,
+                                "z": 0
+                            }
+                        },
+                        {
+                            "name": "contenttweaker:grove",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": -1,
+                                "z": 0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "has_block_structure",
+                    "blocks": [
+                        {
+                            "name": "thebetweenlands:betweenstone_tiles",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": -1,
+                                "z": 0
+                            }
+                        },
+                        {
+                            "name": "thaumcraft:plank_greatwood",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": 1,
+                                "z": 0
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "GroveBase",
+            "type": {
+                "type": "block",
+                "name": "thebetweenlands:betweenstone_tiles"
+            },
+            "clicktype": "rightclick",
+            "disablejei": true,
+            "properties": [
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "require_item",
+                    "name": "primal:diamond_workblade"
+
+                },
+                {
+                    "type": "play_sound",
+                    "name": "item.shovel.flatten"
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "consume_block",
+                    "chance": "100"
+                },
+                {
+                    "type": "place_block_structure",
+                    "blocks": [
+                        {
+                            "name": "minecraft:air",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": 1,
+                                "z": 0
+                            }
+                        },
+                        {
+                            "name": "contenttweaker:grove",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": -1,
+                                "z": 0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "has_block_structure",
+                    "blocks": [
+                        {
+                            "name": "thebetweenlands:betweenstone_tiles",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": -1,
+                                "z": 0
+                            }
+                        },
+                        {
+                            "name": "thaumcraft:plank_greatwood",
+                            "meta": 0,
+                            "positions": {
+                                "x": 0,
+                                "y": 1,
+                                "z": 0
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "BloodAltar",
+            "type": {
+                "type": "block",
+                "name": "primal:sarsen_stone"
+            },
+            "clicktype": "rightclick",
+            "disablejei": true,
+            "properties": [
+                {
+                    "type": "swing_hand"
+                },
+                {
+                    "type": "require_item",
+                    "name": "bloodmagic:monster_soul"
+
+                },
+                {
+                    "type": "consume_item",
+                    "amount": 1
+                },
+                {
+                    "type": "play_sound",
+                    "name": "block.enchantment_table.use"
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "consume_block",
+                    "chance": "100",
+                    "name": "bloodmagic:altar"
+                },
+                {
+                    "type": "has_block_structure",
+                    "blocks": [
+                        {
+                            "name": "primal:sarsen_stone",
+                            "meta": 0,
+                            "position": {
+                                "x": "1",
+                                "y": "0",
+                                "z": "0"
+                            }
+                        },
+                        {
+                            "name": "primal:sarsen_stone",
+                            "meta": 0,
+                            "position": {
+                                "x": "-1",
+                                "y": "0",
+                                "z": "0"
+                            }
+                        },
+                        {
+                            "name": "primal:sarsen_stone",
+                            "meta": 0,
+                            "position": {
+                                "x": "0",
+                                "y": "0",
+                                "z": "1"
+                            }
+                        },
+                        {
+                            "name": "primal:sarsen_stone",
+                            "meta": 0,
+                            "position": {
+                                "x": "0",
+                                "y": "0",
+                                "z": "-1"
+                            }
+                        },
+                        {
+                            "name": "primal:sarsen_stone",
+                            "meta": 0,
+                            "position": {
+                                "x": "-1",
+                                "y": "0",
+                                "z": "-1"
+                            }
+                        },
+                        {
+                            "name": "primal:sarsen_stone",
+                            "meta": 0,
+                            "position": {
+                                "x": "1",
+                                "y": "0",
+                                "z": "-1"
+                            }
+                        },
+                        {
+                            "name": "primal:sarsen_stone",
+                            "meta": 0,
+                            "position": {
+                                "x": "1",
+                                "y": "0",
+                                "z": "1"
+                            }
+                        },
+                        {
+                            "name": "primal:sarsen_stone",
+                            "meta": 0,
+                            "position": {
+                                "x": "-1",
+                                "y": "0",
+                                "z": "1"
+                            }
+                        },
+                        {
+                            "name": "primal:scoria_stone",
+                            "meta": 0,
+                            "position": {
+                                "x": "-1",
+                                "y": "1",
+                                "z": "-1"
+                            }
+                        },
+                        {
+                            "name": "primal:scoria_stone",
+                            "meta": 0,
+                            "position": {
+                                "x": "1",
+                                "y": "1",
+                                "z": "-1"
+                            }
+                        },
+                        {
+                            "name": "primal:scoria_stone",
+                            "meta": 0,
+                            "position": {
+                                "x": "1",
+                                "y": "1",
+                                "z": "1"
+                            }
+                        },
+                        {
+                            "name": "primal:scoria_stone",
+                            "meta": 0,
+                            "position": {
+                                "x": "-1",
+                                "y": "1",
+                                "z": "1"
+                            }
+                        },
+                        {
+                            "name": "tropicraft:chunk",
+                            "meta": 0,
+                            "position": {
+                                "x": "1",
+                                "y": "1",
+                                "z": "0"
+                            }
+                        },
+                        {
+                            "name": "tropicraft:chunk",
+                            "meta": 0,
+                            "position": {
+                                "x": "-1",
+                                "y": "1",
+                                "z": "0"
+                            }
+                        },
+                        {
+                            "name": "tropicraft:chunk",
+                            "meta": 0,
+                            "position": {
+                                "x": "0",
+                                "y": "1",
+                                "z": "1"
+                            }
+                        },
+                        {
+                            "name": "tropicraft:chunk",
+                            "meta": 0,
+                            "position": {
+                                "x": "0",
+                                "y": "1",
+                                "z": "-1"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "place_block_structure",
+                    "blocks": [
+                        {
+                            "name": "minecraft:air",
+                            "meta": 0,
+                            "position": {
+                                "x": "1",
+                                "y": "0",
+                                "z": "0"
+                            }
+                        },
+                        {
+                            "name": "minecraft:air",
+                            "meta": 0,
+                            "position": {
+                                "x": "-1",
+                                "y": "0",
+                                "z": "0"
+                            }
+                        },
+                        {
+                            "name": "minecraft:air",
+                            "meta": 0,
+                            "position": {
+                                "x": "0",
+                                "y": "0",
+                                "z": "1"
+                            }
+                        },
+                        {
+                            "name": "minecraft:air",
+                            "meta": 0,
+                            "position": {
+                                "x": "0",
+                                "y": "0",
+                                "z": "-1"
+                            }
+                        },
+                        {
+                            "name": "minecraft:air",
+                            "meta": 0,
+                            "position": {
+                                "x": "-1",
+                                "y": "0",
+                                "z": "-1"
+                            }
+                        },
+                        {
+                            "name": "minecraft:air",
+                            "meta": 0,
+                            "position": {
+                                "x": "1",
+                                "y": "0",
+                                "z": "-1"
+                            }
+                        },
+                        {
+                            "name": "minecraft:air",
+                            "meta": 0,
+                            "position": {
+                                "x": "1",
+                                "y": "0",
+                                "z": "1"
+                            }
+                        },
+                        {
+                            "name": "minecraft:air",
+                            "meta": 0,
+                            "position": {
+                                "x": "-1",
+                                "y": "0",
+                                "z": "1"
+                            }
+                        },
+                        {
+                            "name": "minecraft:air",
+                            "meta": 0,
+                            "position": {
+                                "x": "-1",
+                                "y": "1",
+                                "z": "-1"
+                            }
+                        },
+                        {
+                            "name": "minecraft:air",
+                            "meta": 0,
+                            "position": {
+                                "x": "1",
+                                "y": "1",
+                                "z": "-1"
+                            }
+                        },
+                        {
+                            "name": "minecraft:air",
+                            "meta": 0,
+                            "position": {
+                                "x": "1",
+                                "y": "1",
+                                "z": "1"
+                            }
+                        },
+                        {
+                            "name": "minecraft:air",
+                            "meta": 0,
+                            "position": {
+                                "x": "-1",
+                                "y": "1",
+                                "z": "1"
+                            }
+                        },
+                        {
+                            "name": "minecraft:air",
+                            "meta": 0,
+                            "position": {
+                                "x": "1",
+                                "y": "1",
+                                "z": "0"
+                            }
+                        },
+                        {
+                            "name": "minecraft:air",
+                            "meta": 0,
+                            "position": {
+                                "x": "-1",
+                                "y": "1",
+                                "z": "0"
+                            }
+                        },
+                        {
+                            "name": "minecraft:air",
+                            "meta": 0,
+                            "position": {
+                                "x": "0",
+                                "y": "1",
+                                "z": "1"
+                            }
+                        },
+                        {
+                            "name": "minecraft:air",
+                            "meta": 0,
+                            "position": {
+                                "x": "0",
+                                "y": "1",
+                                "z": "-1"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

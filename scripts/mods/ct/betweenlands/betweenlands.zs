@@ -30,3 +30,16 @@ recipes.addShaped(<thebetweenlands:druid_altar>, [
 	[<tropicraft:shell>, <tropicraft:oreblock:1>, <tropicraft:shell>],
 	[<tropicraft:chunk>, <tropicraft:chunk>, <tropicraft:chunk>]
 ]);	
+
+//censer
+recipes.addShaped(<thebetweenlands:censer>, [
+	[<thebetweenlands:items_misc:11>, <thebetweenlands:items_misc:11>, <thebetweenlands:items_misc:11>],
+	[<thebetweenlands:items_misc:11>, <thebetweenlands:items_misc:19>, <thebetweenlands:items_misc:11>],
+	[<primal:mud_dried>, <primal:mud_dried>, <primal:mud_dried>]
+]);
+
+//between stone
+recipes.addShaped(<thebetweenlands:betweenstone>, [
+	[<thebetweenlands:items_misc:50>, <primal:flint_knapp>],
+	[<primal:flint_knapp>, <thebetweenlands:items_misc:50>]
+]);

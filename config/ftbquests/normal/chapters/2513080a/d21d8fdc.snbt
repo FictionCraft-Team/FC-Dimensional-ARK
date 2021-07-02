@@ -1,0 +1,15 @@
+{
+	x: -1.5d,
+	y: 7.0d,
+	dependencies: [
+		"1dcb8856"
+	],
+	hide: true,
+	tasks: [{
+		uid: "574bb969",
+		type: "item",
+		items: [{
+			item: "bewitchment:block_of_opal"
+		}]
+	}]
+}

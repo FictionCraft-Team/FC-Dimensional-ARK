@@ -12,9 +12,14 @@ base.material.copper=Copper
 base.material.tin=Tin
 base.material.silver=Silver
 base.material.zinc=Zinc
+base.material.magnetite=Magnetite
+
+base.material.atum=Atum
+base.material.tropics=Tropics
 
 #parts
 contenttweaker.part.ingot_crude=Crude %s Ingot
+contenttweaker.part.data_chip=%s Data Chip
 
 #item
 item.contenttweaker.wet_fiber.name=Wet Fiber
@@ -23,6 +28,8 @@ item.contenttweaker.inert_ingot.name=Inert Ingot
 item.contenttweaker.scarab_wings.name=Scarab Wings
 item.contenttweaker.strangesand_dust.name=Strange Sand Dust
 item.contenttweaker.strangesand_composition.name=Strange Sand Composition
+item.contenttweaker.valonite_dust.name=Valonite Dust
+item.contenttweaker.purple_compound.name=Purple Compound
 item.contenttweaker.myths_fragment.name=Myths Fragments
 item.contenttweaker.myths_ingot.name=Ingot of the Myths
 item.contenttweaker.ferramic_composition.name=Ferramic Composition
@@ -31,10 +38,10 @@ item.contenttweaker.oasis_mass.name=Oasis Mass
 item.contenttweaker.crystallized_honey.name=Crystallized Honey
 item.contenttweaker.crystal_vitality.name=Crystal of Vitality
 item.contenttweaker.arcane_cloth.name=Arcane Cloth
-item.contenttweaker.data_chip_1.name=Dimensional Data Chip Mk1
-item.contenttweaker.data_chip_2.name=Dimensional Data Chip Mk2
 item.contenttweaker.project_package_uninfused_mk2.name=Uninfused <<§oDimensional Data Collector Mk2§r>> Project Package
+item.contenttweaker.blood_obby_shards.name=Blood Coated Obsidian Shards
 
 #blocks
 tile.contenttweaker.aero_casing.name=Aero Casing
 tile.contenttweaker.grove.name=Grove(Deactivated)
+tile.contenttweaker.blood_obby.name=Blood Coated Obsidian

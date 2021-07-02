@@ -1,0 +1,15 @@
+{
+	x: -0.5d,
+	y: 0.0d,
+	dependencies: [
+		"f7a07c37"
+	],
+	tasks: [{
+		uid: "333e00e6",
+		type: "item",
+		items: [{
+			item: "contenttweaker:blood_obby"
+		}],
+		count: 10L
+	}]
+}

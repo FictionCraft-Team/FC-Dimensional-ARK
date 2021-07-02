@@ -1,0 +1,40 @@
+{
+	x: -0.5d,
+	y: -3.0d,
+	shape: "octagon",
+	dependencies: [
+		"bb77405f",
+		"e7a44133"
+	],
+	hide: true,
+	tasks: [{
+		uid: "34f33e68",
+		type: "item",
+		items: [{
+			item: "bloodmagic:alchemy_table"
+		}]
+	},
+	{
+		uid: "cd3e8f2d",
+		type: "item",
+		items: [{
+			item: "dautils:sacrificer"
+		}]
+	},
+	{
+		uid: "d37466a2",
+		type: "item",
+		items: [{
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:weak"
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "92ccd1d7",
+		type: "item",
+		item: "bloodmagic:sigil_divination"
+	}]
+}

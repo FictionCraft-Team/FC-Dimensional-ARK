@@ -1,6 +1,11 @@
 {
 	x: 11.5d,
 	y: 4.0d,
+	text: [
+		"{des.weaponforge}",
+		"",
+		"{des.weaponforge2}"
+	],
 	dependencies: [
 		"a7a3fd38"
 	],

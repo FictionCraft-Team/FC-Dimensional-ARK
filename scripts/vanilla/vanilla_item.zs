@@ -62,3 +62,16 @@ recipes.remove(<minecraft:sugar>);
 
 //cauldron
 recipes.replaceAllOccurences(<minecraft:iron_ingot>, <thebetweenlands:octine_ingot>, <minecraft:cauldron>);
+
+//obsidian
+recipes.addShaped(
+	<minecraft:obsidian>, [
+	[<primal:sarsen_stone:1>, <primal:common_stone:1>],
+	[<primal:common_stone:1>, <primal:sarsen_stone:1>]
+]);
+
+recipes.addShaped(
+	<minecraft:obsidian>, [
+	[<primal:common_stone:1>, <primal:sarsen_stone:1>],
+	[<primal:sarsen_stone:1>, <primal:common_stone:1>]
+]);

@@ -36,5 +36,15 @@
 		uid: "e713ca49",
 		type: "item",
 		item: "akashictome:tome"
+	},
+	{
+		uid: "b523e120",
+		type: "item",
+		item: {
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "patchouli:guide"
+			}
+		}
 	}]
 }

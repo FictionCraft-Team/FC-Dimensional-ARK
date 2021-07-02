@@ -2,6 +2,11 @@
 	x: 6.0d,
 	y: 5.0d,
 	shape: "hexagon",
+	text: [
+		"{des.octine}",
+		"",
+		"{des.octine2}"
+	],
 	dependencies: [
 		"6a08add3",
 		"c3acae0f"

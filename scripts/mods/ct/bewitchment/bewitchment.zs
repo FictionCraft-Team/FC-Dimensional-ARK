@@ -20,3 +20,7 @@ recipes.remove(<bewitchment:distillery>);
 
 //crucible
 recipes.remove(<bewitchment:witches_cauldron>);
+
+//nether steel
+recipes.replaceAllOccurences(<ore:ingotBrickNether>, <primal:nether_cordage>, <bewitchment:nethersteel>);
+recipes.replaceAllOccurences(<minecraft:iron_ingot>, <ore:ingotBrickNether>, <bewitchment:nethersteel>);

@@ -1,0 +1,14 @@
+{
+	x: 0.5d,
+	y: 7.5d,
+	dependencies: [
+		"e071de41"
+	],
+	tasks: [{
+		uid: "34fbfa00",
+		type: "item",
+		items: [{
+			item: "minecraft:gold_block"
+		}]
+	}]
+}

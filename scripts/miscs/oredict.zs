@@ -113,3 +113,8 @@ for item in itemingot {
 
 //mud brick betweenlands
 <ore:brickMud>.add(<thebetweenlands:items_misc:10>);
+
+<ore:leather>.add(<thebetweenlands:items_misc:4>);
+
+//rocks
+<ore:rock>.add(<thebetweenlands:items_misc:50>);

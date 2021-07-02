@@ -115,6 +115,35 @@
 				-127
 			],
 			"density": 1.0
+		},
+		{
+			"blocks": ["primal:ore_magnetite:1", 80],
+			"samples": ["contenttweaker:sub_block_holder_0:4", 100],
+			"yMin": 4,
+			"yMax": 60,
+			"chance": 8,
+			"size": 70,
+			"dimBlacklist": [
+				0,
+				50,
+				1,
+				53,
+				103,
+				101,
+				17,
+				66,
+				51,
+				69,
+				14676,
+				-23,
+				52,
+				100,
+				102,
+				104,
+				-127,
+				700
+			],
+			"density": 0.8	
 		}
 	]
 }

@@ -18,9 +18,9 @@ ArcaneWorkbench.registerShapedRecipe("thaumcraft:mechanism_simple", "", 25, [<as
 
 //solderer
 ArcaneWorkbench.registerShapedRecipe("prodigytech:solderer", "", 50, [<aspect:aer>*5, <aspect:ignis>*5], <prodigytech:solderer>,
-	[[<contenttweaker:enhanced_ferramic>, <contenttweaker:myths_ingot>, <contenttweaker:enhanced_ferramic>],
-	[<contenttweaker:enhanced_ferramic>, <contenttweaker:aero_casing>, <contenttweaker:enhanced_ferramic>],
-	[<contenttweaker:enhanced_ferramic>, <prodigytech:carbon_plate>, <contenttweaker:enhanced_ferramic>]
+	[[<prodigytech:ferramic_ingot>, <contenttweaker:myths_ingot>, <prodigytech:ferramic_ingot>],
+	[<prodigytech:ferramic_ingot>, <contenttweaker:aero_casing>, <prodigytech:ferramic_ingot>],
+	[<prodigytech:ferramic_ingot>, <prodigytech:carbon_plate>, <prodigytech:ferramic_ingot>]
 ]);
 
 //complex machianism
@@ -45,7 +45,7 @@ ArcaneWorkbench.registerShapedRecipe("researchtable:table", "", 40, [], <researc
 	[<ore:rodIron>, null, <ore:rodIron>]
 ]);
 
-//assembler
+//assembler	
 ArcaneWorkbench.registerShapedRecipe("rustichromia:assembler1", "", 40, [], <rustichromia:assembler1>,
 	[[<rustichromia:gear_wood>, <prodigytech:circuit_refined>, <rustichromia:gear_wood>],
 	[<thaumcraft:mechanism_complex>, <thaumcraft:mechanism_complex>, <thaumcraft:mechanism_complex>],
@@ -62,6 +62,34 @@ ArcaneWorkbench.registerShapedRecipe("bewitchment:witches_cauldron", "", 20, [<a
 //rune of monitors
 ArcaneWorkbench.registerShapedRecipe("thebetweenlands:swamp_talisman", "", 20, [<aspect:terra>*15], <thebetweenlands:swamp_talisman>,
 	[[<thebetweenlands:life_crystal>, <thebetweenlands:items_misc:50>, <thebetweenlands:life_crystal>],
-	[<thebetweenlands:items_misc:50>, <contenttweaker:data_chip_1>, <thebetweenlands:items_misc:50>],
+	[<thebetweenlands:items_misc:50>, <contenttweaker:atum_data_chip>, <thebetweenlands:items_misc:50>],
 	[<thebetweenlands:life_crystal>, <thebetweenlands:items_misc:50>, <thebetweenlands:life_crystal>]
+]);
+
+//rudimentary snare
+ArcaneWorkbench.registerShapedRecipe("bloodmagic:soul_snare", "", 20, [<aspect:perditio>*10], <bloodmagic:soul_snare>*8,
+	[[<primal:leather_cordage>, <prodigytech:ferramic_ingot>, <primal:leather_cordage>],
+	[<contenttweaker:myths_ingot>, <bloodmagic:monster_soul>, <contenttweaker:myths_ingot>],
+	[<primal:leather_cordage>, <prodigytech:ferramic_ingot>, <primal:leather_cordage>]
+]);
+
+//weak orb
+ArcaneWorkbench.registerShapedRecipe("bloodmagic:blood_orb", "", 20, [<aspect:perditio>*10], <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}),
+	[[null, <minecraft:nether_brick>, null],
+	[<minecraft:nether_brick>, <bloodmagic:monster_soul>, <minecraft:nether_brick>],
+	[null, <minecraft:nether_brick>, null]
+]);
+
+//sacrificer
+ArcaneWorkbench.registerShapedRecipe("dautils:sacrificer", "", 20, [<aspect:perditio>*10], <dautils:sacrificer>,
+	[[null, null, null],
+	[<primal:sarsen_stone>, <minecraft:cauldron>, <primal:sarsen_stone>],
+	[<primal:sarsen_stone>, <primal:sarsen_stone>, <primal:sarsen_stone>]
+]);
+
+//alchemy table
+ArcaneWorkbench.registerShapedRecipe("bloodmagic:alchemy_table", "", 40, [<aspect:perditio>*10], <bloodmagic:alchemy_table>,
+	[[<primal:sarsen_stone>, <primal:sarsen_stone>, <primal:sarsen_stone>],
+	[<primal:sarsen_stone>, <minecraft:cauldron>, <primal:sarsen_stone>],
+	[<minecraft:gold_ingot>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}), <minecraft:gold_ingot>]
 ]);

@@ -38,3 +38,5 @@ Smelter.addRecipe("jar", 5, [<bewitchment:unfired_jar>], [<bewitchment:empty_jar
 //low grade charcoal
 Smelter.addRecipe("low_charcoal", 2, [<ore:logWood>], [<primal_tech:charcoal_block>]);
 
+//gold ingot
+Smelter.addRecipe("gold_from_honey", 4, [<erebus:materials:20>, <contenttweaker:inert_ingot>], [<minecraft:gold_ingot>]);
