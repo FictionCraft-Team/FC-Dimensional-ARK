@@ -93,3 +93,11 @@ ArcaneWorkbench.registerShapedRecipe("bloodmagic:alchemy_table", "", 40, [<aspec
 	[<primal:sarsen_stone>, <minecraft:cauldron>, <primal:sarsen_stone>],
 	[<minecraft:gold_ingot>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}), <minecraft:gold_ingot>]
 ]);
+
+//infusion matrix
+ArcaneWorkbench.removeRecipe(<thaumcraft:infusion_matrix>);
+ArcaneWorkbench.registerShapedRecipe("thaumcraft:infusion_matrix", "", 40, [<aspect:aer>, <aspect:terra>, <aspect:aqua>, <aspect:ignis>, <aspect:ordo>, <aspect:perditio>], <thaumcraft:infusion_matrix>,
+	[[<thaumcraft:stone_arcane_brick>, <thaumcraft:stone_arcane_brick>, <thaumcraft:stone_arcane_brick>],
+	[<thaumcraft:stone_arcane_brick>, <contenttweaker:nethers_data_chip>, <thaumcraft:stone_arcane_brick>],
+	[<thaumcraft:stone_arcane_brick>, <thaumcraft:stone_arcane_brick>, <thaumcraft:stone_arcane_brick>]
+]);

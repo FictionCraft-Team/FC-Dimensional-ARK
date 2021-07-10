@@ -121,3 +121,6 @@ recipes.addShapeless(
 
 //scoria stone
 recipes.remove(<primal:scoria_stone>);
+
+//hardened stone
+recipes.replaceAllOccurences(<ore:stone>, <primal:common_stone>, <primal:hardened_stone>);

@@ -20,7 +20,7 @@ ResearchTable.builder("mk2_heat_absorber", cat)
   .setTitle("research.title.mk2_heat_absorber")
   .setDescription("research.des.mk2_heat_absorber")
   .setRewardCommands("/researchtable @p all 0")
-  .addCondition(<prodigytech:ash_bricks>*15, <modulardiversity:blockhotairoutputhatch>, <modularmachinery:blockcontroller>, <atum:limestone_cracked>*9, <bewitchment:nethersteel>*40, <minecraft:glowstone>*4)
+  .addCondition(<prodigytech:ash_bricks>*15, <atum:limestone_cracked>*9, <bewitchment:nethersteel>*40, <minecraft:glowstone>*4)
   .setRewardItems(<capsule:capsule:5>.withTag({color: 10616832, size: 3, isReward: 1 as byte, oneUse: 1 as byte, structureName: "config/capsule/rewards/mk2_heat_absorber", author: "winterSteve25", display: {color: 10616832}, label: "Heat Absorber Mk2", canRotate: 0 as byte}))
   .build();
 
@@ -40,6 +40,16 @@ ResearchTable.builder("mk2_data", cat)
   .setTitle("research.title.mk2_data")
   .setDescription("research.des.mk2_data")
   .setRewardCommands("/researchtable @p all 0")
-  .addCondition(<modularmachinery:blockcontroller>, <modulardiversity:blockmystmechinput>, <modularmachinery:blockcasing:5>*4, <modularmachinery:blockoutputbus>, <modulardiversity:blockhotairinputhatch>, <atum:ceramic_white>*80, <modularmachinery:blockcasing:4>*25, <modularmachinery:blockcasing:1>*12, <minecraft:iron_bars>*20, <modularmachinery:blockcasing:3>*5, <modularmachinery:blockcasing>*26, <tropicraft:lemon>, <thebetweenlands:wight_heart>, <contenttweaker:crystallized_honey>*5)
+  .addCondition(<minecraft:iron_bars>*20, <tropicraft:lemon>, <thebetweenlands:wight_heart>, <contenttweaker:crystallized_honey>*5, <prodigytech:circuit_perfected> *15, <mysticalmechanics:gear_iron>*10)
   .setRewardItems(<contenttweaker:project_package_uninfused_mk2>)
+  .build();
+
+//mk3 data
+ResearchTable.builder("mk3_data", cat)
+  .setIcons(<capsule:capsule:5>.withTag({color: 11311110, size: 11, isReward: 1 as byte, oneUse: 1 as byte, structureName: "config/capsule/rewards/mk3_data", author: "winterSteve25", display: {color: 35072}, label: "Dimensional Data Collector Mk3", canRotate: 0 as byte}))
+  .setTitle("research.title.mk3_data")
+  .setDescription("research.des.mk3_data")
+  .setRewardCommands("/researchtable @p all 0")
+  .addCondition(<prodigytech:circuit_perfected>*8, <bewitchment:block_of_cold_iron>*4, <betternether:cincinnasite>*16, <netherex:rime_crystal>*4, <bloodmagic:slate>*16, <contenttweaker:tropics_data_chip>*2, <contenttweaker:atum_data_chip>*4)
+  .setRewardItems(<capsule:capsule:5>.withTag({color: 11311110, size: 11, isReward: 1 as byte, oneUse: 1 as byte, structureName: "config/capsule/rewards/mk3_data", author: "winterSteve25", display: {color: 35072}, label: "Dimensional Data Collector Mk3", canRotate: 0 as byte}))
   .build();

@@ -1,0 +1,12 @@
+{
+	x: 0.0d,
+	y: -3.0d,
+	shape: "hexagon",
+	tasks: [{
+		uid: "d396a7eb",
+		type: "item",
+		items: [{
+			item: "thaumcraft:salis_mundus"
+		}]
+	}]
+}

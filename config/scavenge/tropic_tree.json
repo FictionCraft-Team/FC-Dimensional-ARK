@@ -24,6 +24,10 @@
                     "type": "consume_block",
                     "chance": "100",
                     "name": "tropicraft:sapling"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": 1
                 }
             ]
         }

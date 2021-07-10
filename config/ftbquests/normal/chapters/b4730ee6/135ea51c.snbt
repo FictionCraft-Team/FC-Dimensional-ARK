@@ -1,0 +1,14 @@
+{
+	x: -2.0d,
+	y: 5.5d,
+	dependencies: [
+		"a637371d"
+	],
+	tasks: [{
+		uid: "95321e99",
+		type: "item",
+		items: [{
+			item: "naturesaura:gold_leaf"
+		}]
+	}]
+}

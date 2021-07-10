@@ -1,0 +1,14 @@
+{
+	x: 2.0d,
+	y: -3.5d,
+	dependencies: [
+		"252c578c"
+	],
+	tasks: [{
+		uid: "0bbe1ef2",
+		type: "item",
+		items: [{
+			item: "thaumcraft:jar_normal"
+		}]
+	}]
+}

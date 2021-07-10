@@ -4,10 +4,11 @@ import mods.thaumcraft.Crucible;
 Crucible.registerRecipe("iron", "", <minecraft:iron_ingot>, <contenttweaker:inert_ingot>, [<aspect:metallum>*10]);
 
 //inert ingots
-Crucible.registerRecipe("inert_ingot", "", <contenttweaker:inert_ingot>, <minecraft:iron_ingot>, [<aspect:permutatio>*10]);
-Crucible.registerRecipe("inert_ingot_gold", "", <contenttweaker:inert_ingot>, <minecraft:gold_ingot>, [<aspect:permutatio>*10]);
-Crucible.registerRecipe("inert_ingot_octine", "", <contenttweaker:inert_ingot>, <thebetweenlands:octine_ingot>, [<aspect:permutatio>*10]);
-Crucible.registerRecipe("inert_ingot_syrmorite", "", <contenttweaker:inert_ingot>, <thebetweenlands:items_misc:11>, [<aspect:permutatio>*10]);
+Crucible.registerRecipe("inert_ingot1", "", <contenttweaker:inert_ingot>, <minecraft:iron_ingot>, [<aspect:permutatio>*10]);
+Crucible.registerRecipe("inert_ingot1_gold", "", <contenttweaker:inert_ingot>, <minecraft:gold_ingot>, [<aspect:permutatio>*10]);
+Crucible.registerRecipe("inert_ingot1_octine", "", <contenttweaker:inert_ingot>, <thebetweenlands:octine_ingot>, [<aspect:permutatio>*10]);
+Crucible.registerRecipe("inert_ingot1_syrmorite", "", <contenttweaker:inert_ingot>, <thebetweenlands:items_misc:11>, [<aspect:permutatio>*10]);
+Crucible.registerRecipe("inert_ingot2_infused", "", <contenttweaker:inert_ingot>*2, <naturesaura:infused_iron>, [<aspect:permutatio>*10]);
 
 //copper ingot
 Crucible.registerRecipe("copper", "", <primal:copper_ingot>, <contenttweaker:inert_ingot>, [<aspect:ignis>*15, <aspect:metallum>*15, <aspect:aer>*10]);

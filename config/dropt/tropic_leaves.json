@@ -1,0 +1,79 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "tropicraft:leaves:3"
+          ]
+        }
+      },
+      "drops": [
+		{
+          "selector": {
+            "weight": {
+              "value": 60
+            }
+          },
+          "item": {
+            "items": [
+              "tropicraft:sapling:3"
+            ],
+            "quantity": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        },
+        {
+            "selector": {
+              "weight": {
+                "value": 60
+              }
+            },
+            "item": {
+              "items": [
+                "tropicraft:sapling:4"
+              ],
+              "quantity": {
+                "min": 1,
+                "max": 1
+              }
+            }
+        },
+        {
+            "selector": {
+              "weight": {
+                "value": 60
+              }
+            },
+            "item": {
+              "items": [
+                "tropicraft:sapling:2"
+              ],
+              "quantity": {
+                "min": 1,
+                "max": 1
+              }
+            }
+        },
+        {
+            "selector": {
+              "weight": {
+                "value": 60
+              }
+            },
+            "item": {
+              "items": [
+                "tropicraft:sapling:5"
+              ],
+              "quantity": {
+                "min": 1,
+                "max": 1
+              }
+            }
+        }
+      ]
+    }
+  ]
+}

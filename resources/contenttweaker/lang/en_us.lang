@@ -16,10 +16,27 @@ base.material.magnetite=Magnetite
 
 base.material.atum=Atum
 base.material.tropics=Tropics
+base.material.nethers=Nether
 
 #parts
 contenttweaker.part.ingot_crude=Crude %s Ingot
 contenttweaker.part.data_chip=%s Data Chip
+contenttweaker.part.ingot_refined=Refined %s Ingot
+contenttweaker.part.refined_fluid=Refined Molten %s
+contenttweaker.part.axe_head=%s Axe Head
+contenttweaker.part.pickaxe_head=%s Pickaxe Head
+contenttweaker.part.sword_head=%s Sword Head
+contenttweaker.part.shovel_head=%s Shovel Head
+contenttweaker.part.hoe_head=%s Hoe Head
+contenttweaker.part.dagger_head=%s Dagger Head
+contenttweaker.part.longsword_head=%s Longsword Head
+contenttweaker.part.katana_head=%s Katana Head
+contenttweaker.part.saber_head=%s Saber Head
+contenttweaker.part.rapier_head=%s Rapier Head
+contenttweaker.part.spear_head=%s Spear Head
+contenttweaker.part.halberd_head=%s Halberd Head
+contenttweaker.part.battle_axe_head=%s Battleaxe Head
+contenttweaker.part.glaive_head=%s Glaive Head
 
 #item
 item.contenttweaker.wet_fiber.name=Wet Fiber
@@ -40,6 +57,7 @@ item.contenttweaker.crystal_vitality.name=Crystal of Vitality
 item.contenttweaker.arcane_cloth.name=Arcane Cloth
 item.contenttweaker.project_package_uninfused_mk2.name=Uninfused <<§oDimensional Data Collector Mk2§r>> Project Package
 item.contenttweaker.blood_obby_shards.name=Blood Coated Obsidian Shards
+item.contenttweaker.gaea_matrix.name=Gaea Matrix
 
 #blocks
 tile.contenttweaker.aero_casing.name=Aero Casing

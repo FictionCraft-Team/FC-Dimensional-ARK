@@ -10,3 +10,6 @@ recipes.addShaped(
 	[<thaumcraft:nugget:9>, <prodigytech:ash>, <thaumcraft:nugget:9>],
 	[<thaumcraft:nugget:9>, <thaumcraft:nugget:9>, <thaumcraft:nugget:9>]
 ]);
+
+//arcane stone
+recipes.remove(<thaumcraft:stone_arcane>);

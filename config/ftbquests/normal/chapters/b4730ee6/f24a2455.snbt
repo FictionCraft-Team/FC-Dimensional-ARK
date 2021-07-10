@@ -1,0 +1,14 @@
+{
+	x: -2.0d,
+	y: -5.0d,
+	dependencies: [
+		"6347651e"
+	],
+	tasks: [{
+		uid: "7673ad4b",
+		type: "item",
+		items: [{
+			item: "thaumcraft:stone_arcane"
+		}]
+	}]
+}

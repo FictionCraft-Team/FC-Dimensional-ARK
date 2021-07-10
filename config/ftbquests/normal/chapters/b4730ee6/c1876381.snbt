@@ -1,0 +1,23 @@
+{
+	x: -3.5d,
+	y: -1.0d,
+	dependencies: [
+		"e5513a88"
+	],
+	tasks: [{
+		uid: "ce020f4d",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune"
+		}],
+		count: 20L
+	},
+	{
+		uid: "1721f9f5",
+		type: "item",
+		items: [{
+			item: "minecraft:glowstone"
+		}],
+		count: 4L
+	}]
+}

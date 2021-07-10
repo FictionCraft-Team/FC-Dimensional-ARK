@@ -1,0 +1,21 @@
+{
+	x: 0.5d,
+	y: -5.0d,
+	dependencies: [
+		"f24a2455"
+	],
+	tasks: [{
+		uid: "c8777231",
+		type: "item",
+		items: [{
+			item: "thaumcraft:pedestal_arcane"
+		}]
+	},
+	{
+		uid: "bc199db1",
+		type: "item",
+		items: [{
+			item: "thaumcraft:infusion_matrix"
+		}]
+	}]
+}

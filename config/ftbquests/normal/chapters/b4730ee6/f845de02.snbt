@@ -1,0 +1,15 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	dependencies: [
+		"e0048264",
+		"bc4628fc"
+	],
+	tasks: [{
+		uid: "7e353af9",
+		type: "item",
+		items: [{
+			item: "contenttweaker:gaea_matrix"
+		}]
+	}]
+}

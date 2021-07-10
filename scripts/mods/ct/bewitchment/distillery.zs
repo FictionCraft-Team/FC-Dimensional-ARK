@@ -12,3 +12,7 @@ Distillery.removeRecipe(<bewitchment:bottled_hellfire>);
 //fiery unguent
 Distillery.removeRecipe(<bewitchment:fiery_unguent>);
 Distillery.addRecipe([<bewitchment:fiery_unguent>], [<bewitchment:cloudy_oil>, <primal:tallow>, <primal:tallow>, <thebetweenlands:octine_ingot>]);
+
+//cleansing balm
+Distillery.removeRecipe(<bewitchment:cleansing_balm>);
+Distillery.addRecipe([<bewitchment:cleansing_balm>], [<bewitchment:liquid_witchcraft>, <netherex:rime_crystal>, <netherex:frost_powder>]);

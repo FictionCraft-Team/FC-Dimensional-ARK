@@ -1,0 +1,14 @@
+{
+	x: -3.5d,
+	y: 1.5d,
+	dependencies: [
+		"e5513a88"
+	],
+	tasks: [{
+		uid: "d41bad24",
+		type: "item",
+		items: [{
+			item: "bewitchment:bottled_frostfire"
+		}]
+	}]
+}

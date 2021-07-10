@@ -1,0 +1,14 @@
+tile.ec.table_basic.name=Basic Part Station
+tile.ec.table_advanced.name=Advanced Part Station
+tile.ec.table_elite.name=Elite Part Station
+tile.ec.table_ultimate.name=Ultimate Part Station
+
+jei.ec.table_crafting_3x3=Basic Part Station
+jei.ec.table_crafting_5x5=Advanced Part Station
+jei.ec.table_crafting_7x7=Elite Part Station
+jei.ec.table_crafting_9x9=Ultimate Part Station
+
+container.ec.table_basic=Basic Part Station
+container.ec.table_advanced=Advanced Part Station
+container.ec.table_elite=Elite Part Station
+container.ec.table_ultimate=Ultimate Part Station

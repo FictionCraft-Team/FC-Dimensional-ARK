@@ -118,3 +118,12 @@ for item in itemingot {
 
 //rocks
 <ore:rock>.add(<thebetweenlands:items_misc:50>);
+
+//data chips
+var chip1 = <ore:dataChipOne>;
+var chip2 = <ore:dataChipTwo>;
+
+chip1.add(<contenttweaker:atum_data_chip>);
+chip1.add(<contenttweaker:tropics_data_chip>);
+
+chip2.add(<contenttweaker:tropics_data_chip>);

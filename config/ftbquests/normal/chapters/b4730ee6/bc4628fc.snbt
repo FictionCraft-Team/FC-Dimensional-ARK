@@ -1,0 +1,22 @@
+{
+	x: 2.0d,
+	y: 4.0d,
+	dependencies: [
+		"41b9a6d2"
+	],
+	tasks: [{
+		uid: "bb1e8a6d",
+		type: "item",
+		items: [{
+			item: "erebus:portal_activator"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2a3c150b",
+		type: "item",
+		item: "minecraft:stonebrick",
+		count: 14
+	}]
+}

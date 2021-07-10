@@ -84,6 +84,9 @@ cat.1.3=1.3 Operation Enlightenment
 #2.0
 cat.2=2.0 Discovery
 
+#Weapondry
+cat.weapon=Extra-Weaponry
+
 #modular diversity stuff
 dimension.atum=Atum Dimension
 dimension.Tropics=Tropics Dimension
@@ -93,6 +96,8 @@ research.title.mk1_data=Dimensional Data Collector MK1
 research.des.mk1_data=Use these items to design a primitive machine that collects dimensional data (Dimensional Data Collector Mk1)
 research.title.mk2_data=Dimensional Data Collector MK2
 research.des.mk2_data=Use these items to design a less primitive machine that collects dimensional data (Dimensional Data Collector Mk2)
+research.title.mk3_data=Dimensional Data Collector MK3
+research.des.mk3_data=Use these items to design a moderately advanced machine that collects dimensional data (Dimensional Data Collector Mk3)
 research.title.mk1_heat_absorber=Heat Absorber MK1
 research.des.mk1_heat_absorber=Use these items to design a machine that absorbs the heat in the Atum to use them as energy (Heat Absorber Mk1)
 research.title.mk2_heat_absorber=Heat Absorber MK2

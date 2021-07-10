@@ -1,9 +1,9 @@
 {
 	"blacklistAllUndefinedDimensions": true,
 	"activationDimensionIDBlacklist": [],
-	"defaultDimensionID": 700,
+	"defaultDimensionID": -127,
 	"entitySpawns": {
-		"700": {
+		"-127": {
 			"rate": 2000,
 			"entities": {
 				"minecraft:zombie_pigman": {

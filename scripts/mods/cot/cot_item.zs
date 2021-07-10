@@ -19,4 +19,5 @@ VanillaFactory.createItem("crystallized_honey").register();
 VanillaFactory.createItem("crystal_vitality").register();
 VanillaFactory.createItem("arcane_cloth").register();
 VanillaFactory.createItem("blood_obby_shards").register();
+VanillaFactory.createItem("gaea_matrix").register();
 VanillaFactory.createItem("project_package_uninfused_mk2").register();

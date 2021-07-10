@@ -1,0 +1,14 @@
+{
+	x: 3.5d,
+	y: 0.0d,
+	shape: "gear",
+	dependencies: [
+		"f845de02"
+	],
+	size: 1.25d,
+	tasks: [{
+		uid: "758a32aa",
+		type: "dimension",
+		dim: 66
+	}]
+}

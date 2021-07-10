@@ -1,0 +1,16 @@
+{
+	"blacklistAllUndefinedDimensions": true,
+	"activationDimensionIDBlacklist": [],
+	"defaultDimensionID": -1,
+	"entitySpawns": {
+		"-1": {
+			"rate": 2000,
+			"entities": {
+				"erebus:erebus.mosquito": {
+					"nbt": "{}",
+					"weight": 100.0
+				}
+			}
+		}
+	}
+}

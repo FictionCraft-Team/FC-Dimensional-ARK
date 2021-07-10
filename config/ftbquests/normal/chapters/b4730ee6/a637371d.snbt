@@ -1,0 +1,24 @@
+{
+	x: -3.5d,
+	y: 3.5d,
+	dependencies: [
+		"aa396eb2"
+	],
+	tasks: [{
+		uid: "1e834a5c",
+		type: "item",
+		items: [{
+			item: "naturesaura:gold_fiber"
+		}]
+	}],
+	rewards: [{
+		uid: "101f34b6",
+		type: "item",
+		item: {
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "naturesaura:book"
+			}
+		}
+	}]
+}
