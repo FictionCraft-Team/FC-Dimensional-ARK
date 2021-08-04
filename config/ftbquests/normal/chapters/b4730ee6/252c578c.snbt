@@ -17,5 +17,12 @@
 		items: [{
 			item: "thaumcraft:infusion_matrix"
 		}]
+	},
+	{
+		uid: "663cc81a",
+		type: "item",
+		items: [{
+			item: "thaumcraft:smelter_basic"
+		}]
 	}]
 }

@@ -13,10 +13,30 @@ base.material.tin=Tin
 base.material.silver=Silver
 base.material.zinc=Zinc
 base.material.magnetite=Magnetite
+base.material.cold_iron=Cold Iron
+base.material.blood_infused_iron=Blood Infused Iron
+base.material.endorium=Endorium
+base.material.adv_endorium=Advanced Endorium
+base.material.tungsten=Tungsten
 
 base.material.atum=Atum
 base.material.tropics=Tropics
 base.material.nethers=Nether
+
+base.material.cold_iron=Cold Iron
+base.material.blood_infused_iron=Blood Infused Iron
+base.material.endorium=Endorium
+base.material.tungsten=Tungsten
+base.material.electricium=Electricium
+base.material.skyfather=Skyfather
+base.material.mystic=Mystic
+base.material.nagrilite=Nagrilite
+base.material.tenebrum=Tenebrum
+base.material.niobium=Niobium
+base.material.zorrasteel=Zorrasteel
+base.material.thaumium=Thaumium
+base.material.void=Void
+base.material.aurorian_steel=Aurorian Steel
 
 #parts
 contenttweaker.part.ingot_crude=Crude %s Ingot
@@ -63,3 +83,4 @@ item.contenttweaker.gaea_matrix.name=Gaea Matrix
 tile.contenttweaker.aero_casing.name=Aero Casing
 tile.contenttweaker.grove.name=Grove(Deactivated)
 tile.contenttweaker.blood_obby.name=Blood Coated Obsidian
+tile.contenttweaker.raw_zorrasteel_block.name=Block of Raw Zorrasteel

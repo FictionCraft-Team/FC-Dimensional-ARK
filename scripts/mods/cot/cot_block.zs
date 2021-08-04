@@ -24,3 +24,11 @@ bloodObby.setToolClass("pickaxe");
 bloodObby.setToolLevel(2);
 bloodObby.setBlockSoundType(<soundtype:stone>);
 bloodObby.register();
+
+var rawZorrasteelBlock = VanillaFactory.createBlock("raw_zorrasteel_block", <blockmaterial:rock>);
+rawZorrasteelBlock.setBlockHardness(3);
+rawZorrasteelBlock.setBlockResistance(10);
+rawZorrasteelBlock.setToolClass("pickaxe");
+rawZorrasteelBlock.setToolLevel(2);
+rawZorrasteelBlock.setBlockSoundType(<soundtype:stone>);
+rawZorrasteelBlock.register();

@@ -101,3 +101,16 @@ ArcaneWorkbench.registerShapedRecipe("thaumcraft:infusion_matrix", "", 40, [<asp
 	[<thaumcraft:stone_arcane_brick>, <contenttweaker:nethers_data_chip>, <thaumcraft:stone_arcane_brick>],
 	[<thaumcraft:stone_arcane_brick>, <thaumcraft:stone_arcane_brick>, <thaumcraft:stone_arcane_brick>]
 ]);
+
+//forge hammer
+ArcaneWorkbench.registerShapedRecipe("dautils:hammer", "", 40, [<aspect:terra>, <aspect:ignis>, <aspect:perditio>], <dautils:hammer>,
+	[[<primal:wootz_plate>, <primal:wootz_plate>, <primal:wootz_plate>],
+	[<primal:wootz_plate>, <primal:wootz_plate>, <primal:wootz_plate>],
+	[null, <primal:lacquer_stick>, null]
+]);
+
+ArcaneWorkbench.registerShapedRecipe("dautils:sharp_tool", "", 40, [<aspect:terra>, <aspect:ignis>, <aspect:perditio>], <dautils:sharp_tool>,
+	[[null, null, <primal:wootz_plate>],
+	[null, <primal:lacquer_stick>, null],
+	[<primal:lacquer_stick>, null, null]
+]);

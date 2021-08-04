@@ -154,12 +154,29 @@ var tropicsChip = MaterialSystem.getMaterialBuilder().setName("tropics").setColo
 var netherChipC = Color.fromHex("990909");
 var nethersChip = MaterialSystem.getMaterialBuilder().setName("nethers").setColor(netherChipC).build();
 
+//toolpart
+var toolPartsMap as int[string] = {
+	"cold_iron" : Color.fromHex("8d9cb5").getIntColor(),
+	"blood_infused_iron" : Color.fromHex("a63a3a").getIntColor(),
+	"endorium" : Color.fromHex("0b4d42").getIntColor(),
+	"tungsten" : Color.fromHex("292929").getIntColor(),
+	"electricium" : Color.fromHex("24fff4").getIntColor(),
+	"skyfather" : Color.fromHex("1c1c1c").getIntColor(),
+	"mystic" : Color.fromHex("b01700").getIntColor(),
+	"nagrilite" : Color.fromHex("251c2e").getIntColor(),
+	"tenebrum" : Color.fromHex("121014").getIntColor(),
+	"niobium" : Color.fromHex("f2f0f5").getIntColor(),
+	"zorrasteel" : Color.fromHex("4a4a4a").getIntColor(),
+	"thaumium" : Color.fromHex("5b2080").getIntColor(),
+	"void" : Color.fromHex("1f0330").getIntColor(),
+	"aurorian_steel" : Color.fromHex("a25ecc").getIntColor()
+};
+
 #arrays
 var sampleList = [octine, syrmorite, valonite, scabyst, magnetite] as Material[];
 var partList = ["ore_sample", "cluster"] as string[];
 
 var crudeIngotList = [octine, syrmorite, lead, alu, nickel, plat, gold, copper, tin, silver, zinc] as Material[];
-var refinementMaterialsList = [] as Material[];
 var refinementList = ["ingot_refined", "molten", "refined_fluid", "axe_head", "pickaxe_head", "sword_head", "shovel_head", "hoe_head", "dagger_head", "longsword_head", "katana_head", "saber_head", "rapier_head", "spear_head", "halberd_head", "battle_axe_head", "glaive_head"] as string[];
 
 var chipList = [atumChip, tropicsChip, nethersChip] as Material[];
@@ -172,6 +189,14 @@ for metal in sampleList {
 for metal in crudeIngotList {
 	metal.registerPart("ingot_crude");
 	metal.registerParts(refinementList);
+}
+
+for material, color in toolPartsMap {
+	var part = MaterialSystem.getMaterialBuilder()
+		.setName(material)
+		.setColor(color)
+		.build();
+	part.registerParts(refinementList);
 }
 
 for chips in chipList {

@@ -63,3 +63,6 @@ recipes.addShaped(
     [<prodigytech:ferramic_ingot>, <bloodmagic:monster_soul>, <prodigytech:ferramic_ingot>],
     [<prodigytech:ferramic_ingot>, <prodigytech:circuit_refined>, <prodigytech:ferramic_ingot>]
 ]);
+
+//zorrasteel
+recipes.remove(<prodigytech:zorrasteel_raw>); //recipe is crafted in the infusion tc

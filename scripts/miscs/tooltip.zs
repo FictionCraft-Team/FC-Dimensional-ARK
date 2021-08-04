@@ -15,3 +15,6 @@ var torchList as IIngredient[] = [
 for torches in torchList {
     torches.addTooltip(format.red(game.localize("tooltips.da1")));
 }
+
+//magnetite ore
+<primal:ore_magnetite>.addTooltip(format.red(game.localize("tooltips.da2")));

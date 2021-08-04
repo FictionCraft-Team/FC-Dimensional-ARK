@@ -12,3 +12,6 @@ recipes.addShaped(<contenttweaker:blood_obby>, [
     [<contenttweaker:blood_obby_shards>, <contenttweaker:blood_obby_shards>],
     [<contenttweaker:blood_obby_shards>, <contenttweaker:blood_obby_shards>]
 ]);
+
+//zorrasteel
+recipes.addShapeless(<prodigytech:zorrasteel_raw>*9, [<contenttweaker:raw_zorrasteel_block>]);

@@ -1,4 +1,5 @@
 import mods.primal.Cauldron;
+import crafttweaker.liquid.ILiquidStack;
 
 //rubber ball
 Cauldron.addRecipe(
@@ -61,200 +62,50 @@ Cauldron.addRecipe(
 );
 
 //refined fluids
-Cauldron.addRecipe(
-    "octine.refined",
-    4,
-    <liquid:octine> *144,
-    <liquid:octine_refinedfluid> *77,
-    [<ore:sand>, <erebus:materials:11>],
-    [null]
-);
+var refinedMap as ILiquidStack[ILiquidStack] = {
+    <liquid:zinc> : <liquid:zinc_refinedfluid>,
+    <liquid:aluminum> : <liquid:aluminum_refinedfluid>,
+    <liquid:nickel> : <liquid:nickel_refinedfluid>,
+    <liquid:copper> : <liquid:copper_refinedfluid>,
+    <liquid:gold> : <liquid:gold_refinedfluid>,
+    <liquid:syrmorite> : <liquid:syrmorite_refinedfluid>,
+    <liquid:platinum> : <liquid:platinum_refinedfluid>,
+    <liquid:silver> : <liquid:silver_refinedfluid>,
+    <liquid:tin> : <liquid:tin_refinedfluid>,
+    <liquid:lead> : <liquid:lead_refinedfluid>,
+    <liquid:octine> : <liquid:octine_refinedfluid>,
+    <liquid:mystic> : <liquid:mystic_refinedfluid>,
+    <liquid:nagrilite> : <liquid:nagrilite_refinedfluid>,
+    <liquid:niobium> : <liquid:niobium_refinedfluid>,
+    <liquid:zorrasteel> : <liquid:zorrasteel_refinedfluid>,
+    <liquid:skyfather> : <liquid:skyfather_refinedfluid>,
+    <liquid:void> : <liquid:void_refinedfluid>,
+    <liquid:thaumium> : <liquid:thaumium_refinedfluid>,
+    <liquid:tungsten> : <liquid:tungsten_refinedfluid>,
+    <liquid:cold_iron> : <liquid:cold_iron_refinedfluid>,
+    <liquid:blood_infused_iron> : <liquid:blood_infused_iron_refinedfluid>,
+    <liquid:electricium> : <liquid:electricium_refinedfluid>,
+    <liquid:tenebrum> : <liquid:tenebrum_refinedfluid>,
+    <liquid:aurorian_steel> : <liquid:aurorian_steel_refinedfluid>,
+    <liquid:endorium> : <liquid:endorium_refinedfluid>
+};
 
-Cauldron.addRecipe(
-    "octine.refined.efficiant",
-    2,
-    <liquid:octine> *144,
-    <liquid:octine_refinedfluid> *144,
-    [<theaurorian:moonsand>, <erebus:materials:11>, <ore:dustQuartz>],
-    [null]
-);
+for input, output in refinedMap {
+    Cauldron.addRecipe(
+        input.definition.name + ".refined",
+        4,
+        input*144,
+        output*77,
+        [<ore:sand>, <erebus:materials:11>],
+        [null]
+    );
 
-Cauldron.addRecipe(
-    "syrmorite.refined",
-    4,
-    <liquid:syrmorite> *144,
-    <liquid:syrmorite_refinedfluid> *77,
-    [<ore:sand>, <erebus:materials:11>],
-    [null]
-);
-
-Cauldron.addRecipe(
-    "syrmorite.refined.efficiant",
-    2,
-    <liquid:syrmorite> *144,
-    <liquid:syrmorite_refinedfluid> *144,
-    [<theaurorian:moonsand>, <erebus:materials:11>, <ore:dustQuartz>],
-    [null]
-);
-
-Cauldron.addRecipe(
-    "lead.refined",
-    4,
-    <liquid:lead> *144,
-    <liquid:lead_refinedfluid> *77,
-    [<ore:sand>, <erebus:materials:11>],
-    [null]
-);
-
-Cauldron.addRecipe(
-    "lead.refined.efficiant",
-    2,
-    <liquid:lead> *144,
-    <liquid:lead_refinedfluid> *144,
-    [<theaurorian:moonsand>, <erebus:materials:11>, <ore:dustQuartz>],
-    [null]
-);
-
-Cauldron.addRecipe(
-    "aluminum.refined",
-    4,
-    <liquid:aluminum> *144,
-    <liquid:aluminum_refinedfluid> *77,
-    [<ore:sand>, <erebus:materials:11>],
-    [null]
-);
-
-Cauldron.addRecipe(
-    "aluminum.refined.efficiant",
-    2,
-    <liquid:aluminum> *144,
-    <liquid:aluminum_refinedfluid> *144,
-    [<theaurorian:moonsand>, <erebus:materials:11>, <ore:dustQuartz>],
-    [null]
-);
-
-Cauldron.addRecipe(
-    "nickel.refined",
-    4,
-    <liquid:nickel> *144,
-    <liquid:nickel_refinedfluid> *77,
-    [<ore:sand>, <erebus:materials:11>],
-    [null]
-);
-
-Cauldron.addRecipe(
-    "nickel.refined.efficiant",
-    2,
-    <liquid:nickel> *144,
-    <liquid:nickel_refinedfluid> *144,
-    [<theaurorian:moonsand>, <erebus:materials:11>, <ore:dustQuartz>],
-    [null]
-);
-
-Cauldron.addRecipe(
-    "platinum.refined",
-    4,
-    <liquid:platinum> *144,
-    <liquid:platinum_refinedfluid> *77,
-    [<ore:sand>, <erebus:materials:11>],
-    [null]
-);
-
-Cauldron.addRecipe(
-    "platinum.refined.efficiant",
-    2,
-    <liquid:platinum> *144,
-    <liquid:platinum_refinedfluid> *144,
-    [<theaurorian:moonsand>, <erebus:materials:11>, <ore:dustQuartz>],
-    [null]
-);
-
-Cauldron.addRecipe(
-    "gold.refined",
-    4,
-    <liquid:gold> *144,
-    <liquid:gold_refinedfluid> *77,
-    [<ore:sand>, <erebus:materials:11>],
-    [null]
-);
-
-Cauldron.addRecipe(
-    "gold.refined.efficiant",
-    2,
-    <liquid:gold> *144,
-    <liquid:gold_refinedfluid> *144,
-    [<theaurorian:moonsand>, <erebus:materials:11>, <ore:dustQuartz>],
-    [null]
-);
-
-Cauldron.addRecipe(
-    "copper.refined",
-    4,
-    <liquid:copper> *144,
-    <liquid:copper_refinedfluid> *77,
-    [<ore:sand>, <erebus:materials:11>],
-    [null]
-);
-
-Cauldron.addRecipe(
-    "copper.refined.efficiant",
-    2,
-    <liquid:copper> *144,
-    <liquid:copper_refinedfluid> *144,
-    [<theaurorian:moonsand>, <erebus:materials:11>, <ore:dustQuartz>],
-    [null]
-);
-
-Cauldron.addRecipe(
-    "tin.refined",
-    4,
-    <liquid:tin> *144,
-    <liquid:tin_refinedfluid> *77,
-    [<ore:sand>, <erebus:materials:11>],
-    [null]
-);
-
-Cauldron.addRecipe(
-    "tin.refined.efficiant",
-    2,
-    <liquid:tin> *144,
-    <liquid:tin_refinedfluid> *144,
-    [<theaurorian:moonsand>, <erebus:materials:11>, <ore:dustQuartz>],
-    [null]
-);
-
-Cauldron.addRecipe(
-    "silver.refined",
-    4,
-    <liquid:silver> *144,
-    <liquid:silver_refinedfluid> *77,
-    [<ore:sand>, <erebus:materials:11>],
-    [null]
-);
-
-Cauldron.addRecipe(
-    "silver.refined.efficiant",
-    2,
-    <liquid:silver> *144,
-    <liquid:silver_refinedfluid> *144,
-    [<theaurorian:moonsand>, <erebus:materials:11>, <ore:dustQuartz>],
-    [null]
-);
-
-Cauldron.addRecipe(
-    "zinc.refined",
-    4,
-    <liquid:zinc> *144,
-    <liquid:zinc_refinedfluid> *77,
-    [<ore:sand>, <erebus:materials:11>],
-    [null]
-);
-
-Cauldron.addRecipe(
-    "zinc.refined.efficiant",
-    2,
-    <liquid:zinc> *144,
-    <liquid:zinc_refinedfluid> *144,
-    [<theaurorian:moonsand>, <erebus:materials:11>, <ore:dustQuartz>],
-    [null]
-);
+    Cauldron.addRecipe(
+        input.definition.name + ".refined.efficiant",
+        2,
+        input*144,
+        output*144,
+        [<theaurorian:moonsand>, <erebus:materials:11>, <ore:dustQuartz>],
+        [null]
+    );
+}
