@@ -1,10 +1,12 @@
 {
-	x: 2.0d,
-	y: 0.0d,
+	x: 1.5d,
+	y: 4.0d,
+	shape: "gear",
 	dependencies: [
 		"e0048264",
 		"bc4628fc"
 	],
+	size: 1.25d,
 	tasks: [{
 		uid: "7e353af9",
 		type: "item",

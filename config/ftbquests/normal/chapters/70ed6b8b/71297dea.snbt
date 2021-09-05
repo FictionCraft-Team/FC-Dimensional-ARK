@@ -1,0 +1,16 @@
+{
+	x: 8.5d,
+	y: 2.5d,
+	shape: "diamond",
+	dependencies: [
+		"f69c674e"
+	],
+	optional: true,
+	tasks: [{
+		uid: "5b45b68b",
+		type: "item",
+		items: [{
+			item: "prodigytech:magnetic_reassembler"
+		}]
+	}]
+}

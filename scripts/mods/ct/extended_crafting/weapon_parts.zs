@@ -4,7 +4,6 @@ import mods.extendedcrafting.TableCrafting;
 
 var list0 as string[IIngredient] = {
 	<ore:refinedIngotoctine> : "octine",
-    <ore:refinedIngotsyrmorite> : "syrmorite",
     <ore:refinedIngotgold> : "gold",
     <ore:refinedIngotcopper> : "copper",
     <ore:refinedIngottin> : "tin"
@@ -99,7 +98,6 @@ for input, name in list0 {
 var list1 as string[IIngredient] = {
     <ore:refinedIngotzinc> : "zinc",
     <ore:refinedIngotlead> : "lead",
-    <ore:refinedIngotaluminum> : "aluminum",
     <ore:refinedIngotnickel> : "nickel",
     <ore:refinedIngotsilver> : "silver",
     <ore:refinedIngotthaumium> : "thaumium",
@@ -228,7 +226,8 @@ var list2 as string[IIngredient] = {
     <ore:refinedIngotblood_infused_iron> : "blood_infused_iron",
     <ore:refinedIngotelectricium> : "electricium",
     <ore:refinedIngottenebrum> : "tenebrum",
-    <ore:refinedIngotendorium> : "endorium"
+    <ore:refinedIngotendorium> : "endorium",
+	<ore:refinedIngottungsten> : "tungsten"
 };
 
 for input, name in list2 {

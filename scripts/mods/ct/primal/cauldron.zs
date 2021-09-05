@@ -64,11 +64,9 @@ Cauldron.addRecipe(
 //refined fluids
 var refinedMap as ILiquidStack[ILiquidStack] = {
     <liquid:zinc> : <liquid:zinc_refinedfluid>,
-    <liquid:aluminum> : <liquid:aluminum_refinedfluid>,
     <liquid:nickel> : <liquid:nickel_refinedfluid>,
     <liquid:copper> : <liquid:copper_refinedfluid>,
     <liquid:gold> : <liquid:gold_refinedfluid>,
-    <liquid:syrmorite> : <liquid:syrmorite_refinedfluid>,
     <liquid:platinum> : <liquid:platinum_refinedfluid>,
     <liquid:silver> : <liquid:silver_refinedfluid>,
     <liquid:tin> : <liquid:tin_refinedfluid>,

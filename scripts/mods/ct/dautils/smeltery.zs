@@ -5,7 +5,6 @@ import crafttweaker.item.IIngredient;
 //moltens
 var moltenMap0 as ILiquidStack[IIngredient] = {
 	<ore:ingotOctine> : <liquid:octine>,
-    <ore:ingotSyrmorite> : <liquid:syrmorite>,
     <ore:ingotGold> : <liquid:gold>,
     <ore:ingotCopper> : <liquid:copper>,
     <ore:ingotTin> : <liquid:tin>
@@ -18,7 +17,6 @@ for ingot, liquid in moltenMap0 {
 var moltenMap1 as ILiquidStack[IIngredient] = {
     <ore:ingotZinc> : <liquid:zinc>,
     <ore:ingotLead> : <liquid:lead>,
-    <ore:ingotAluminum> : <liquid:aluminum>,
     <ore:ingotNickel> : <liquid:nickel>,
     <primal:silver_ingot> : <liquid:silver>,
     <ore:ingotThaumium> : <liquid:thaumium>,
@@ -40,8 +38,8 @@ var moltenMap2 as ILiquidStack[IIngredient] = {
     <ore:ingotBloodInfusedIron> : <liquid:blood_infused_iron>,
     <ore:ingotElectricium> : <liquid:electricium>,
     <midnight:tenebrum_ingot> : <liquid:tenebrum>,
-    <ore:ingotAurorianSteel> : <liquid:aurorian_steel>,
-    <ore:ingotEndorium> : <liquid:endorium>
+    <theaurorian:auroriansteel> : <liquid:aurorian_steel>,
+    <endreborn:item_ingot_endorium> : <liquid:endorium>
 };
 
 for ingot, liquid in moltenMap2 {

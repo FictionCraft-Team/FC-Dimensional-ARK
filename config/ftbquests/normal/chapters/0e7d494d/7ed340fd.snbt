@@ -1,0 +1,17 @@
+{
+	x: 2.5d,
+	y: 4.0d,
+	shape: "diamond",
+	dependencies: [
+		"5c8c5dd8"
+	],
+	tasks: [{
+		uid: "35afa671",
+		type: "item",
+		items: [{
+			item: "dautils:blazing_orb"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

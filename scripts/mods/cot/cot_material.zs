@@ -137,7 +137,7 @@ var goldcolor = Color.fromHex("ebd950");
 var gold = MaterialSystem.getMaterialBuilder().setName("gold").setColor(goldcolor).build();
 var coppercolor = Color.fromHex("bd851c");
 var copper = MaterialSystem.getMaterialBuilder().setName("copper").setColor(coppercolor).build();
-var tincolor = Color.fromHex("949494");
+var tincolor = Color.fromHex("f2f1df");
 var tin = MaterialSystem.getMaterialBuilder().setName("tin").setColor(tincolor).build();
 var silvercolor = Color.fromHex("daf0ec");
 var silver = MaterialSystem.getMaterialBuilder().setName("silver").setColor(silvercolor).build();
@@ -176,8 +176,11 @@ var toolPartsMap as int[string] = {
 var sampleList = [octine, syrmorite, valonite, scabyst, magnetite] as Material[];
 var partList = ["ore_sample", "cluster"] as string[];
 
-var crudeIngotList = [octine, syrmorite, lead, alu, nickel, plat, gold, copper, tin, silver, zinc] as Material[];
-var refinementList = ["ingot_refined", "molten", "refined_fluid", "axe_head", "pickaxe_head", "sword_head", "shovel_head", "hoe_head", "dagger_head", "longsword_head", "katana_head", "saber_head", "rapier_head", "spear_head", "halberd_head", "battle_axe_head", "glaive_head"] as string[];
+var crudeIngotList = [octine, lead, nickel, plat, gold, copper, tin, silver, zinc] as Material[];
+var refinementList = ["ingot_refined", "molten", "refined_fluid", "axe_head", "pickaxe_head", "sword_head", "shovel_head", "hoe_head"] as string[];
+
+var spartanIngotsList = [lead, nickel, plat, gold, copper, tin, silver] as Material[];
+var spartanRefinementList = ["dagger_head", "longsword_head", "katana_head", "saber_head", "rapier_head", "spear_head", "halberd_head", "battle_axe_head", "glaive_head"] as string[];
 
 var chipList = [atumChip, tropicsChip, nethersChip] as Material[];
 
@@ -189,6 +192,13 @@ for metal in sampleList {
 for metal in crudeIngotList {
 	metal.registerPart("ingot_crude");
 	metal.registerParts(refinementList);
+}
+
+syrmorite.registerPart("ingot_crude");
+alu.registerPart("ingot_crude");
+
+for metal in spartanIngotsList {
+	metal.registerParts(spartanRefinementList);
 }
 
 for material, color in toolPartsMap {

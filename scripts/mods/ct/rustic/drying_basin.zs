@@ -8,11 +8,9 @@ EvaporatingBasin.addRecipe(<erebus:materials:20>, <liquid:honey> * 500);
 //refined ingots
 var refinedMap as ILiquidStack[IItemStack] = {
     <contenttweaker:zinc_ingot_refined> : <liquid:zinc_refinedfluid>,
-    <contenttweaker:aluminum_ingot_refined> : <liquid:aluminum_refinedfluid>,
     <contenttweaker:nickel_ingot_refined> : <liquid:nickel_refinedfluid>,
     <contenttweaker:copper_ingot_refined> : <liquid:copper_refinedfluid>,
     <contenttweaker:gold_ingot_refined> : <liquid:gold_refinedfluid>,
-    <contenttweaker:syrmorite_ingot_refined> : <liquid:syrmorite_refinedfluid>,
     <contenttweaker:platinum_ingot_refined> : <liquid:platinum_refinedfluid>,
     <contenttweaker:silver_ingot_refined> : <liquid:silver_refinedfluid>,
     <contenttweaker:tin_ingot_refined> : <liquid:tin_refinedfluid>,

@@ -1,0 +1,17 @@
+{
+	x: 8.5d,
+	y: 4.5d,
+	shape: "diamond",
+	dependencies: [
+		"f69c674e"
+	],
+	optional: true,
+	tasks: [{
+		uid: "f4e9ccdf",
+		type: "item",
+		items: [{
+			item: "prodigytech:ore_refinery"
+		}],
+		consume_items: false
+	}]
+}

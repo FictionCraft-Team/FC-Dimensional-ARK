@@ -4,7 +4,7 @@
 		tag: {}
 	},
 	x: -2.5d,
-	y: 0.0d,
+	y: -0.5d,
 	shape: "octagon",
 	dependencies: [
 		"4ed570c7"
