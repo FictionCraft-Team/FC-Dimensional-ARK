@@ -1,0 +1,13 @@
+{
+	x: -1.0d,
+	y: 2.0d,
+	text: [
+		"{des.extras}"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "4ec005a0",
+		type: "checkmark",
+		title: "{title.extras}"
+	}]
+}

@@ -121,9 +121,9 @@ function prefixHoeRecipe2(name as string, materialName as string, outputBaseName
 }
 
 function createStandard(name as string, itemOutput as IItemStack) {
-    ForgeAnvil.addRecipe(<primal:lacquer_stick>, <primal:lacquer_stick>, <primal:wood_pin>, Helper.getItemStackFromName("contenttweaker:" + name), itemOutput, 5);
+    ForgeAnvil.addRecipe(<primal:lacquer_stick>, <primal:lacquer_stick>, <primal:wood_pin>, Helper.getItemStackFromName("contenttweaker:" + name), itemOutput);
 }
 
 function createAdvanced(name as string, itemOutput as IItemStack) {
-    ForgeAnvil.addRecipe(<spartanweaponry:material>, <spartanweaponry:material>, <primal:iron_pin>, Helper.getItemStackFromName("contenttweaker:" + name), itemOutput, 12);
+    ForgeAnvil.addRecipe(<spartanweaponry:material>, <spartanweaponry:material>, <primal:iron_pin>, Helper.getItemStackFromName("contenttweaker:" + name), itemOutput);
 }

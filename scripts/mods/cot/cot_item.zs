@@ -2,22 +2,36 @@
 
 import mods.contenttweaker.VanillaFactory;
 
-VanillaFactory.createItem("wet_fiber").register();
-VanillaFactory.createItem("weedwood_bark").register();
-VanillaFactory.createItem("inert_ingot").register();
-VanillaFactory.createItem("scarab_wings").register();
-VanillaFactory.createItem("strangesand_dust").register();
-VanillaFactory.createItem("strangesand_composition").register();
-VanillaFactory.createItem("valonite_dust").register();
-VanillaFactory.createItem("purple_compound").register();
-VanillaFactory.createItem("myths_fragment").register();
-VanillaFactory.createItem("myths_ingot").register();
-VanillaFactory.createItem("ferramic_composition").register();
-VanillaFactory.createItem("enhanced_ferramic").register();
-VanillaFactory.createItem("oasis_mass").register();
-VanillaFactory.createItem("crystallized_honey").register();
-VanillaFactory.createItem("crystal_vitality").register();
-VanillaFactory.createItem("arcane_cloth").register();
-VanillaFactory.createItem("blood_obby_shards").register();
-VanillaFactory.createItem("gaea_matrix").register();
-VanillaFactory.createItem("project_package_uninfused_mk2").register();
+var listItem as string[] = [
+    "wet_fiber",
+    "weedwood_bark",
+    "inert_ingot",
+    "scarab_wings",
+    "strangesand_dust",
+    "strangesand_composition",
+    "valonite_dust",
+    "purple_compound",
+    "myths_fragment",
+    "myths_ingot",
+    "ferramic_composition",
+    "enhanced_ferramic",
+    "oasis_mass",
+    "crystallized_honey",
+    "crystal_vitality",
+    "arcane_cloth",
+    "blood_obby_shards",
+    "gaea_matrix",
+    "project_package_uninfused_mk2",
+    "blueprint_stoneanvil",
+    "blueprint_forgeanvil",
+    "blueprint_normalweapon",
+    "blueprint_advweapon",
+    "blueprint_lavaorb",
+    "blueprint_scorchingorb",
+    "blueprint_blazingorb",
+    "blueprint_complexmechanism"
+];
+
+for items in listItem {
+    VanillaFactory.createItem(items).register();
+}

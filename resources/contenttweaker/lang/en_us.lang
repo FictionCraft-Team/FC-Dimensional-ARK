@@ -79,6 +79,15 @@ item.contenttweaker.project_package_uninfused_mk2.name=Uninfused <<§oDimensiona
 item.contenttweaker.blood_obby_shards.name=Blood Coated Obsidian Shards
 item.contenttweaker.gaea_matrix.name=Gaea Matrix
 
+item.contenttweaker.blueprint_stoneanvil.name=Blueprint: Stone Anvil
+item.contenttweaker.blueprint_forgeanvil.name=Blueprint: Forge Anvil
+item.contenttweaker.blueprint_normalweapon.name=Blueprint: Apprentice Weaponry
+item.contenttweaker.blueprint_advweapon.name=Blueprint: Elite Weaponry
+item.contenttweaker.blueprint_lavaorb.name=Blueprint: Lava Orb
+item.contenttweaker.blueprint_scorchingorb.name=Blueprint: Scorching Orb
+item.contenttweaker.blueprint_blazingorb.name=Blueprint: Blazing Orb
+item.contenttweaker.blueprint_complexmechanism.name=Blueprint: Complex Mechanism
+
 #blocks
 tile.contenttweaker.aero_casing.name=Aero Casing
 tile.contenttweaker.grove.name=Grove(Deactivated)

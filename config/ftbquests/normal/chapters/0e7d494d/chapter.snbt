@@ -1,5 +1,5 @@
 {
-	title: "{cat.weapon}",
+	title: "{cat.extras}",
 	icon: "dautils:forge_anvil",
 	always_invisible: false,
 	group: 0,

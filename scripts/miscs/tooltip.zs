@@ -18,3 +18,4 @@ for torches in torchList {
 
 //magnetite ore
 <primal:ore_magnetite>.addTooltip(format.red(game.localize("tooltips.da2")));
+<dautils:blood_note>.addTooltip(format.gray(game.localize("tooltips.da3")));

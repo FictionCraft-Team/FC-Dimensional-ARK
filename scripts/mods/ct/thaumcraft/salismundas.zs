@@ -1,12 +1,16 @@
 import mods.thaumcraft.SalisMundus;
+import scripts.mods.ct.requious.JEI;
 
 //arcane workbench
 SalisMundus.removeSingleConversion(<thaumcraft:arcane_workbench>);
-SalisMundus.addSingleConversion(<blockstate:primal_tech:work_stump_upgraded>.block, <thaumcraft:arcane_workbench>);
+JEI.addSalisMundusRecipeWithResearch(<primal_tech:work_stump_upgraded>, <thaumcraft:arcane_workbench>, "FIRSTSTEPS");
 
 //stone anvil
-SalisMundus.addSingleConversion(<blockstate:minecraft:anvil>.block, <forgecraft:stoneanvil>);
+JEI.addSalisMundusRecipeWithResearch(<minecraft:anvil>, <forgecraft:stoneanvil>, "STONEANVIL");
 
 //thauminomicon
 SalisMundus.removeSingleConversion(<thaumcraft:thaumonomicon>);
-SalisMundus.addSingleConversion(<ore:bookshelf>, <thaumcraft:thaumonomicon>);
+JEI.addSalisMundusOredictRecipe(<ore:bookshelf>, <thaumcraft:thaumonomicon>);
+
+//Crucible
+JEI.addSalisMundusJEIWithStringResearch(<minecraft:cauldron>, <thaumcraft:crucible>, "UNLOCKALCHEMY");

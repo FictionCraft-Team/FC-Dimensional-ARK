@@ -22,5 +22,10 @@
 		items: [{
 			item: "forgecraft:stoneanvil"
 		}]
+	}],
+	rewards: [{
+		uid: "06f874a2",
+		type: "command",
+		command: "/gamestage add @p mobsecond"
 	}]
 }

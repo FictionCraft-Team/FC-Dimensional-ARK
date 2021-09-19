@@ -1,14 +1,15 @@
 {
+	title: "{title.weapon}",
+	icon: "dautils:forge_anvil",
 	x: -1.0d,
 	y: 4.0d,
-	dependencies: [
-		"11ad7fff"
+	text: [
+		"{des.weapon}",
+		"",
+		"{des.weapon2}"
 	],
 	tasks: [{
-		uid: "c7f2aaa1",
-		type: "item",
-		items: [{
-			item: "dautils:forge_anvil"
-		}]
+		uid: "ef2db669",
+		type: "checkmark"
 	}]
 }

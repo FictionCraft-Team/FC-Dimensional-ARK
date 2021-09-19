@@ -2,7 +2,9 @@
 	x: 9.0d,
 	y: -1.5d,
 	text: [
-		"{des.thaumonomicon}"
+		"{des.thaumonomicon}",
+		"",
+		"{des.thaumonomicon2}"
 	],
 	dependencies: [
 		"b4e2f30e"

@@ -110,7 +110,7 @@ glaiveHead.setPartType(MaterialSystem.getPartType("item"));
 glaiveHead.setOreDictName("glaiveHead");
 var glaive_head = glaiveHead.build();
 
-var refinedFluid = mods.contenttweaker.MaterialSystem.getPartBuilder();
+var refinedFluid =MaterialSystem.getPartBuilder();
 refinedFluid.setName("refined_fluid");
 refinedFluid.setPartType(MaterialSystem.getPartType("fluid"));
 refinedFluid.setOreDictName("refinedFluid");

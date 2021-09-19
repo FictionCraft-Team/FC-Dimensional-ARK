@@ -76,7 +76,6 @@
   "wormhole": "1.1.8",
   "mmdlib": "1.0.0-rc2",
   "overpoweredarmorbar": "@VERSION@",
-  "mojangstartupsound": "1.0",
   "thaumicaugmentation": "1.12.2-2.1.3",
   "customstartinggear": "1.2.0",
   "fastleafdecay": "v14",

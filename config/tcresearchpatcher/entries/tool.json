@@ -1,12 +1,26 @@
 {
 	"entries" :[
         {
+            "key": "STONEANVIL_RESEARCH",    
+            "name": "research.STONEANVIL_RESEARCH.title",
+            "icons": [ "thaumcraft:textures/research/blueprint.png" ],
+            "category": "TOOLFORGING", "location": [ 0,0 ], 
+            "parents": [ "FIRSTSTEPS" ],
+            "meta": [ "ROUND","SPIKY" ],        
+            "stages": [
+                {   
+                    "text": "research.STONEANVIL_RESEARCH.stage.1", 
+                    "required_item":["contenttweaker:blueprint_stoneanvil"]
+                }
+            ]
+        },
+        {
             "key": "STONEANVIL",    
             "name": "research.STONEANVIL.title",
             "icons": [ "thaumcraft:textures/research/cat_toolforging.png" ],
-            "category": "TOOLFORGING", "location": [ 0,0 ], 
-            "parents": [ "!gotthaumonomicon" ],
-            "meta": [ "ROUND","SPIKY" ],        
+            "category": "TOOLFORGING", "location": [ 0,2 ], 
+            "parents": [ "STONEANVIL_RESEARCH" ],
+            "meta": [ "ROUND", "HIDDEN" ],        
             "stages": [
                 {   
                     "text": "research.STONEANVIL.stage.1", 

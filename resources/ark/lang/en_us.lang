@@ -49,7 +49,8 @@ des.weaponforge2=§e[Research and create a stone anvil]
 des.sarias=This, is going to be a primitive smelter I could use. With this, I should be able to process the crude ingots I got, as well as smelting some items into important ingredients.
 des.sarias2=§e[Drop items on top of the sariras to put items in. Make sure to put a lit on top when you got everything you need in the sariras, also remember lit up the sariras with a torch, or a fire bow(fire bow requires sticks in your inventory)]
 
-des.thaumonomicon=I had a weird dream, about splashing a tiny splash of salis mundas, a magical compound, on a bookshelf, will create something, incredible. Maybe I should try it?
+des.thaumonomicon=Ever since I've crafted the magical compound - Salis Mundus, I've been getting these weird dreams. In it a person was writing, they were wearing a robe. Unfortunately there are fogs everywhere, I was unable to see their face. Something tells me that that book the person was writing is going to be very important. Maybe I should try using some of that Salis Mundas on some books.
+des.thaumonomicon2=§e[Use Salis Mundas on a bookshelf]
 
 des.arcanecrafting=Magic infused crafting bench, this would allow me to do more crafts with higher complexity I believe.
 des.arcanecrafting2=§e[Splash some salis mundus on a workstump]
@@ -84,8 +85,14 @@ cat.1.3=1.3 Operation Enlightenment
 #2.0
 cat.2=2.0 Discovery
 
-#Weapondry
-cat.weapon=Extra-Weaponry
+#Extras
+cat.extras=Extras
+title.extras=Extras
+des.extras=§e[In this modpack, most things are connected to thaumcraft research. Therefore there are a lot of important research inside the thaumonomicon, look at listed quests in this tab for the things you should look at inside the thaumonomicon]
+
+title.weapon=Weaponry
+des.weapon="I spent a lot of my time studying the essense of weaponry/tool forging, trying to master it. Since it is intertwined with magic. I have written my studies of it inside the thaumonomicon."
+des.weapon2=§e[Use the thaumonomicon to unlock weaponry / tool forging]
 
 #modular diversity stuff
 dimension.atum=Atum Dimension
@@ -111,11 +118,12 @@ rename.da1=Grounded Sulfur
 jei.da.1=Project Packages can be obtained through the "Project Table"
 jei.da.2=A drop of the "Wight" from betweenlands, can be summoned through abyssal craft or bewitchment ritual or using a "Swampland Grove". They also spawn naturally after mobsecond stage.
 jei.da.3=The fruit can be obtained through planting aspectrus seeds.
-jei.da.4=The seeds can be obtained from killing the "Chiromaw Matriarch", which can be found on floating islands in the betweenlands, can also be summoned using the "Grove of the Flying Beast". The seed can be also found in loot pots, or urns. Note: The seed has be infused with some kind of aspect before it can be grown. Use the censer to infuse it with aspect. More information about this can be either found on betweelands wiki 
+jei.da.4=The seeds can be obtained from killing the "Chiromaw Matriarch", which can be found on floating islands in the betweenlands, can also be summoned using the "Grove of the Flying Beast". The seed can be also found in loot pots, or urns. Note: The seed has be infused with some kind of aspect before it can be grown. Use the censer to infuse it with aspect. More information about this can be found on betweelands wiki 
 
 #tooltips
 tooltips.da1=This torch will not extinguish in the betweelands dimension
 tooltips.da2=This ore does not spawn!
+tooltips.da3=Not suspecious at all...
 
 #bewitchment ritual
 ritual.moretweaker.moretweakerrecipe0=Ritual of the Burning Distillery
@@ -125,10 +133,19 @@ ritual.moretweaker.moretweakerrecipe3=Ritual of Resurrection
 ritual.moretweaker.moretweakerrecipe4=Conjure Imp Alternative
 ritual.moretweaker.moretweakerrecipe5=Conjure Demon Alternative
 
+#requious frakto
+requious.jei.recipe.salis_mundus=Salis Mundus Transmutation
+
 #groves
 grove.swamp=Swamplands Grove
 
 #thaumcraft research
 tc.research_category.TOOLFORGING=Tools & Weapondry
+tc.research_category.TECHNOLOGY=Technology
+
+research.STONEANVIL_RESEARCH.title=Strange Blueprint
+research.STONEANVIL_RESEARCH.stage.1=Recently I found this strange looking blueprint, it seem to be a blueprint to construct some sort of table that is capable of making some apprentice tools. I should be able to understand it after sometime of studying...
+
 research.STONEANVIL.title=Stone Anvil
-research.STONEANVIL.stage1=From the recent discovery of the magic powder, Salis Mundas. I wonder if I could create a stone anvil from splashing some of that magical compound onto a normal anvil.
+research.STONEANVIL.stage.1=After reading through the blueprint over and over again, I think I finally got the gist of it. With the recent discovery of the magical powder, Salis Mundus. I wonder if I could create said "tool forging table" by splashing some of that magical compound on a normal anvil
+
