@@ -10,7 +10,7 @@ ArcaneWorkbench.registerShapedRecipe("thaumcraft:thaumometer", "", 50, [], <thau
 
 //simple mechanism
 ArcaneWorkbench.removeRecipe(<thaumcraft:mechanism_simple>);
-ArcaneWorkbench.registerShapedRecipe("thaumcraft:mechanism_simple", "SIMPLE_ARCANE_MECHANISM", 25, [<aspect:aer>], <thaumcraft:mechanism_simple>,
+ArcaneWorkbench.registerShapedRecipe("thaumcraft:mechanism_simple", "SIMPLE_ARCANE_MECHANISM@2", 25, [<aspect:aer>], <thaumcraft:mechanism_simple>,
 	[[<primal:brass_ingot>, <primal:brass_ingot>, <primal:brass_ingot>],
 	[<primal:iron_plate>, <thaumadditions:brass_plated_silverwood>, null],
 	[<primal:iron_plate>, <primal:iron_plate>, <primal:iron_plate>]

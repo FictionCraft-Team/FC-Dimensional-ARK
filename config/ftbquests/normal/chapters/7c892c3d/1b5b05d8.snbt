@@ -3,6 +3,7 @@
 	icon: "forgecraft:bloomery_adobe",
 	x: 4.5d,
 	y: 6.5d,
+	shape: "square",
 	custom_click: "https://www.youtube.com/watch?v=VUrflhR466c",
 	dependencies: [
 		"c3acae0f"

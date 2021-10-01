@@ -1,7 +1,7 @@
 {
 	title: "{title.weapon}",
 	icon: "dautils:forge_anvil",
-	x: -1.0d,
+	x: -2.0d,
 	y: 4.0d,
 	text: [
 		"{des.weapon}",
@@ -11,5 +11,11 @@
 	tasks: [{
 		uid: "ef2db669",
 		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "854d6082",
+		type: "item",
+		item: "minecraft:iron_block",
+		count: 3
 	}]
 }

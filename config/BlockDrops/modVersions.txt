@@ -148,6 +148,7 @@
   "dropt": "1.12.2-1.19.1",
   "ctintegration": "1.8.0",
   "vanillafix": "1.0.10-150",
+  "loottweaker": "0.2.0",
   "spartanshields": "1.5.4",
   "thebetweenlands": "3.7.3",
   "ftbbackups": "1.1.0.1",

@@ -11,7 +11,7 @@ import mods.thaumcraft.SalisMundus;
 #priority 1000
 #modloaded requious
 
-var progressVisual = SlotVisual.createSimple("requious:textures/gui/assembly_gauges.png", 0, 8);
+static progressVisual = SlotVisual.createSimple("requious:textures/gui/assembly_gauges.png", 0, 8);
 var salisMundus = <assembly:salis_mundus>;
 
 /****
@@ -34,20 +34,14 @@ function addSalisMundus(ass as Assembly, input as IIngredient, output as IItemSt
     ass.addJEIRecipe(assRec);
 }
 
-function addList(ass as Assembly, map as IItemStack[][IIngredient[]][]) {
-  for chunk in map {
-    for inputs, outputs in chunk {
-      val assRec = AssemblyRecipe.create(function(container) {
-        for i, output in outputs {
-          container.addItemOutput("output" ~ i, output);
-        }
-      });
-      for i, input in inputs {
-        assRec.requireItem("input"~i, input);
-      }
-      ass.addJEIRecipe(assRec);
-    }
-  }
+function addDataInfuser(data as IIngredient, input as IIngredient, output as IItemStack, duration as int) {
+    val assRec = AssemblyRecipe.create(function(container) {
+          container.addItemOutput("output", output);
+    });
+    assRec.requireItem("input", input);
+    assRec.requireItem("data", data);
+    assRec.requireDuration("duration", duration);
+    <assembly:data_infuser>.addJEIRecipe(assRec);
 }
 
 salisMundus.addJEICatalyst(<thaumcraft:salis_mundus>);
@@ -82,4 +76,8 @@ function addSalisMundusOredictRecipe(input as IOreDictEntry, out as IItemStack) 
 function addSalisMundusOredictRecipeWithResearch(input as IOreDictEntry, out as IItemStack, research as string) {
     addSalisMundusJEI(input, out, <thaumcraft:thaumonomicon>.withTag({RepairCost: 0, display: {Name: "Requires Research: " + research}}));
     SalisMundus.addSingleConversion(input, out, research);
+}
+
+function addDataInfuserRecipe(data as IIngredient, input as IIngredient, output as IItemStack, duration as int) {
+  addDataInfuser(data, input, output, duration);
 }

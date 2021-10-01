@@ -4,13 +4,13 @@
             "key": "SIMPLE_ARCANE_MECHANISM",
             "name": "research.SIMPLE_ARCANE_MECHANISM.title",
             "icons": [ "thaumcraft:textures/items/mechanism_simple.png" ],
-            "category": "TECHNOLOGY", "location": [ 0,0 ], 
+            "category": "TECHNOLOGY", "location": [ 0,2 ], 
             "parents": [ "UNLOCKALCHEMY" ],
-            "meta": [ "ROUND","SPIKY" ],        
+            "meta": [ "ROUND","SPIKY" ],
             "stages": [
                 {   
                     "text": "research.SIMPLE_ARCANE_MECHANISM.stage.1", 
-                    "required_craft":["thaumcraft:mechanism_simple"]
+                    "required_research":["ScanSimpleMechanism"]
                 }
             ]
         }

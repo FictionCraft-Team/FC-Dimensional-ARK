@@ -1,6 +1,8 @@
 #Chapter 1 Quest
 cat.1=Put Those Goggles On
 
+title.betweenlands_wiki=Your Best Friend: Betweenlands Wiki
+
 title.start=Wow, this looks like real
 des.start=From the outside, I look like just another random guy. But under the public, I am way more than that; A spacial explorer, scientist, chemist... I successfully escaped a radioactive planet entirely covered in ice, bringing with me the dreadful knowledge of what happened there. Just a few months ago, I returned to my time, with the plan of starting an organization to prevent the frightening future from happening.
 des.start2=A mysterious group of people who calls themselves: "The Monitors" started to appear in the city's black market, selling a new and intriguing device. They are claiming their device can immerse people into a whole new universe, make users dive into a new world. 
@@ -94,6 +96,10 @@ title.weapon=Weaponry
 des.weapon="I spent a lot of my time studying the essense of weaponry/tool forging, trying to master it. Since it is intertwined with magic. I have written my studies of it inside the thaumonomicon."
 des.weapon2=§e[Use the thaumonomicon to unlock weaponry / tool forging]
 
+title.technology=Technology
+des.technology=I wouldn't be able to progress through technology fast without professional research, and existing technology to learn from. The notes from thaumonomicon should help!
+des.technology2=§e[Use the thaumonomicon to progress in technology]
+
 #modular diversity stuff
 dimension.atum=Atum Dimension
 dimension.Tropics=Tropics Dimension
@@ -149,3 +155,7 @@ research.STONEANVIL_RESEARCH.stage.1=Recently I found this strange looking bluep
 research.STONEANVIL.title=Stone Anvil
 research.STONEANVIL.stage.1=After reading through the blueprint over and over again, I think I finally got the gist of it. With the recent discovery of the magical powder, Salis Mundus. I wonder if I could create said "tool forging table" by splashing some of that magical compound on a normal anvil
 
+research.SIMPLE_ARCANE_MECHANISM.title=Discovery of Mechanisms
+research.SIMPLE_ARCANE_MECHANISM.stage.1=I found some significent looking combinations of gears in a pot on top of a tower, decided to name them mechanisms. They seem to be functional, all the cogs connect to one another. So primitive, yet so precise. It is a truly a work of genius. I must look carefully in order to study, and reproduce it.
+
+research.ScanSimpleMechanism.text=Observation: Simple Arcane Mechanism
