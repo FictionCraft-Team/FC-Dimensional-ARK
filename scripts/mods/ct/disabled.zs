@@ -4,7 +4,8 @@ import crafttweaker.item.IIngredient;
 //disable items
 var disabledItemList as IIngredient[] = [
     <rustichromia:quern>,
-    <atum:quern>
+    <atum:quern>,
+    <endreborn:tool_hammer_iron>
 ];
 
 for item in disabledItemList {
@@ -20,5 +21,6 @@ var disabledJEIList as string[] = [
 for cat in disabledJEIList {
     JEI.hideCategory(cat);
 }
+
 //disable recipes
 mods.rustichromia.Quern.removeAll();

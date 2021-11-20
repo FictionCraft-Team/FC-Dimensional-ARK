@@ -127,3 +127,26 @@ chip1.add(<contenttweaker:atum_data_chip>);
 chip1.add(<contenttweaker:tropics_data_chip>);
 
 chip2.add(<contenttweaker:tropics_data_chip>);
+
+var hammers as IItemStack[] = [
+	<forgecraft:forgehammer>,
+	<dautils:hammer>,
+	<basemetals:lead_crackhammer>,
+	<forgecraft:coppersledgehammer>,
+	<basemetals:tin_crackhammer>,
+	<forgecraft:bronzesledgehammer>,
+	<forgecraft:ironsledgehammer>,
+	<forgecraft:cleanironsledgehammer>,
+	<forgecraft:steelsledgehammer>,
+	<lightningcraft:elec_hammer>,
+	<netherex:frosted_amedian_hammer>,
+	<netherex:blazed_amedian_hammer>,
+	<netherex:withered_amedian_hammer>,
+	<lightningcraft:mystic_hammer>,
+	<lightningcraft:sky_hammer>,
+	<forgecraft:wootzsledgehammer>
+];
+
+for item in hammers {
+	<ore:toolHammer>.add(item);
+}

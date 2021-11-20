@@ -36,28 +36,11 @@ function addSalisMundus(ass as Assembly, input as IIngredient, output as IItemSt
     ass.addJEIRecipe(assRec);
 }
 
-function addDataInfuser(data as IIngredient, input as IIngredient, output as IItemStack, duration as int) {
-    val assRec = AssemblyRecipe.create(function(container) {
-          container.addItemOutput("output", output);
-    });
-    assRec.requireItem("input", input);
-    assRec.requireItem("data", data);
-    assRec.requireDuration("duration", duration);
-    dataInfuser.addJEIRecipe(assRec);
-    dataInfuser.addRecipe(assRec);
-}
-
 salisMundus.addJEICatalyst(<thaumcraft:salis_mundus>);
 salisMundus.setJEIItemSlot(0, 0, "input");
 salisMundus.setJEIItemSlot(2, 0, "output");
 salisMundus.setJEIItemSlot(0, 1, "research");
 salisMundus.setJEIDurationSlot(1, 0, "salis_mundus", progressVisual);
-
-dataInfuser.addJEICatalyst(<requious:data_infuser>);
-dataInfuser.setJEIItemSlot(0, 0, "data");
-dataInfuser.setJEIItemSlot(1, 0, "input");
-dataInfuser.setJEIItemSlot(3, 0, "output");
-dataInfuser.setJEIDurationSlot(2, 0, "duration", progressVisual);
 
 function addSalisMundusJEI(input as IIngredient, out as IItemStack, research as IItemStack) {
   addSalisMundus(<assembly:salis_mundus>, input, out, research);
@@ -85,8 +68,4 @@ function addSalisMundusOredictRecipe(input as IOreDictEntry, out as IItemStack) 
 function addSalisMundusOredictRecipeWithResearch(input as IOreDictEntry, out as IItemStack, research as string) {
     addSalisMundusJEI(input, out, <thaumcraft:thaumonomicon>.withTag({RepairCost: 0, display: {Name: "Requires Research: " + research}}));
     SalisMundus.addSingleConversion(input, out, research);
-}
-
-function addDataInfuserRecipe(data as IIngredient, input as IIngredient, output as IItemStack, duration as int) {
-    addDataInfuser(data, input, output, duration);
 }
